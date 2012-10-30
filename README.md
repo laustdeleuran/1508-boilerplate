@@ -19,6 +19,6 @@ Bootstrap grid is default. Enable Sematic grid in ressources/sass/styles.scss
 "HTML5 Boilerplate + Compass + Twitter's Bootstrap + BS/Semantic Grid" is created for the purpose of fetching it as a package, through sublime text.
 
 1. Open Fetch.sublime-settings through sublime: Ctrl+Shift+P - Navigate to Fetch: Manage.
-2. Under "Packages" add the following line: "html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master"
+2. Under "Packages" add the following line: "html5_boilerplate": "https://github.com/1508/1508-boilerplate/zipball/master"
 3. Save
 4. Rock & Roll - Ctrl+Shift+P - Fetch: Package - Boom
