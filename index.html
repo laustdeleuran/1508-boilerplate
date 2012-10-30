@@ -2,9 +2,9 @@
 <html class="no-js">
 <head>
 	<meta charset="utf-8" />
-	<title>1508 boilerplate</title>
-	
-	<!-- Remove no-js enable html5 elemetns -->
+	<title>NewProject</title>
+
+	<!-- Remove no-js enable html5 elements -->
 	<script type="text/javascript">
 		//Clear no-js
 		document.getElementsByTagName('html')[0].className = document.getElementsByTagName('html')[0].className.replace('no-js','');
@@ -13,17 +13,28 @@
 	</script>
 
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="css/grid.css" />
-
-	<!-- LESSCSS.org -->
-	<link rel="stylesheet/less" type="text/css" href="css/style.less" />
-	<script type="text/javascript" src="js/less-1.1.5.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="resources/css/styles.css" />
 </head>
-<body>	
-	<!-- Begin HTML awesomeness -->
-	
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+<body>
+
+
+	<div id="root">
+
+
+		<div id="root_footer" class="wrapper">
+			<!-- Push for compass sticky footer -->
+		</div>
+	</div>
+
+	<footer id="footer">
+		Footer
+	</footer>
+
+	<!-- Live reload af sider. Slet på produktion -->
+	<script>
+		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></'+ 'script>')
+	</script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script type="text/javascript" src="resources/js/script.js"></script>
 </body>
 </html>
