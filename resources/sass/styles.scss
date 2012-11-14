@@ -7,21 +7,22 @@ $legacy-support-for-mozilla: false; //Mozilla 3.6 and below
 $experimental-support-for-svg: true; //IE9 is using this for gradients
 $experimental-support-for-pie: false; //PIE framework
 
-/* Frameworks
+/* Compass
 ------------------------------*/
 @import "compass";
+
+/* Bootstrap
+------------------------------*/
 @import "bootstrap";
 
-/* Grid (Default is bootstrap)
+/* Semantic
 ------------------------------*/
 // @import "semantic/grid"; //Semantic
 
 /* Core
 ------------------------------*/
-@import "core/variables";
-@import "core/globals";
-@import "core/footer";
+@import "core";
 
 /* Modules
 ------------------------------*/
-@import "modules/empty.scss"; //Just an example
+@import "modules";
