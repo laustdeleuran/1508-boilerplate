@@ -163,5 +163,8 @@ pip-log.txt
 .DS_Store
 
 
-#Sass-cahce
+#############
+## 1508 Specific
+#############
 .sass-cache
+resources/images/my-icons-*.png

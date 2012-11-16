@@ -10,13 +10,16 @@ $experimental-support-for-pie: false; //PIE framework
 /* Compass
 ------------------------------*/
 @import "compass";
+@import "compass/css3";
 @import "compass/layout/sticky-footer";
 
-@import "core/variables";
+@import "core/variables"; //Must come before bootstrap in order to overwrite its default variables.
 
 /* Bootstrap
 ------------------------------*/
+$bootstrap-grid: true; //Disable bootstrap grid if you use semantic or another grid.
 @import "bootstrap";
+
 
 /* Semantic
 ------------------------------*/
@@ -24,7 +27,7 @@ $experimental-support-for-pie: false; //PIE framework
 // $gutter-width: 20px;
 // $columns: 12;
 // $liquid-grid: true;
-@import "semantic/grid"; //Semantic
+// @import "semantic/grid"; //Semantic
 
 /* Core
 ------------------------------*/
