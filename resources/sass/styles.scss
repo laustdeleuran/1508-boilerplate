@@ -10,6 +10,7 @@ $experimental-support-for-pie: false; //PIE framework
 /* Compass
 ------------------------------*/
 @import "compass";
+@import "compass/layout/sticky-footer";
 
 /* Bootstrap
 ------------------------------*/
@@ -21,7 +22,7 @@ $experimental-support-for-pie: false; //PIE framework
 // $gutter-width: 20px;
 // $columns: 12;
 // $liquid-grid: true;
-// @import "semantic/grid"; //Semantic
+@import "semantic/grid"; //Semantic
 
 /* Core
 ------------------------------*/

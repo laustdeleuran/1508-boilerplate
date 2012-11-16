@@ -1,0 +1,5 @@
+//COMPASS SPRITES
+$my-icons-spacing: 0px;
+$my-icons-position: 0px;
+@import "my-icons/*.png";
+@include all-my-icons-sprites; 
