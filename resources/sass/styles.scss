@@ -7,13 +7,18 @@ $legacy-support-for-mozilla: false; //Mozilla 3.6 and below
 $experimental-support-for-svg: true; //IE9 is using this for gradients
 $experimental-support-for-pie: false; //PIE framework
 
+
 /* Compass
 ------------------------------*/
 @import "compass";
 @import "compass/css3";
 @import "compass/layout/sticky-footer";
 
+
+/* Core Variables
+------------------------------*/
 @import "core/variables"; //Must come before bootstrap in order to overwrite its default variables.
+
 
 /* Bootstrap
 ------------------------------*/
@@ -29,9 +34,11 @@ $bootstrap-grid: true; //Disable bootstrap grid if you use semantic or another g
 // $liquid-grid: true;
 // @import "semantic/grid"; //Semantic
 
+
 /* Core
 ------------------------------*/
 @import "core";
+
 
 /* Modules
 ------------------------------*/
