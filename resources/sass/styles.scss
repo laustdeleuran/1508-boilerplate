@@ -12,6 +12,8 @@ $experimental-support-for-pie: false; //PIE framework
 @import "compass";
 @import "compass/layout/sticky-footer";
 
+@import "core/variables";
+
 /* Bootstrap
 ------------------------------*/
 @import "bootstrap";
