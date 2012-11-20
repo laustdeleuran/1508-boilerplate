@@ -49,7 +49,7 @@
 		        	rowPixels += gridWidth;
 
 			        if (rowPixels >= $(section).width() - 1) { //I use - 1 because new and old browsers use different dec numbers
-			        	
+
 			            if($(this).parent().is('ul')){
 							$(this).after('<li class="clear cleargrid"></li>');
 						}else{
@@ -78,4 +78,3 @@
 	
 	
 })( jQuery );
-
