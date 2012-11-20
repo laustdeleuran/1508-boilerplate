@@ -22,17 +22,18 @@ $experimental-support-for-pie: false; //PIE framework
 
 /* Bootstrap
 ------------------------------*/
-$bootstrap-grid: true; //Disable bootstrap grid if you use semantic or another grid.
+$bootstrap-grid: false; //Set to true to enable bootstraps grid. Remember to remove other grid frameworks.
 @import "bootstrap";
 
 
 /* Semantic
 ------------------------------*/
-// $column-width: 60px;
-// $gutter-width: 20px;
-// $columns: 12;
-// $liquid-grid: true;
-// @import "semantic/grid"; //Semantic
+$column-width: 60px;
+$gutter-width: 20px;
+$columns: 12;
+$liquid-grid: false;
+$grid-color: true;
+@import "semantic/grid"; //Semantic
 
 
 /* Core

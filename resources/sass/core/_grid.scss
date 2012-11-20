@@ -1,0 +1,86 @@
+// IS USED IN THE CLEARGRID EXAMPLE
+
+.clear {
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	width: 100% !important;
+}
+
+.g12, .section{
+	@include column(12);
+	@if $grid-color{
+		background-color: grey;
+	}
+}
+
+.g11{
+	@include column(11);
+	@if $grid-color{
+		background-color: blue;
+	}	
+}
+
+.g10{
+	@include column(10);
+	@if $grid-color{
+		background-color: orange;
+	}	
+}
+
+.g9{
+	@include column(9);
+	@if $grid-color{
+		background-color: purple;
+	}
+}
+
+.g8{
+	@include column(8);
+	@if $grid-color{
+		background-color: green;
+	}
+}
+
+.g7{
+	@include column(7);
+	@if $grid-color{
+		background-color: black;
+	}
+}
+
+.g6{
+	@include column(6);
+	@if $grid-color{
+		background-color: red;
+	}
+}
+
+.g5{
+	@include column(5);
+	@if $grid-color{
+		background-color: pink;
+	}
+}
+
+.g4{
+	@include column(4);
+	@if $grid-color{
+		background-color: brown;
+	}
+}
+.g3{
+	@include column(3);
+	@if $grid-color{
+		background-color: red;
+	}
+}
+
+.g2{
+	@include column(2);
+	@if $grid-color{
+		background-color: red;
+	}
+}
