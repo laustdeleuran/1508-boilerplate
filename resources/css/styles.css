@@ -5757,17 +5757,17 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 33, ../sass/bootstrap/_utilities.scss */
-.clearfix {
+.clearfix, .section {
   *zoom: 1;
 }
 /* line 15, ../sass/bootstrap/_mixins.scss */
-.clearfix:before, .clearfix:after {
+.clearfix:before, .section:before, .clearfix:after, .section:after {
   display: table;
   content: "";
   line-height: 0;
 }
 /* line 22, ../sass/bootstrap/_mixins.scss */
-.clearfix:after {
+.clearfix:after, .section:after {
   clear: both;
 }
 
@@ -5794,7 +5794,7 @@ a.label:hover, a.badge:hover {
 ------------------------------*/
 /* line 23, ../sass/semantic/_grid.scss */
 html body {
-  min-height: 960px;
+  min-height: 100%;
 }
 
 /* line 50, ../sass/semantic/_grid.scss */
@@ -5876,101 +5876,107 @@ html, body {
 }
 
 /* line 12, ../sass/core/_grid.scss */
-.g12, .section {
-  display: inline;
-  float: left;
-  width: 940px;
-  margin: 0 10px;
+.section {
+  width: 100%;
   background-color: grey;
 }
 
-/* line 19, ../sass/core/_grid.scss */
+/* line 20, ../sass/core/_grid.scss */
+.g12 {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+  background-color: cyan;
+}
+
+/* line 27, ../sass/core/_grid.scss */
 .g11 {
   display: inline;
   float: left;
-  width: 860px;
-  margin: 0 10px;
+  width: 89.58333%;
+  margin: 0 1.04167%;
   background-color: blue;
 }
 
-/* line 26, ../sass/core/_grid.scss */
+/* line 34, ../sass/core/_grid.scss */
 .g10 {
   display: inline;
   float: left;
-  width: 780px;
-  margin: 0 10px;
+  width: 81.25%;
+  margin: 0 1.04167%;
   background-color: orange;
 }
 
-/* line 33, ../sass/core/_grid.scss */
+/* line 41, ../sass/core/_grid.scss */
 .g9 {
   display: inline;
   float: left;
-  width: 700px;
-  margin: 0 10px;
+  width: 72.91667%;
+  margin: 0 1.04167%;
   background-color: purple;
 }
 
-/* line 40, ../sass/core/_grid.scss */
+/* line 48, ../sass/core/_grid.scss */
 .g8 {
   display: inline;
   float: left;
-  width: 620px;
-  margin: 0 10px;
+  width: 64.58333%;
+  margin: 0 1.04167%;
   background-color: green;
 }
 
-/* line 47, ../sass/core/_grid.scss */
+/* line 55, ../sass/core/_grid.scss */
 .g7 {
   display: inline;
   float: left;
-  width: 540px;
-  margin: 0 10px;
+  width: 56.25%;
+  margin: 0 1.04167%;
   background-color: black;
 }
 
-/* line 54, ../sass/core/_grid.scss */
+/* line 62, ../sass/core/_grid.scss */
 .g6 {
   display: inline;
   float: left;
-  width: 460px;
-  margin: 0 10px;
-  background-color: red;
+  width: 47.91667%;
+  margin: 0 1.04167%;
+  background-color: gold;
 }
 
-/* line 61, ../sass/core/_grid.scss */
+/* line 69, ../sass/core/_grid.scss */
 .g5 {
   display: inline;
   float: left;
-  width: 380px;
-  margin: 0 10px;
+  width: 39.58333%;
+  margin: 0 1.04167%;
   background-color: pink;
 }
 
-/* line 68, ../sass/core/_grid.scss */
+/* line 76, ../sass/core/_grid.scss */
 .g4 {
   display: inline;
   float: left;
-  width: 300px;
-  margin: 0 10px;
+  width: 31.25%;
+  margin: 0 1.04167%;
   background-color: brown;
 }
 
-/* line 74, ../sass/core/_grid.scss */
+/* line 82, ../sass/core/_grid.scss */
 .g3 {
   display: inline;
   float: left;
-  width: 220px;
-  margin: 0 10px;
-  background-color: red;
+  width: 22.91667%;
+  margin: 0 1.04167%;
+  background-color: silver;
 }
 
-/* line 81, ../sass/core/_grid.scss */
+/* line 89, ../sass/core/_grid.scss */
 .g2 {
   display: inline;
   float: left;
-  width: 140px;
-  margin: 0 10px;
+  width: 14.58333%;
+  margin: 0 1.04167%;
   background-color: red;
 }
 

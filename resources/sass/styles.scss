@@ -1,11 +1,11 @@
 /* Compass variables
 ------------------------------*/
-$legacy-support-for-ie6: false; //IE6 + 7
-$legacy-support-for-ie7: false;
-$legacy-support-for-ie8: true; //IE 8
-$legacy-support-for-mozilla: false; //Mozilla 3.6 and below
-$experimental-support-for-svg: true; //IE9 is using this for gradients
-$experimental-support-for-pie: false; //PIE framework
+$legacy-support-for-ie6: 		false; //IE6 + 7
+$legacy-support-for-ie7: 		false;
+$legacy-support-for-ie8: 		true; //IE 8
+$legacy-support-for-mozilla: 	false; //Mozilla 3.6 and below
+$experimental-support-for-svg: 	true; //IE9 is using this for gradients
+$experimental-support-for-pie: 	false; //PIE framework
 
 
 /* Compass
@@ -28,11 +28,11 @@ $bootstrap-grid: false; //Set to true to enable bootstraps grid. Remember to rem
 
 /* Semantic
 ------------------------------*/
-$column-width: 60px;
-$gutter-width: 20px;
-$columns: 12;
-$liquid-grid: false;
-$grid-color: true;
+$column-width: 	60px;
+$gutter-width: 	20px;
+$columns: 		12;
+$liquid-grid: 	true; //True == % || False == px
+$grid-color: 	true; //Used to display colors in the boilerplate markup.
 @import "semantic/grid"; //Semantic
 
 

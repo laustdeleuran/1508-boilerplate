@@ -9,10 +9,18 @@
 	width: 100% !important;
 }
 
-.g12, .section{
-	@include column(12);
+.section{
+	width: 100%;
+	@extend .clearfix;
 	@if $grid-color{
 		background-color: grey;
+	}
+}
+
+.g12{
+	@include column(12);
+	@if $grid-color{
+		background-color: cyan;
 	}
 }
 
@@ -54,7 +62,7 @@
 .g6{
 	@include column(6);
 	@if $grid-color{
-		background-color: red;
+		background-color: gold;
 	}
 }
 
@@ -74,7 +82,7 @@
 .g3{
 	@include column(3);
 	@if $grid-color{
-		background-color: red;
+		background-color: silver;
 	}
 }
 
