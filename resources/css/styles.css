@@ -15,6 +15,7 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+/* line 18, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 article,
 aside,
 details,
@@ -28,6 +29,7 @@ section {
   display: block;
 }
 
+/* line 27, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 audio,
 canvas,
 video {
@@ -36,27 +38,32 @@ video {
   *zoom: 1;
 }
 
+/* line 36, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 audio:not([controls]) {
   display: none;
 }
 
+/* line 43, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
+/* line 49, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 a:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
+/* line 54, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 a:hover,
 a:active {
   outline: 0;
 }
 
+/* line 62, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 sub,
 sup {
   position: relative;
@@ -65,14 +72,17 @@ sup {
   vertical-align: baseline;
 }
 
+/* line 68, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 sup {
   top: -0.5em;
 }
 
+/* line 71, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 sub {
   bottom: -0.25em;
 }
 
+/* line 78, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 img {
   max-width: 100%;
   height: auto;
@@ -81,15 +91,18 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
+/* line 87, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 #mapCanvas label {
   width: auto;
   display: inline;
 }
 
+/* line 88, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 #mapCanvas img {
   max-width: none;
 }
 
+/* line 97, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 button,
 input,
 select,
@@ -99,18 +112,21 @@ textarea {
   vertical-align: middle;
 }
 
+/* line 103, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 button,
 input {
   *overflow: visible;
   line-height: normal;
 }
 
+/* line 108, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
+/* line 115, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -119,6 +135,7 @@ input[type="submit"] {
   -webkit-appearance: button;
 }
 
+/* line 119, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 input[type="search"] {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -126,16 +143,19 @@ input[type="search"] {
   -webkit-appearance: textfield;
 }
 
+/* line 126, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
+/* line 129, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_reset.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
+/* line 9, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_scaffolding.scss */
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -145,22 +165,26 @@ body {
   background-color: white;
 }
 
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_scaffolding.scss */
 a {
   color: #0088cc;
   text-decoration: none;
 }
 
+/* line 26, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_scaffolding.scss */
 a:hover {
   color: #005580;
   text-decoration: underline;
 }
 
+/* line 35, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_scaffolding.scss */
 .img-rounded {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
 
+/* line 39, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_scaffolding.scss */
 .img-polaroid {
   padding: 4px;
   background-color: #fff;
@@ -171,44 +195,53 @@ a:hover {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* line 49, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_scaffolding.scss */
 .img-circle {
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
 }
 
+/* line 7, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_layouts.scss */
 .container {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .container:before, .container:after {
   display: table;
   content: "";
   line-height: 0;
 }
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .container:after {
   clear: both;
 }
 
+/* line 12, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_layouts.scss */
 .container-fluid {
   padding-right: 20px;
   padding-left: 20px;
   *zoom: 1;
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .container-fluid:before, .container-fluid:after {
   display: table;
   content: "";
   line-height: 0;
 }
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .container-fluid:after {
   clear: both;
 }
 
+/* line 9, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 p {
   margin: 0 0 10px;
 }
 
+/* line 12, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 .lead {
   margin-bottom: 20px;
   font-size: 20px;
@@ -216,26 +249,32 @@ p {
   line-height: 30px;
 }
 
+/* line 23, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 small {
   font-size: 85%;
 }
 
+/* line 26, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 strong {
   font-weight: bold;
 }
 
+/* line 29, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 em {
   font-style: italic;
 }
 
+/* line 32, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 cite {
   font-style: normal;
 }
 
+/* line 35, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 .muted {
   color: #999999;
 }
 
+/* line 43, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-family: inherit;
@@ -244,69 +283,83 @@ h1, h2, h3, h4, h5, h6 {
   color: inherit;
   text-rendering: optimizelegibility;
 }
+/* line 50, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-weight: normal;
   line-height: 1;
   color: #999999;
 }
 
+/* line 56, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 h1 {
   font-size: 36px;
   line-height: 40px;
 }
 
+/* line 57, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 h2 {
   font-size: 30px;
   line-height: 40px;
 }
 
+/* line 58, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 h3 {
   font-size: 24px;
   line-height: 40px;
 }
 
+/* line 59, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 h4 {
   font-size: 18px;
   line-height: 20px;
 }
 
+/* line 60, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 h5 {
   font-size: 14px;
   line-height: 20px;
 }
 
+/* line 61, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 h6 {
   font-size: 12px;
   line-height: 20px;
 }
 
+/* line 63, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 h1 small {
   font-size: 24px;
 }
 
+/* line 64, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 h2 small {
   font-size: 18px;
 }
 
+/* line 65, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 h3 small {
   font-size: 14px;
 }
 
+/* line 66, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 h4 small {
   font-size: 14px;
 }
 
+/* line 72, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 .page-header {
   padding-bottom: 9px;
   margin: 20px 0 30px;
   border-bottom: 1px solid #eeeeee;
 }
 
+/* line 84, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 ul, ol {
   padding: 0;
   margin: 0 0 10px 25px;
 }
 
+/* line 91, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 ul ul,
 ul ol,
 ol ol,
@@ -314,33 +367,40 @@ ol ul {
   margin-bottom: 0;
 }
 
+/* line 94, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 li {
   line-height: 20px;
 }
 
+/* line 98, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 ul.unstyled,
 ol.unstyled {
   margin-left: 0;
   list-style: none;
 }
 
+/* line 104, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 dl {
   margin-bottom: 20px;
 }
 
+/* line 108, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 dt,
 dd {
   line-height: 20px;
 }
 
+/* line 111, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 dt {
   font-weight: bold;
 }
 
+/* line 114, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 dd {
   margin-left: 10px;
 }
 
+/* line 119, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 .dl-horizontal dt {
   float: left;
   width: 120px;
@@ -350,10 +410,12 @@ dd {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+/* line 126, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 .dl-horizontal dd {
   margin-left: 130px;
 }
 
+/* line 135, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 hr {
   margin: 20px 0;
   border: 0;
@@ -361,35 +423,42 @@ hr {
   border-bottom: 1px solid white;
 }
 
+/* line 143, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 abbr[title] {
   cursor: help;
   border-bottom: 1px dotted #999999;
 }
 
+/* line 147, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 abbr.initialism {
   font-size: 90%;
   text-transform: uppercase;
 }
 
+/* line 153, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
   border-left: 5px solid #eeeeee;
 }
+/* line 157, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 blockquote p {
   margin-bottom: 0;
   font-size: 16px;
   font-weight: 300;
   line-height: 25px;
 }
+/* line 161, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 blockquote small {
   display: block;
   line-height: 20px;
   color: #999999;
 }
+/* line 165, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 blockquote small:before {
   content: '\2014 \00A0';
 }
+/* line 171, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 blockquote.pull-right {
   float: right;
   padding-right: 15px;
@@ -397,17 +466,21 @@ blockquote.pull-right {
   border-right: 5px solid #eeeeee;
   border-left: 0;
 }
+/* line 178, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 blockquote.pull-right p,
 blockquote.pull-right small {
   text-align: right;
 }
+/* line 182, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 blockquote.pull-right small:before {
   content: '';
 }
+/* line 185, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 blockquote.pull-right small:after {
   content: '\00A0 \2014';
 }
 
+/* line 196, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 q:before,
 q:after,
 blockquote:before,
@@ -415,6 +488,7 @@ blockquote:after {
   content: "";
 }
 
+/* line 201, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_type.scss */
 address {
   display: block;
   margin-bottom: 20px;
@@ -422,6 +496,7 @@ address {
   line-height: 20px;
 }
 
+/* line 8, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_code.scss */
 code,
 pre {
   padding: 0 3px 2px;
@@ -433,6 +508,7 @@ pre {
   border-radius: 3px;
 }
 
+/* line 17, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_code.scss */
 code {
   padding: 2px 4px;
   color: #d14;
@@ -440,6 +516,7 @@ code {
   border: 1px solid #e1e1e8;
 }
 
+/* line 25, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_code.scss */
 pre {
   display: block;
   padding: 9.5px;
@@ -457,9 +534,11 @@ pre {
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
+/* line 41, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_code.scss */
 pre.prettyprint {
   margin-bottom: 20px;
 }
+/* line 46, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_code.scss */
 pre code {
   padding: 0;
   color: inherit;
@@ -467,21 +546,25 @@ pre code {
   border: 0;
 }
 
+/* line 55, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_code.scss */
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
 }
 
+/* line 10, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 form {
   margin: 0 0 20px;
 }
 
+/* line 14, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 fieldset {
   padding: 0;
   margin: 0;
   border: 0;
 }
 
+/* line 21, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 legend {
   display: block;
   width: 100%;
@@ -493,11 +576,13 @@ legend {
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
+/* line 33, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 legend small {
   font-size: 15px;
   color: #999999;
 }
 
+/* line 44, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 label,
 input,
 button,
@@ -508,6 +593,7 @@ textarea {
   line-height: 20px;
 }
 
+/* line 50, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 input,
 button,
 select,
@@ -515,11 +601,13 @@ textarea {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* line 55, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 label {
   display: block;
   margin-bottom: 5px;
 }
 
+/* line 80, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 select,
 textarea,
 input[type="text"],
@@ -549,15 +637,18 @@ input[type="color"],
   border-radius: 3px;
 }
 
+/* line 94, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 input,
 textarea {
   width: 210px;
 }
 
+/* line 98, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 textarea {
   height: auto;
 }
 
+/* line 117, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 textarea,
 input[type="text"],
 input[type="password"],
@@ -584,6 +675,7 @@ input[type="color"],
   -o-transition: border linear 0.2s, box-shadow linear 0.2s;
   transition: border linear 0.2s, box-shadow linear 0.2s;
 }
+/* line 124, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -609,6 +701,7 @@ input[type="color"]:focus,
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
 }
 
+/* line 134, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
@@ -620,6 +713,7 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
+/* line 149, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 input[type="file"],
 input[type="image"],
 input[type="submit"],
@@ -630,6 +724,7 @@ input[type="checkbox"] {
   width: auto;
 }
 
+/* line 155, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 select,
 input[type="file"] {
   height: 30px;
@@ -639,17 +734,20 @@ input[type="file"] {
   line-height: 30px;
 }
 
+/* line 162, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 select {
   width: 220px;
   border: 1px solid #bbb;
   background-color: white;
 }
 
+/* line 170, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 select[multiple],
 select[size] {
   height: auto;
 }
 
+/* line 178, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 select:focus,
 input[type="file"]:focus,
 input[type="radio"]:focus,
@@ -659,6 +757,7 @@ input[type="checkbox"]:focus {
   outline-offset: -2px;
 }
 
+/* line 188, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .uneditable-input,
 .uneditable-textarea {
   color: #999999;
@@ -670,46 +769,55 @@ input[type="checkbox"]:focus {
   cursor: not-allowed;
 }
 
+/* line 197, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .uneditable-input {
   overflow: hidden;
   white-space: nowrap;
 }
 
+/* line 203, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .uneditable-textarea {
   width: auto;
   height: auto;
 }
 
+/* line 83, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input:-moz-placeholder,
 textarea:-moz-placeholder {
   color: #999999;
 }
+/* line 86, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   color: #999999;
 }
+/* line 89, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #999999;
 }
 
+/* line 224, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .radio,
 .checkbox {
   min-height: 18px;
   padding-left: 18px;
 }
 
+/* line 229, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .radio input[type="radio"],
 .checkbox input[type="checkbox"] {
   float: left;
   margin-left: -18px;
 }
 
+/* line 236, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .controls > .radio:first-child,
 .controls > .checkbox:first-child {
   padding-top: 5px;
 }
 
+/* line 243, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .radio.inline,
 .checkbox.inline {
   display: inline-block;
@@ -718,35 +826,43 @@ textarea::-webkit-input-placeholder {
   vertical-align: middle;
 }
 
+/* line 250, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline {
   margin-left: 10px;
 }
 
+/* line 260, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-mini {
   width: 60px;
 }
 
+/* line 261, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-small {
   width: 90px;
 }
 
+/* line 262, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-medium {
   width: 150px;
 }
 
+/* line 263, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-large {
   width: 210px;
 }
 
+/* line 264, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-xlarge {
   width: 270px;
 }
 
+/* line 265, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-xxlarge {
   width: 530px;
 }
 
+/* line 276, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 input[class*="span"],
 select[class*="span"],
 textarea[class*="span"],
@@ -759,6 +875,7 @@ textarea[class*="span"],
   margin-left: 0;
 }
 
+/* line 290, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-append input[class*="span"],
 .input-append .uneditable-input[class*="span"],
 .input-prepend input[class*="span"],
@@ -772,104 +889,123 @@ textarea[class*="span"],
   display: inline-block;
 }
 
+/* line 637, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input,
 textarea,
 .uneditable-input {
   margin-left: 0;
 }
 
+/* line 642, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .controls-row [class*="span"] + [class*="span"] {
   margin-left: 20px;
 }
 
+/* line 651, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input.span12,
 textarea.span12,
 .uneditable-input.span12 {
   width: 926px;
 }
 
+/* line 651, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input.span11,
 textarea.span11,
 .uneditable-input.span11 {
   width: 846px;
 }
 
+/* line 651, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input.span10,
 textarea.span10,
 .uneditable-input.span10 {
   width: 766px;
 }
 
+/* line 651, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input.span9,
 textarea.span9,
 .uneditable-input.span9 {
   width: 686px;
 }
 
+/* line 651, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input.span8,
 textarea.span8,
 .uneditable-input.span8 {
   width: 606px;
 }
 
+/* line 651, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input.span7,
 textarea.span7,
 .uneditable-input.span7 {
   width: 526px;
 }
 
+/* line 651, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input.span6,
 textarea.span6,
 .uneditable-input.span6 {
   width: 446px;
 }
 
+/* line 651, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input.span5,
 textarea.span5,
 .uneditable-input.span5 {
   width: 366px;
 }
 
+/* line 651, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input.span4,
 textarea.span4,
 .uneditable-input.span4 {
   width: 286px;
 }
 
+/* line 651, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input.span3,
 textarea.span3,
 .uneditable-input.span3 {
   width: 206px;
 }
 
+/* line 651, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input.span2,
 textarea.span2,
 .uneditable-input.span2 {
   width: 126px;
 }
 
+/* line 651, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 input.span1,
 textarea.span1,
 .uneditable-input.span1 {
   width: 46px;
 }
 
+/* line 303, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .controls-row {
   *zoom: 1;
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .controls-row:before, .controls-row:after {
   display: table;
   content: "";
   line-height: 0;
 }
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .controls-row:after {
   clear: both;
 }
 
+/* line 306, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .controls-row [class*="span"] {
   float: left;
 }
 
+/* line 322, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 input[disabled],
 select[disabled],
 textarea[disabled],
@@ -880,6 +1016,7 @@ textarea[readonly] {
   background-color: #eeeeee;
 }
 
+/* line 330, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 input[type="radio"][disabled],
 input[type="checkbox"][disabled],
 input[type="radio"][readonly],
@@ -887,11 +1024,13 @@ input[type="checkbox"][readonly] {
   background-color: transparent;
 }
 
+/* line 163, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .control-group.warning > label,
 .control-group.warning .help-block,
 .control-group.warning .help-inline {
   color: #c09853;
 }
+/* line 171, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .control-group.warning .checkbox,
 .control-group.warning .radio,
 .control-group.warning input,
@@ -903,6 +1042,7 @@ input[type="checkbox"][readonly] {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
+/* line 175, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .control-group.warning .checkbox:focus,
 .control-group.warning .radio:focus,
 .control-group.warning input:focus,
@@ -913,6 +1053,7 @@ input[type="checkbox"][readonly] {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
 }
+/* line 185, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .control-group.warning .input-prepend .add-on,
 .control-group.warning .input-append .add-on {
   color: #c09853;
@@ -920,11 +1061,13 @@ input[type="checkbox"][readonly] {
   border-color: #c09853;
 }
 
+/* line 163, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .control-group.error > label,
 .control-group.error .help-block,
 .control-group.error .help-inline {
   color: #b94a48;
 }
+/* line 171, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .control-group.error .checkbox,
 .control-group.error .radio,
 .control-group.error input,
@@ -936,6 +1079,7 @@ input[type="checkbox"][readonly] {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
+/* line 175, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .control-group.error .checkbox:focus,
 .control-group.error .radio:focus,
 .control-group.error input:focus,
@@ -946,6 +1090,7 @@ input[type="checkbox"][readonly] {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
 }
+/* line 185, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .control-group.error .input-prepend .add-on,
 .control-group.error .input-append .add-on {
   color: #b94a48;
@@ -953,11 +1098,13 @@ input[type="checkbox"][readonly] {
   border-color: #b94a48;
 }
 
+/* line 163, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .control-group.success > label,
 .control-group.success .help-block,
 .control-group.success .help-inline {
   color: #468847;
 }
+/* line 171, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .control-group.success .checkbox,
 .control-group.success .radio,
 .control-group.success input,
@@ -969,6 +1116,7 @@ input[type="checkbox"][readonly] {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
+/* line 175, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .control-group.success .checkbox:focus,
 .control-group.success .radio:focus,
 .control-group.success input:focus,
@@ -979,6 +1127,7 @@ input[type="checkbox"][readonly] {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
 }
+/* line 185, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .control-group.success .input-prepend .add-on,
 .control-group.success .input-append .add-on {
   color: #468847;
@@ -986,12 +1135,14 @@ input[type="checkbox"][readonly] {
   border-color: #468847;
 }
 
+/* line 357, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 input:focus:required:invalid,
 textarea:focus:required:invalid,
 select:focus:required:invalid {
   color: #b94a48;
   border-color: #ee5f5b;
 }
+/* line 360, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 input:focus:required:invalid:focus,
 textarea:focus:required:invalid:focus,
 select:focus:required:invalid:focus {
@@ -1001,6 +1152,7 @@ select:focus:required:invalid:focus {
   box-shadow: 0 0 6px #f8b9b7;
 }
 
+/* line 371, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-actions {
   padding: 19px 20px 20px;
   margin-top: 20px;
@@ -1009,25 +1161,30 @@ select:focus:required:invalid:focus {
   border-top: 1px solid #e5e5e5;
   *zoom: 1;
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .form-actions:before, .form-actions:after {
   display: table;
   content: "";
   line-height: 0;
 }
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .form-actions:after {
   clear: both;
 }
 
+/* line 386, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .help-block,
 .help-inline {
   color: #595959;
 }
 
+/* line 390, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .help-block {
   display: block;
   margin-bottom: 10px;
 }
 
+/* line 395, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .help-inline {
   display: inline-block;
   *display: inline;
@@ -1036,12 +1193,14 @@ select:focus:required:invalid:focus {
   padding-left: 5px;
 }
 
+/* line 409, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-append,
 .input-prepend {
   margin-bottom: 5px;
   font-size: 0;
   white-space: nowrap;
 }
+/* line 416, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-append input,
 .input-append select,
 .input-append .uneditable-input,
@@ -1057,6 +1216,7 @@ select:focus:required:invalid:focus {
   -moz-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
 }
+/* line 424, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-append input:focus,
 .input-append select:focus,
 .input-append .uneditable-input:focus,
@@ -1065,6 +1225,7 @@ select:focus:required:invalid:focus {
 .input-prepend .uneditable-input:focus {
   z-index: 2;
 }
+/* line 428, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-append .add-on,
 .input-prepend .add-on {
   display: inline-block;
@@ -1080,6 +1241,7 @@ select:focus:required:invalid:focus {
   background-color: #eeeeee;
   border: 1px solid #ccc;
 }
+/* line 443, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-append .add-on,
 .input-append .btn,
 .input-prepend .add-on,
@@ -1090,16 +1252,19 @@ select:focus:required:invalid:focus {
   -moz-border-radius: 0;
   border-radius: 0;
 }
+/* line 448, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-append .active,
 .input-prepend .active {
   background-color: #a9dba9;
   border-color: #46a546;
 }
 
+/* line 455, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-prepend .add-on,
 .input-prepend .btn {
   margin-right: -1px;
 }
+/* line 459, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-prepend .add-on:first-child,
 .input-prepend .btn:first-child {
   -webkit-border-radius: 3px 0 0 3px;
@@ -1107,6 +1272,7 @@ select:focus:required:invalid:focus {
   border-radius: 3px 0 0 3px;
 }
 
+/* line 466, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-append input,
 .input-append select,
 .input-append .uneditable-input {
@@ -1114,6 +1280,7 @@ select:focus:required:invalid:focus {
   -moz-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
 }
+/* line 470, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-append .add-on:last-child,
 .input-append .btn:last-child {
   -webkit-border-radius: 0 3px 3px 0;
@@ -1121,6 +1288,7 @@ select:focus:required:invalid:focus {
   border-radius: 0 3px 3px 0;
 }
 
+/* line 478, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-prepend.input-append input,
 .input-prepend.input-append select,
 .input-prepend.input-append .uneditable-input {
@@ -1128,6 +1296,7 @@ select:focus:required:invalid:focus {
   -moz-border-radius: 0;
   border-radius: 0;
 }
+/* line 482, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-prepend.input-append .add-on:first-child,
 .input-prepend.input-append .btn:first-child {
   margin-right: -1px;
@@ -1135,6 +1304,7 @@ select:focus:required:invalid:focus {
   -moz-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
 }
+/* line 487, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .input-prepend.input-append .add-on:last-child,
 .input-prepend.input-append .btn:last-child {
   margin-left: -1px;
@@ -1143,6 +1313,7 @@ select:focus:required:invalid:focus {
   border-radius: 0 3px 3px 0;
 }
 
+/* line 498, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 input.search-query {
   padding-right: 14px;
   padding-right: 4px \9;
@@ -1156,6 +1327,7 @@ input.search-query {
 }
 
 /* Allow for input prepend/append in search forms */
+/* line 509, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-search .input-append .search-query,
 .form-search .input-prepend .search-query {
   -webkit-border-radius: 0;
@@ -1163,30 +1335,35 @@ input.search-query {
   border-radius: 0;
 }
 
+/* line 512, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-search .input-append .search-query {
   -webkit-border-radius: 14px 0 0 14px;
   -moz-border-radius: 14px 0 0 14px;
   border-radius: 14px 0 0 14px;
 }
 
+/* line 515, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-search .input-append .btn {
   -webkit-border-radius: 0 14px 14px 0;
   -moz-border-radius: 0 14px 14px 0;
   border-radius: 0 14px 14px 0;
 }
 
+/* line 518, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-search .input-prepend .search-query {
   -webkit-border-radius: 0 14px 14px 0;
   -moz-border-radius: 0 14px 14px 0;
   border-radius: 0 14px 14px 0;
 }
 
+/* line 521, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-search .input-prepend .btn {
   -webkit-border-radius: 14px 0 0 14px;
   -moz-border-radius: 14px 0 0 14px;
   border-radius: 14px 0 0 14px;
 }
 
+/* line 543, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-search input,
 .form-search textarea,
 .form-search select,
@@ -1214,12 +1391,14 @@ input.search-query {
   margin-bottom: 0;
   vertical-align: middle;
 }
+/* line 550, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-search .hide,
 .form-inline .hide,
 .form-horizontal .hide {
   display: none;
 }
 
+/* line 557, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-search label,
 .form-inline label,
 .form-search .btn-group,
@@ -1227,6 +1406,7 @@ input.search-query {
   display: inline-block;
 }
 
+/* line 564, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-search .input-append,
 .form-inline .input-append,
 .form-search .input-prepend,
@@ -1234,6 +1414,7 @@ input.search-query {
   margin-bottom: 0;
 }
 
+/* line 571, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-search .radio,
 .form-search .checkbox,
 .form-inline .radio,
@@ -1243,6 +1424,7 @@ input.search-query {
   vertical-align: middle;
 }
 
+/* line 580, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-search .radio input[type="radio"],
 .form-search .checkbox input[type="checkbox"],
 .form-inline .radio input[type="radio"],
@@ -1252,50 +1434,61 @@ input.search-query {
   margin-left: 0;
 }
 
+/* line 588, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .control-group {
   margin-bottom: 10px;
 }
 
+/* line 593, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 legend + .control-group {
   margin-top: 20px;
   -webkit-margin-top-collapse: separate;
 }
 
+/* line 603, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-horizontal .control-group {
   margin-bottom: 20px;
   *zoom: 1;
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .form-horizontal .control-group:before, .form-horizontal .control-group:after {
   display: table;
   content: "";
   line-height: 0;
 }
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .form-horizontal .control-group:after {
   clear: both;
 }
+/* line 608, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-horizontal .control-label {
   float: left;
   width: 140px;
   padding-top: 5px;
   text-align: right;
 }
+/* line 615, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-horizontal .controls {
   *display: inline-block;
   *padding-left: 20px;
   margin-left: 160px;
   *margin-left: 0;
 }
+/* line 622, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-horizontal .controls:first-child {
   *padding-left: 160px;
 }
+/* line 627, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-horizontal .help-block {
   margin-top: 10px;
   margin-bottom: 0;
 }
+/* line 632, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_forms.scss */
 .form-horizontal .form-actions {
   padding-left: 160px;
 }
 
+/* line 9, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table {
   max-width: 100%;
   background-color: transparent;
@@ -1303,10 +1496,12 @@ table {
   border-spacing: 0;
 }
 
+/* line 19, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table {
   width: 100%;
   margin-bottom: 20px;
 }
+/* line 24, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table th,
 .table td {
   padding: 8px;
@@ -1315,12 +1510,15 @@ table {
   vertical-align: top;
   border-top: 1px solid #dddddd;
 }
+/* line 31, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table th {
   font-weight: bold;
 }
+/* line 35, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table thead th {
   vertical-align: bottom;
 }
+/* line 44, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table caption + thead tr:first-child th,
 .table caption + thead tr:first-child td,
 .table colgroup + thead tr:first-child th,
@@ -1329,15 +1527,18 @@ table {
 .table thead:first-child tr:first-child td {
   border-top: 0;
 }
+/* line 48, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table tbody + tbody {
   border-top: 2px solid #dddddd;
 }
 
+/* line 60, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table-condensed th,
 .table-condensed td {
   padding: 4px 5px;
 }
 
+/* line 69, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table-bordered {
   border: 1px solid #dddddd;
   border-collapse: separate;
@@ -1347,10 +1548,12 @@ table {
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
+/* line 76, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table-bordered th,
 .table-bordered td {
   border-left: 1px solid #dddddd;
 }
+/* line 88, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table-bordered caption + thead tr:first-child th,
 .table-bordered caption + tbody tr:first-child th,
 .table-bordered caption + tbody tr:first-child td,
@@ -1362,18 +1565,21 @@ table {
 .table-bordered tbody:first-child tr:first-child td {
   border-top: 0;
 }
+/* line 93, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table-bordered thead:first-child tr:first-child th:first-child,
 .table-bordered tbody:first-child tr:first-child td:first-child {
   -webkit-border-top-left-radius: 4px;
   border-top-left-radius: 4px;
   -moz-border-radius-topleft: 4px;
 }
+/* line 99, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table-bordered thead:first-child tr:first-child th:last-child,
 .table-bordered tbody:first-child tr:first-child td:last-child {
   -webkit-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
   -moz-border-radius-topright: 4px;
 }
+/* line 107, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table-bordered thead:last-child tr:last-child th:first-child,
 .table-bordered tbody:last-child tr:last-child td:first-child,
 .table-bordered tfoot:last-child tr:last-child td:first-child {
@@ -1384,6 +1590,7 @@ table {
   border-bottom-left-radius: 4px;
   -moz-border-radius-bottomleft: 4px;
 }
+/* line 115, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table-bordered thead:last-child tr:last-child th:last-child,
 .table-bordered tbody:last-child tr:last-child td:last-child,
 .table-bordered tfoot:last-child tr:last-child td:last-child {
@@ -1391,6 +1598,7 @@ table {
   border-bottom-right-radius: 4px;
   -moz-border-radius-bottomright: 4px;
 }
+/* line 125, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table-bordered caption + thead tr:first-child th:first-child,
 .table-bordered caption + tbody tr:first-child td:first-child,
 .table-bordered colgroup + thead tr:first-child th:first-child,
@@ -1399,6 +1607,7 @@ table {
   border-top-left-radius: 4px;
   -moz-border-radius-topleft: 4px;
 }
+/* line 133, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table-bordered caption + thead tr:first-child th:last-child,
 .table-bordered caption + tbody tr:first-child td:last-child,
 .table-bordered colgroup + thead tr:first-child th:last-child,
@@ -1408,16 +1617,19 @@ table {
   -moz-border-right-topleft: 4px;
 }
 
+/* line 149, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table-striped tbody tr:nth-child(odd) td,
 .table-striped tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+/* line 162, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
   background-color: whitesmoke;
 }
 
+/* line 174, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table [class*=span],
 .row-fluid table [class*=span] {
   display: table-cell;
@@ -1425,137 +1637,165 @@ table [class*=span],
   margin-left: 0;
 }
 
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span1 {
   float: none;
   width: 44px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span2 {
   float: none;
   width: 124px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span3 {
   float: none;
   width: 204px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span4 {
   float: none;
   width: 284px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span5 {
   float: none;
   width: 364px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span6 {
   float: none;
   width: 444px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span7 {
   float: none;
   width: 524px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span8 {
   float: none;
   width: 604px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span9 {
   float: none;
   width: 684px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span10 {
   float: none;
   width: 764px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span11 {
   float: none;
   width: 844px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span12 {
   float: none;
   width: 924px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span13 {
   float: none;
   width: 1004px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span14 {
   float: none;
   width: 1084px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span15 {
   float: none;
   width: 1164px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span16 {
   float: none;
   width: 1244px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span17 {
   float: none;
   width: 1324px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span18 {
   float: none;
   width: 1404px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span19 {
   float: none;
   width: 1484px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span20 {
   float: none;
   width: 1564px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span21 {
   float: none;
   width: 1644px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span22 {
   float: none;
   width: 1724px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span23 {
   float: none;
   width: 1804px;
   margin-left: 0;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 table .span24 {
   float: none;
   width: 1884px;
   margin-left: 0;
 }
 
+/* line 193, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table tbody tr.success td {
   background-color: #dff0d8;
 }
+/* line 196, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table tbody tr.error td {
   background-color: #f2dede;
 }
+/* line 199, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tables.scss */
 .table tbody tr.info td {
   background-color: #d9edf7;
 }
 
+/* line 18, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 [class^="icon-"],
 [class*=" icon-"] {
   display: inline-block;
@@ -1571,6 +1811,7 @@ table .span24 {
 }
 
 /* White icons with optional class, or on hover/active states of certain elements */
+/* line 38, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-white,
 .nav > .active > a > [class^="icon-"],
 .nav > .active > a > [class*=" icon-"],
@@ -1581,582 +1822,726 @@ table .span24 {
   background-image: url('/images/glyphicons-halflings-white.png?1353664438');
 }
 
+/* line 42, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-glass {
   background-position: 0      0;
 }
 
+/* line 43, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-music {
   background-position: -24px 0;
 }
 
+/* line 44, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-search {
   background-position: -48px 0;
 }
 
+/* line 45, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-envelope {
   background-position: -72px 0;
 }
 
+/* line 46, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-heart {
   background-position: -96px 0;
 }
 
+/* line 47, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-star {
   background-position: -120px 0;
 }
 
+/* line 48, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-star-empty {
   background-position: -144px 0;
 }
 
+/* line 49, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-user {
   background-position: -168px 0;
 }
 
+/* line 50, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-film {
   background-position: -192px 0;
 }
 
+/* line 51, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-th-large {
   background-position: -216px 0;
 }
 
+/* line 52, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-th {
   background-position: -240px 0;
 }
 
+/* line 53, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-th-list {
   background-position: -264px 0;
 }
 
+/* line 54, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-ok {
   background-position: -288px 0;
 }
 
+/* line 55, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-remove {
   background-position: -312px 0;
 }
 
+/* line 56, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-zoom-in {
   background-position: -336px 0;
 }
 
+/* line 57, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-zoom-out {
   background-position: -360px 0;
 }
 
+/* line 58, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-off {
   background-position: -384px 0;
 }
 
+/* line 59, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-signal {
   background-position: -408px 0;
 }
 
+/* line 60, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-cog {
   background-position: -432px 0;
 }
 
+/* line 61, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-trash {
   background-position: -456px 0;
 }
 
+/* line 63, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-home {
   background-position: 0 -24px;
 }
 
+/* line 64, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-file {
   background-position: -24px -24px;
 }
 
+/* line 65, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-time {
   background-position: -48px -24px;
 }
 
+/* line 66, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-road {
   background-position: -72px -24px;
 }
 
+/* line 67, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-download-alt {
   background-position: -96px -24px;
 }
 
+/* line 68, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-download {
   background-position: -120px -24px;
 }
 
+/* line 69, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-upload {
   background-position: -144px -24px;
 }
 
+/* line 70, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-inbox {
   background-position: -168px -24px;
 }
 
+/* line 71, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-play-circle {
   background-position: -192px -24px;
 }
 
+/* line 72, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-repeat {
   background-position: -216px -24px;
 }
 
+/* line 73, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-refresh {
   background-position: -240px -24px;
 }
 
+/* line 74, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-list-alt {
   background-position: -264px -24px;
 }
 
+/* line 75, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-lock {
   background-position: -287px -24px;
 }
 
+/* line 76, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-flag {
   background-position: -312px -24px;
 }
 
+/* line 77, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-headphones {
   background-position: -336px -24px;
 }
 
+/* line 78, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-volume-off {
   background-position: -360px -24px;
 }
 
+/* line 79, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-volume-down {
   background-position: -384px -24px;
 }
 
+/* line 80, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-volume-up {
   background-position: -408px -24px;
 }
 
+/* line 81, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-qrcode {
   background-position: -432px -24px;
 }
 
+/* line 82, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-barcode {
   background-position: -456px -24px;
 }
 
+/* line 84, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-tag {
   background-position: 0 -48px;
 }
 
+/* line 85, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-tags {
   background-position: -25px -48px;
 }
 
+/* line 86, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-book {
   background-position: -48px -48px;
 }
 
+/* line 87, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-bookmark {
   background-position: -72px -48px;
 }
 
+/* line 88, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-print {
   background-position: -96px -48px;
 }
 
+/* line 89, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-camera {
   background-position: -120px -48px;
 }
 
+/* line 90, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-font {
   background-position: -144px -48px;
 }
 
+/* line 91, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-bold {
   background-position: -167px -48px;
 }
 
+/* line 92, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-italic {
   background-position: -192px -48px;
 }
 
+/* line 93, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-text-height {
   background-position: -216px -48px;
 }
 
+/* line 94, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-text-width {
   background-position: -240px -48px;
 }
 
+/* line 95, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-align-left {
   background-position: -264px -48px;
 }
 
+/* line 96, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-align-center {
   background-position: -288px -48px;
 }
 
+/* line 97, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-align-right {
   background-position: -312px -48px;
 }
 
+/* line 98, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-align-justify {
   background-position: -336px -48px;
 }
 
+/* line 99, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-list {
   background-position: -360px -48px;
 }
 
+/* line 100, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-indent-left {
   background-position: -384px -48px;
 }
 
+/* line 101, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-indent-right {
   background-position: -408px -48px;
 }
 
+/* line 102, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-facetime-video {
   background-position: -432px -48px;
 }
 
+/* line 103, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-picture {
   background-position: -456px -48px;
 }
 
+/* line 105, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-pencil {
   background-position: 0 -72px;
 }
 
+/* line 106, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-map-marker {
   background-position: -24px -72px;
 }
 
+/* line 107, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-adjust {
   background-position: -48px -72px;
 }
 
+/* line 108, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-tint {
   background-position: -72px -72px;
 }
 
+/* line 109, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-edit {
   background-position: -96px -72px;
 }
 
+/* line 110, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-share {
   background-position: -120px -72px;
 }
 
+/* line 111, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-check {
   background-position: -144px -72px;
 }
 
+/* line 112, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-move {
   background-position: -168px -72px;
 }
 
+/* line 113, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-step-backward {
   background-position: -192px -72px;
 }
 
+/* line 114, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-fast-backward {
   background-position: -216px -72px;
 }
 
+/* line 115, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-backward {
   background-position: -240px -72px;
 }
 
+/* line 116, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-play {
   background-position: -264px -72px;
 }
 
+/* line 117, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-pause {
   background-position: -288px -72px;
 }
 
+/* line 118, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-stop {
   background-position: -312px -72px;
 }
 
+/* line 119, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-forward {
   background-position: -336px -72px;
 }
 
+/* line 120, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-fast-forward {
   background-position: -360px -72px;
 }
 
+/* line 121, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-step-forward {
   background-position: -384px -72px;
 }
 
+/* line 122, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-eject {
   background-position: -408px -72px;
 }
 
+/* line 123, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-chevron-left {
   background-position: -432px -72px;
 }
 
+/* line 124, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-chevron-right {
   background-position: -456px -72px;
 }
 
+/* line 126, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-plus-sign {
   background-position: 0 -96px;
 }
 
+/* line 127, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-minus-sign {
   background-position: -24px -96px;
 }
 
+/* line 128, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-remove-sign {
   background-position: -48px -96px;
 }
 
+/* line 129, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-ok-sign {
   background-position: -72px -96px;
 }
 
+/* line 130, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-question-sign {
   background-position: -96px -96px;
 }
 
+/* line 131, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-info-sign {
   background-position: -120px -96px;
 }
 
+/* line 132, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-screenshot {
   background-position: -144px -96px;
 }
 
+/* line 133, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-remove-circle {
   background-position: -168px -96px;
 }
 
+/* line 134, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-ok-circle {
   background-position: -192px -96px;
 }
 
+/* line 135, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-ban-circle {
   background-position: -216px -96px;
 }
 
+/* line 136, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-arrow-left {
   background-position: -240px -96px;
 }
 
+/* line 137, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-arrow-right {
   background-position: -264px -96px;
 }
 
+/* line 138, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-arrow-up {
   background-position: -289px -96px;
 }
 
+/* line 139, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-arrow-down {
   background-position: -312px -96px;
 }
 
+/* line 140, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-share-alt {
   background-position: -336px -96px;
 }
 
+/* line 141, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-resize-full {
   background-position: -360px -96px;
 }
 
+/* line 142, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-resize-small {
   background-position: -384px -96px;
 }
 
+/* line 143, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-plus {
   background-position: -408px -96px;
 }
 
+/* line 144, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-minus {
   background-position: -433px -96px;
 }
 
+/* line 145, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-asterisk {
   background-position: -456px -96px;
 }
 
+/* line 147, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-exclamation-sign {
   background-position: 0 -120px;
 }
 
+/* line 148, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-gift {
   background-position: -24px -120px;
 }
 
+/* line 149, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-leaf {
   background-position: -48px -120px;
 }
 
+/* line 150, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-fire {
   background-position: -72px -120px;
 }
 
+/* line 151, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-eye-open {
   background-position: -96px -120px;
 }
 
+/* line 152, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-eye-close {
   background-position: -120px -120px;
 }
 
+/* line 153, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-warning-sign {
   background-position: -144px -120px;
 }
 
+/* line 154, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-plane {
   background-position: -168px -120px;
 }
 
+/* line 155, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-calendar {
   background-position: -192px -120px;
 }
 
+/* line 156, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-random {
   background-position: -216px -120px;
   width: 16px;
 }
 
+/* line 157, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-comment {
   background-position: -240px -120px;
 }
 
+/* line 158, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-magnet {
   background-position: -264px -120px;
 }
 
+/* line 159, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-chevron-up {
   background-position: -288px -120px;
 }
 
+/* line 160, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-chevron-down {
   background-position: -313px -119px;
 }
 
+/* line 161, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-retweet {
   background-position: -336px -120px;
 }
 
+/* line 162, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-shopping-cart {
   background-position: -360px -120px;
 }
 
+/* line 163, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-folder-close {
   background-position: -384px -120px;
 }
 
+/* line 164, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-folder-open {
   background-position: -408px -120px;
   width: 16px;
 }
 
+/* line 165, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-resize-vertical {
   background-position: -432px -119px;
 }
 
+/* line 166, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-resize-horizontal {
   background-position: -456px -118px;
 }
 
+/* line 168, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-hdd {
   background-position: 0 -144px;
 }
 
+/* line 169, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-bullhorn {
   background-position: -24px -144px;
 }
 
+/* line 170, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-bell {
   background-position: -48px -144px;
 }
 
+/* line 171, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-certificate {
   background-position: -72px -144px;
 }
 
+/* line 172, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-thumbs-up {
   background-position: -96px -144px;
 }
 
+/* line 173, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-thumbs-down {
   background-position: -120px -144px;
 }
 
+/* line 174, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-hand-right {
   background-position: -144px -144px;
 }
 
+/* line 175, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-hand-left {
   background-position: -168px -144px;
 }
 
+/* line 176, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-hand-up {
   background-position: -192px -144px;
 }
 
+/* line 177, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-hand-down {
   background-position: -216px -144px;
 }
 
+/* line 178, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-circle-arrow-right {
   background-position: -240px -144px;
 }
 
+/* line 179, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-circle-arrow-left {
   background-position: -264px -144px;
 }
 
+/* line 180, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-circle-arrow-up {
   background-position: -288px -144px;
 }
 
+/* line 181, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-circle-arrow-down {
   background-position: -312px -144px;
 }
 
+/* line 182, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-globe {
   background-position: -336px -144px;
 }
 
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-wrench {
   background-position: -360px -144px;
 }
 
+/* line 184, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-tasks {
   background-position: -384px -144px;
 }
 
+/* line 185, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-filter {
   background-position: -408px -144px;
 }
 
+/* line 186, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-briefcase {
   background-position: -432px -144px;
 }
 
+/* line 187, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_sprites.scss */
 .icon-fullscreen {
   background-position: -456px -144px;
 }
 
+/* line 8, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropup,
 .dropdown {
   position: relative;
 }
 
+/* line 11, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-toggle {
   *margin-bottom: -3px;
 }
 
+/* line 16, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-toggle:active,
 .open .dropdown-toggle {
   outline: 0;
 }
 
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .caret {
   display: inline-block;
   width: 0;
@@ -2168,11 +2553,13 @@ table .span24 {
   content: "";
 }
 
+/* line 34, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown .caret {
   margin-top: 8px;
   margin-left: 2px;
 }
 
+/* line 41, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -2199,10 +2586,12 @@ table .span24 {
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
+/* line 64, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-menu.pull-right {
   right: 0;
   left: auto;
 }
+/* line 70, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-menu .divider {
   *width: 100%;
   height: 1px;
@@ -2212,6 +2601,7 @@ table .span24 {
   background-color: #e5e5e5;
   border-bottom: 1px solid white;
 }
+/* line 75, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-menu a {
   display: block;
   padding: 3px 20px;
@@ -2222,6 +2612,7 @@ table .span24 {
   white-space: nowrap;
 }
 
+/* line 90, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
@@ -2238,6 +2629,7 @@ table .span24 {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0085c7', endColorstr='#0074ad', GradientType=0);
 }
 
+/* line 100, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover {
   color: white;
@@ -2254,35 +2646,42 @@ table .span24 {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0085c7', endColorstr='#0074ad', GradientType=0);
 }
 
+/* line 112, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-menu .disabled > a,
 .dropdown-menu .disabled > a:hover {
   color: #999999;
 }
 
+/* line 116, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-menu .disabled > a:hover {
   text-decoration: none;
   background-color: transparent;
   cursor: default;
 }
 
+/* line 124, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .open {
   *z-index: 1000;
 }
+/* line 129, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .open > .dropdown-menu {
   display: block;
 }
 
+/* line 136, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .pull-right > .dropdown-menu {
   right: 0;
   left: auto;
 }
 
+/* line 148, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
   border-bottom: 4px solid black;
   content: "\2191";
 }
+/* line 154, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
   top: auto;
@@ -2290,10 +2689,12 @@ table .span24 {
   margin-bottom: 1px;
 }
 
+/* line 163, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-submenu {
   position: relative;
 }
 
+/* line 166, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
@@ -2304,10 +2705,12 @@ table .span24 {
   border-radius: 0 6px 6px 6px;
 }
 
+/* line 175, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-submenu:hover .dropdown-menu {
   display: block;
 }
 
+/* line 179, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-submenu > a:after {
   display: block;
   content: " ";
@@ -2322,15 +2725,18 @@ table .span24 {
   margin-right: -10px;
 }
 
+/* line 192, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown-submenu:hover > a:after {
   border-left-color: white;
 }
 
+/* line 200, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .dropdown .dropdown-menu .nav-header {
   padding-left: 20px;
   padding-right: 20px;
 }
 
+/* line 207, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_dropdowns.scss */
 .typeahead {
   margin-top: 2px;
   -webkit-border-radius: 4px;
@@ -2338,6 +2744,7 @@ table .span24 {
   border-radius: 4px;
 }
 
+/* line 7, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_wells.scss */
 .well {
   min-height: 20px;
   padding: 19px;
@@ -2351,11 +2758,13 @@ table .span24 {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_wells.scss */
 .well blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
 }
 
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_wells.scss */
 .well-large {
   padding: 24px;
   -webkit-border-radius: 6px;
@@ -2363,6 +2772,7 @@ table .span24 {
   border-radius: 6px;
 }
 
+/* line 26, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_wells.scss */
 .well-small {
   padding: 9px;
   -webkit-border-radius: 3px;
@@ -2370,6 +2780,7 @@ table .span24 {
   border-radius: 3px;
 }
 
+/* line 6, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_component-animations.scss */
 .fade {
   opacity: 0;
   filter: alpha(opacity=0);
@@ -2378,11 +2789,13 @@ table .span24 {
   -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
+/* line 9, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_component-animations.scss */
 .fade.in {
   opacity: 1;
   filter: alpha(opacity=100);
 }
 
+/* line 14, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_component-animations.scss */
 .collapse {
   position: relative;
   height: 0;
@@ -2393,10 +2806,12 @@ table .span24 {
   -o-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
+/* line 20, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_component-animations.scss */
 .collapse.in {
   height: auto;
 }
 
+/* line 6, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_close.scss */
 .close {
   float: right;
   font-size: 20px;
@@ -2407,6 +2822,7 @@ table .span24 {
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
+/* line 14, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_close.scss */
 .close:hover {
   color: black;
   text-decoration: none;
@@ -2415,6 +2831,7 @@ table .span24 {
   filter: alpha(opacity=40);
 }
 
+/* line 25, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_close.scss */
 button.close {
   padding: 0;
   cursor: pointer;
@@ -2423,6 +2840,7 @@ button.close {
   -webkit-appearance: none;
 }
 
+/* line 10, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn {
   display: inline-block;
   *display: inline;
@@ -2461,17 +2879,21 @@ button.close {
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
+/* line 489, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
   color: #333333;
   background-color: #e6e6e6;
   *background-color: #d9d9d9;
 }
+/* line 497, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn:active, .btn.active {
   background-color: #cccccc \9;
 }
+/* line 61, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn:first-child {
   *margin-left: 0;
 }
+/* line 30, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn:hover {
   color: #333333;
   text-decoration: none;
@@ -2484,11 +2906,13 @@ button.close {
   -o-transition: background-position 0.1s linear;
   transition: background-position 0.1s linear;
 }
+/* line 43, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
+/* line 49, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn.active, .btn:active {
   background-color: #e6e6e6;
   background-color: #d9d9d9 \9;
@@ -2498,6 +2922,7 @@ button.close {
   -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
+/* line 59, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn.disabled, .btn[disabled] {
   cursor: default;
   background-color: #e6e6e6;
@@ -2509,6 +2934,7 @@ button.close {
   box-shadow: none;
 }
 
+/* line 75, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-large {
   padding: 9px 14px;
   font-size: 16px;
@@ -2518,26 +2944,31 @@ button.close {
   border-radius: 5px;
 }
 
+/* line 81, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-large [class^="icon-"] {
   margin-top: 2px;
 }
 
+/* line 86, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-small {
   padding: 3px 9px;
   font-size: 12px;
   line-height: 18px;
 }
 
+/* line 91, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-small [class^="icon-"] {
   margin-top: 0px;
 }
 
+/* line 96, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-mini {
   padding: 2px 6px;
   font-size: 11px;
   line-height: 16px;
 }
 
+/* line 103, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%;
@@ -2548,10 +2979,12 @@ button.close {
   box-sizing: border-box;
 }
 
+/* line 110, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-block + .btn-block {
   margin-top: 5px;
 }
 
+/* line 124, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-primary.active,
 .btn-warning.active,
 .btn-danger.active,
@@ -2561,11 +2994,13 @@ button.close {
   color: rgba(255, 255, 255, 0.75);
 }
 
+/* line 130, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn {
   border-color: #c5c5c5;
   border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
 }
 
+/* line 135, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-primary {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -2583,15 +3018,18 @@ button.close {
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
+/* line 489, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
   color: white;
   background-color: #0044cc;
   *background-color: #003bb3;
 }
+/* line 497, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-primary:active, .btn-primary.active {
   background-color: #003399 \9;
 }
 
+/* line 139, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-warning {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -2609,15 +3047,18 @@ button.close {
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
+/* line 489, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-warning:hover, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
   color: white;
   background-color: #f89406;
   *background-color: #df8505;
 }
+/* line 497, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-warning:active, .btn-warning.active {
   background-color: #c67605 \9;
 }
 
+/* line 143, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-danger {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -2635,15 +3076,18 @@ button.close {
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
+/* line 489, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-danger:hover, .btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] {
   color: white;
   background-color: #bd362f;
   *background-color: #a9302a;
 }
+/* line 497, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-danger:active, .btn-danger.active {
   background-color: #942a25 \9;
 }
 
+/* line 147, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-success {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -2661,15 +3105,18 @@ button.close {
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
+/* line 489, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
   color: white;
   background-color: #51a351;
   *background-color: #499249;
 }
+/* line 497, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-success:active, .btn-success.active {
   background-color: #408140 \9;
 }
 
+/* line 151, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-info {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -2687,15 +3134,18 @@ button.close {
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
+/* line 489, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-info:hover, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
   color: white;
   background-color: #2f96b4;
   *background-color: #2a85a0;
 }
+/* line 497, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-info:active, .btn-info.active {
   background-color: #24748c \9;
 }
 
+/* line 155, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-inverse {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -2713,41 +3163,49 @@ button.close {
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
+/* line 489, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-inverse:hover, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
   color: white;
   background-color: #222222;
   *background-color: #151515;
 }
+/* line 497, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-inverse:active, .btn-inverse.active {
   background-color: #090909 \9;
 }
 
+/* line 164, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 button.btn,
 input[type="submit"].btn {
   *padding-top: 3px;
   *padding-bottom: 3px;
 }
+/* line 167, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 button.btn::-moz-focus-inner,
 input[type="submit"].btn::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
+/* line 175, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 button.btn.btn-large,
 input[type="submit"].btn.btn-large {
   *padding-top: 7px;
   *padding-bottom: 7px;
 }
+/* line 179, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 button.btn.btn-small,
 input[type="submit"].btn.btn-small {
   *padding-top: 3px;
   *padding-bottom: 3px;
 }
+/* line 183, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 button.btn.btn-mini,
 input[type="submit"].btn.btn-mini {
   *padding-top: 1px;
   *padding-bottom: 1px;
 }
 
+/* line 195, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-link,
 .btn-link:active {
   background-color: transparent;
@@ -2757,6 +3215,7 @@ input[type="submit"].btn.btn-mini {
   box-shadow: none;
 }
 
+/* line 200, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-link {
   border-color: transparent;
   cursor: pointer;
@@ -2766,42 +3225,50 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0;
 }
 
+/* line 206, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_buttons.scss */
 .btn-link:hover {
   color: #005580;
   text-decoration: underline;
   background-color: transparent;
 }
 
+/* line 7, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group {
   position: relative;
   font-size: 0;
   white-space: nowrap;
   *margin-left: .3em;
 }
+/* line 61, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .btn-group:first-child {
   *margin-left: 0;
 }
 
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group + .btn-group {
   margin-left: 5px;
 }
 
+/* line 20, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-toolbar {
   font-size: 0;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+/* line 24, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-toolbar .btn-group {
   display: inline-block;
   *display: inline;
   *zoom: 1;
 }
+/* line 30, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-toolbar .btn + .btn,
 .btn-toolbar .btn-group + .btn,
 .btn-toolbar .btn + .btn-group {
   margin-left: 5px;
 }
 
+/* line 36, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn {
   position: relative;
   -webkit-border-radius: 0;
@@ -2809,27 +3276,33 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0;
 }
 
+/* line 40, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn + .btn {
   margin-left: -1px;
 }
 
+/* line 44, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn,
 .btn-group > .dropdown-menu {
   font-size: 14px;
 }
 
+/* line 49, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn-mini {
   font-size: 11px;
 }
 
+/* line 52, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn-small {
   font-size: 12px;
 }
 
+/* line 55, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn-large {
   font-size: 16px;
 }
 
+/* line 60, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn:first-child {
   margin-left: 0;
   -webkit-border-top-left-radius: 4px;
@@ -2840,6 +3313,7 @@ input[type="submit"].btn.btn-mini {
   border-bottom-left-radius: 4px;
 }
 
+/* line 71, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn:last-child,
 .btn-group > .dropdown-toggle {
   -webkit-border-top-right-radius: 4px;
@@ -2850,6 +3324,7 @@ input[type="submit"].btn.btn-mini {
   border-bottom-right-radius: 4px;
 }
 
+/* line 80, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn.large:first-child {
   margin-left: 0;
   -webkit-border-top-left-radius: 6px;
@@ -2860,6 +3335,7 @@ input[type="submit"].btn.btn-mini {
   border-bottom-left-radius: 6px;
 }
 
+/* line 90, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn.large:last-child,
 .btn-group > .large.dropdown-toggle {
   -webkit-border-top-right-radius: 6px;
@@ -2870,6 +3346,7 @@ input[type="submit"].btn.btn-mini {
   border-bottom-right-radius: 6px;
 }
 
+/* line 103, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn:hover,
 .btn-group > .btn:focus,
 .btn-group > .btn:active,
@@ -2877,11 +3354,13 @@ input[type="submit"].btn.btn-mini {
   z-index: 2;
 }
 
+/* line 109, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group .dropdown-toggle:active,
 .btn-group.open .dropdown-toggle {
   outline: 0;
 }
 
+/* line 119, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px;
@@ -2892,71 +3371,87 @@ input[type="submit"].btn.btn-mini {
   *padding-bottom: 5px;
 }
 
+/* line 126, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn-mini + .dropdown-toggle {
   *padding-left: 2px;
   *padding-right: 2px;
 }
 
+/* line 130, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn-small + .dropdown-toggle {
   *padding-top: 5px;
   *padding-bottom: 4px;
 }
 
+/* line 134, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn-large + .dropdown-toggle {
   *padding-left: 7px;
   *padding-right: 7px;
 }
 
+/* line 143, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group.open .dropdown-toggle {
   background-image: none;
   -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
+/* line 149, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn.dropdown-toggle {
   background-color: #e6e6e6;
 }
+/* line 152, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn-primary.dropdown-toggle {
   background-color: #0044cc;
 }
+/* line 155, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn-warning.dropdown-toggle {
   background-color: #f89406;
 }
+/* line 158, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn-danger.dropdown-toggle {
   background-color: #bd362f;
 }
+/* line 161, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn-success.dropdown-toggle {
   background-color: #51a351;
 }
+/* line 164, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn-info.dropdown-toggle {
   background-color: #2f96b4;
 }
+/* line 167, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn-inverse.dropdown-toggle {
   background-color: #222222;
 }
 
+/* line 174, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn .caret {
   margin-top: 8px;
   margin-left: 0;
 }
 
+/* line 181, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-mini .caret,
 .btn-small .caret,
 .btn-large .caret {
   margin-top: 6px;
 }
 
+/* line 184, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-large .caret {
   border-left-width: 5px;
   border-right-width: 5px;
   border-top-width: 5px;
 }
 
+/* line 190, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .dropup .btn-large .caret {
   border-bottom: 5px solid black;
   border-top: 0;
 }
 
+/* line 204, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-primary .caret,
 .btn-warning .caret,
 .btn-danger .caret,
@@ -2967,12 +3462,14 @@ input[type="submit"].btn.btn-mini {
   border-bottom-color: white;
 }
 
+/* line 215, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group-vertical {
   display: inline-block;
   *display: inline;
   *zoom: 1;
 }
 
+/* line 219, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group-vertical .btn {
   display: block;
   float: none;
@@ -2982,35 +3479,41 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0;
 }
 
+/* line 225, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group-vertical .btn + .btn {
   margin-left: 0;
   margin-top: -1px;
 }
 
+/* line 229, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group-vertical .btn:first-child {
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
 }
 
+/* line 232, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group-vertical .btn:last-child {
   -webkit-border-radius: 0 0 4px 4px;
   -moz-border-radius: 0 0 4px 4px;
   border-radius: 0 0 4px 4px;
 }
 
+/* line 235, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group-vertical .btn-large:first-child {
   -webkit-border-radius: 6px 6px 0 0;
   -moz-border-radius: 6px 6px 0 0;
   border-radius: 6px 6px 0 0;
 }
 
+/* line 238, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_button-groups.scss */
 .btn-group-vertical .btn-large:last-child {
   -webkit-border-radius: 0 0 6px 6px;
   -moz-border-radius: 0 0 6px 6px;
   border-radius: 0 0 6px 6px;
 }
 
+/* line 8, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_alerts.scss */
 .alert {
   padding: 8px 35px 8px 14px;
   margin-bottom: 20px;
@@ -3023,10 +3526,12 @@ input[type="submit"].btn.btn-mini {
   color: #c09853;
 }
 
+/* line 17, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_alerts.scss */
 .alert h4 {
   margin: 0;
 }
 
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_alerts.scss */
 .alert .close {
   position: relative;
   top: -2px;
@@ -3034,12 +3539,14 @@ input[type="submit"].btn.btn-mini {
   line-height: 20px;
 }
 
+/* line 32, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_alerts.scss */
 .alert-success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
   color: #468847;
 }
 
+/* line 38, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_alerts.scss */
 .alert-danger,
 .alert-error {
   background-color: #f2dede;
@@ -3047,45 +3554,54 @@ input[type="submit"].btn.btn-mini {
   color: #b94a48;
 }
 
+/* line 43, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_alerts.scss */
 .alert-info {
   background-color: #d9edf7;
   border-color: #bce8f1;
   color: #3a87ad;
 }
 
+/* line 51, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_alerts.scss */
 .alert-block {
   padding-top: 14px;
   padding-bottom: 14px;
 }
 
+/* line 56, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_alerts.scss */
 .alert-block > p,
 .alert-block > ul {
   margin-bottom: 0;
 }
 
+/* line 59, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_alerts.scss */
 .alert-block p + p {
   margin-top: 5px;
 }
 
+/* line 9, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav {
   margin-left: 0;
   margin-bottom: 20px;
   list-style: none;
 }
 
+/* line 16, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav > li > a {
   display: block;
 }
 
+/* line 19, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav > li > a:hover {
   text-decoration: none;
   background-color: #eeeeee;
 }
 
+/* line 25, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav > .pull-right {
   float: right;
 }
 
+/* line 30, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-header {
   display: block;
   padding: 3px 15px;
@@ -3097,16 +3613,19 @@ input[type="submit"].btn.btn-mini {
   text-transform: uppercase;
 }
 
+/* line 41, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav li + .nav-header {
   margin-top: 9px;
 }
 
+/* line 50, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-list {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 0;
 }
 
+/* line 56, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-list > li > a,
 .nav-list .nav-header {
   margin-left: -15px;
@@ -3114,10 +3633,12 @@ input[type="submit"].btn.btn-mini {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
+/* line 61, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-list > li > a {
   padding: 3px 15px;
 }
 
+/* line 65, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-list > .active > a,
 .nav-list > .active > a:hover {
   color: white;
@@ -3125,10 +3646,12 @@ input[type="submit"].btn.btn-mini {
   background-color: #0088cc;
 }
 
+/* line 70, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-list [class^="icon-"] {
   margin-right: 2px;
 }
 
+/* line 74, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-list .divider {
   *width: 100%;
   height: 1px;
@@ -3139,10 +3662,12 @@ input[type="submit"].btn.btn-mini {
   border-bottom: 1px solid white;
 }
 
+/* line 85, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs,
 .nav-pills {
   *zoom: 1;
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .nav-tabs:before, .nav-tabs:after,
 .nav-pills:before,
 .nav-pills:after {
@@ -3150,16 +3675,19 @@ input[type="submit"].btn.btn-mini {
   content: "";
   line-height: 0;
 }
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .nav-tabs:after,
 .nav-pills:after {
   clear: both;
 }
 
+/* line 89, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs > li,
 .nav-pills > li {
   float: left;
 }
 
+/* line 93, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs > li > a,
 .nav-pills > li > a {
   padding-right: 12px;
@@ -3168,14 +3696,17 @@ input[type="submit"].btn.btn-mini {
   line-height: 14px;
 }
 
+/* line 104, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs {
   border-bottom: 1px solid #ddd;
 }
 
+/* line 108, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs > li {
   margin-bottom: -1px;
 }
 
+/* line 112, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs > li > a {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -3185,10 +3716,12 @@ input[type="submit"].btn.btn-mini {
   -moz-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
 }
+/* line 118, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs > li > a:hover {
   border-color: #eeeeee #eeeeee #dddddd;
 }
 
+/* line 124, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover {
   color: #555555;
@@ -3198,6 +3731,7 @@ input[type="submit"].btn.btn-mini {
   cursor: default;
 }
 
+/* line 137, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-pills > li > a {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -3208,24 +3742,29 @@ input[type="submit"].btn.btn-mini {
   border-radius: 5px;
 }
 
+/* line 147, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
   color: white;
   background-color: #0088cc;
 }
 
+/* line 158, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-stacked > li {
   float: none;
 }
 
+/* line 161, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-stacked > li > a {
   margin-right: 0;
 }
 
+/* line 166, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs.nav-stacked {
   border-bottom: 0;
 }
 
+/* line 169, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs.nav-stacked > li > a {
   border: 1px solid #ddd;
   -webkit-border-radius: 0;
@@ -3233,6 +3772,7 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0;
 }
 
+/* line 173, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs.nav-stacked > li:first-child > a {
   -webkit-border-top-right-radius: 4px;
   -moz-border-radius-topright: 4px;
@@ -3242,6 +3782,7 @@ input[type="submit"].btn.btn-mini {
   border-top-left-radius: 4px;
 }
 
+/* line 176, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs.nav-stacked > li:last-child > a {
   -webkit-border-bottom-right-radius: 4px;
   -moz-border-radius-bottomright: 4px;
@@ -3251,61 +3792,73 @@ input[type="submit"].btn.btn-mini {
   border-bottom-left-radius: 4px;
 }
 
+/* line 179, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs.nav-stacked > li > a:hover {
   border-color: #ddd;
   z-index: 2;
 }
 
+/* line 185, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-pills.nav-stacked > li > a {
   margin-bottom: 3px;
 }
 
+/* line 188, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-pills.nav-stacked > li:last-child > a {
   margin-bottom: 1px;
 }
 
+/* line 197, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs .dropdown-menu {
   -webkit-border-radius: 0 0 6px 6px;
   -moz-border-radius: 0 0 6px 6px;
   border-radius: 0 0 6px 6px;
 }
 
+/* line 200, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-pills .dropdown-menu {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
 
+/* line 207, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav .dropdown-toggle .caret {
   border-top-color: #0088cc;
   border-bottom-color: #0088cc;
   margin-top: 6px;
 }
 
+/* line 212, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav .dropdown-toggle:hover .caret {
   border-top-color: #005580;
   border-bottom-color: #005580;
 }
 
 /* move down carets for tabs */
+/* line 217, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs .dropdown-toggle .caret {
   margin-top: 8px;
 }
 
+/* line 223, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav .active .dropdown-toggle .caret {
   border-top-color: #333333;
   border-bottom-color: #333333;
 }
 
+/* line 227, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs .active .dropdown-toggle .caret {
   border-top-color: #555555;
   border-bottom-color: #555555;
 }
 
+/* line 234, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav > .dropdown.active > a:hover {
   cursor: pointer;
 }
 
+/* line 242, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav-tabs .open .dropdown-toggle,
 .nav-pills .open .dropdown-toggle,
 .nav > li.dropdown.open.active > a:hover {
@@ -3314,6 +3867,7 @@ input[type="submit"].btn.btn-mini {
   border-color: #999999;
 }
 
+/* line 249, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav li.dropdown.open .caret,
 .nav li.dropdown.open.active .caret,
 .nav li.dropdown.open a:hover .caret {
@@ -3323,71 +3877,86 @@ input[type="submit"].btn.btn-mini {
   filter: alpha(opacity=100);
 }
 
+/* line 256, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-stacked .open > a:hover {
   border-color: #999999;
 }
 
+/* line 270, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabbable {
   *zoom: 1;
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .tabbable:before, .tabbable:after {
   display: table;
   content: "";
   line-height: 0;
 }
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .tabbable:after {
   clear: both;
 }
 
+/* line 273, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tab-content {
   overflow: auto;
 }
 
+/* line 280, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-below > .nav-tabs,
 .tabs-right > .nav-tabs,
 .tabs-left > .nav-tabs {
   border-bottom: 0;
 }
 
+/* line 286, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tab-content > .tab-pane,
 .pill-content > .pill-pane {
   display: none;
 }
 
+/* line 290, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tab-content > .active,
 .pill-content > .active {
   display: block;
 }
 
+/* line 298, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-below > .nav-tabs {
   border-top: 1px solid #ddd;
 }
 
+/* line 301, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-below > .nav-tabs > li {
   margin-top: -1px;
   margin-bottom: 0;
 }
 
+/* line 305, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-below > .nav-tabs > li > a {
   -webkit-border-radius: 0 0 4px 4px;
   -moz-border-radius: 0 0 4px 4px;
   border-radius: 0 0 4px 4px;
 }
+/* line 307, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-below > .nav-tabs > li > a:hover {
   border-bottom-color: transparent;
   border-top-color: #ddd;
 }
 
+/* line 313, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-below > .nav-tabs > .active > a,
 .tabs-below > .nav-tabs > .active > a:hover {
   border-color: transparent #ddd #ddd #ddd;
 }
 
+/* line 322, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-left > .nav-tabs > li,
 .tabs-right > .nav-tabs > li {
   float: none;
 }
 
+/* line 326, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-left > .nav-tabs > li > a,
 .tabs-right > .nav-tabs > li > a {
   min-width: 74px;
@@ -3395,12 +3964,14 @@ input[type="submit"].btn.btn-mini {
   margin-bottom: 3px;
 }
 
+/* line 333, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-left > .nav-tabs {
   float: left;
   margin-right: 19px;
   border-right: 1px solid #ddd;
 }
 
+/* line 338, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-left > .nav-tabs > li > a {
   margin-right: -1px;
   -webkit-border-radius: 4px 0 0 4px;
@@ -3408,22 +3979,26 @@ input[type="submit"].btn.btn-mini {
   border-radius: 4px 0 0 4px;
 }
 
+/* line 342, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-left > .nav-tabs > li > a:hover {
   border-color: #eeeeee #dddddd #eeeeee #eeeeee;
 }
 
+/* line 346, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-left > .nav-tabs .active > a,
 .tabs-left > .nav-tabs .active > a:hover {
   border-color: #ddd transparent #ddd #ddd;
   *border-right-color: white;
 }
 
+/* line 352, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-right > .nav-tabs {
   float: right;
   margin-left: 19px;
   border-left: 1px solid #ddd;
 }
 
+/* line 357, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-right > .nav-tabs > li > a {
   margin-left: -1px;
   -webkit-border-radius: 0 4px 4px 0;
@@ -3431,26 +4006,31 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0 4px 4px 0;
 }
 
+/* line 361, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-right > .nav-tabs > li > a:hover {
   border-color: #eeeeee #eeeeee #eeeeee #dddddd;
 }
 
+/* line 365, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .tabs-right > .nav-tabs .active > a,
 .tabs-right > .nav-tabs .active > a:hover {
   border-color: #ddd #ddd #ddd transparent;
   *border-left-color: white;
 }
 
+/* line 376, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav > .disabled > a {
   color: #999999;
 }
 
+/* line 380, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navs.scss */
 .nav > .disabled > a:hover {
   text-decoration: none;
   background-color: transparent;
   cursor: default;
 }
 
+/* line 10, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar {
   overflow: visible;
   margin-bottom: 20px;
@@ -3459,6 +4039,7 @@ input[type="submit"].btn.btn-mini {
   *z-index: 2;
 }
 
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inner {
   min-height: 40px;
   padding-left: 20px;
@@ -3480,14 +4061,17 @@ input[type="submit"].btn.btn-mini {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 
+/* line 34, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .container {
   width: auto;
 }
 
+/* line 39, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .nav-collapse.collapse {
   height: auto;
 }
 
+/* line 46, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .brand {
   float: left;
   display: block;
@@ -3498,22 +4082,27 @@ input[type="submit"].btn.btn-mini {
   color: #555555;
   text-shadow: 0 1px 0 white;
 }
+/* line 56, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .brand:hover {
   text-decoration: none;
 }
 
+/* line 63, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-text {
   margin-bottom: 0;
   line-height: 40px;
 }
 
+/* line 70, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-link {
   color: #555555;
 }
+/* line 72, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-link:hover {
   color: #333333;
 }
 
+/* line 79, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .divider-vertical {
   height: 40px;
   margin: 0 9px;
@@ -3521,60 +4110,72 @@ input[type="submit"].btn.btn-mini {
   border-right: 1px solid white;
 }
 
+/* line 89, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .btn,
 .navbar .btn-group {
   margin-top: 6px;
 }
 
+/* line 92, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .btn-group .btn {
   margin: 0;
 }
 
+/* line 97, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-form {
   margin-bottom: 0;
   *zoom: 1;
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .navbar-form:before, .navbar-form:after {
   display: table;
   content: "";
   line-height: 0;
 }
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .navbar-form:after {
   clear: both;
 }
+/* line 103, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-form input,
 .navbar-form select,
 .navbar-form .radio,
 .navbar-form .checkbox {
   margin-top: 5px;
 }
+/* line 108, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-form input,
 .navbar-form select,
 .navbar-form .btn {
   display: inline-block;
   margin-bottom: 0;
 }
+/* line 114, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-form input[type="image"],
 .navbar-form input[type="checkbox"],
 .navbar-form input[type="radio"] {
   margin-top: 3px;
 }
+/* line 118, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-form .input-append,
 .navbar-form .input-prepend {
   margin-top: 6px;
   white-space: nowrap;
 }
+/* line 121, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-form .input-append input,
 .navbar-form .input-prepend input {
   margin-top: 0;
 }
 
+/* line 128, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-search {
   position: relative;
   float: left;
   margin-top: 5px;
   margin-bottom: 0;
 }
+/* line 133, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-search .search-query {
   margin-bottom: 0;
   padding: 4px 14px;
@@ -3587,17 +4188,20 @@ input[type="submit"].btn.btn-mini {
   border-radius: 15px;
 }
 
+/* line 146, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-static-top {
   position: static;
   width: 100%;
   margin-bottom: 0;
 }
+/* line 150, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-static-top .navbar-inner {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 
+/* line 162, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
@@ -3607,12 +4211,14 @@ input[type="submit"].btn.btn-mini {
   margin-bottom: 0;
 }
 
+/* line 172, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-fixed-top .navbar-inner,
 .navbar-fixed-bottom .navbar-inner,
 .navbar-static-top .navbar-inner {
   border: 0;
 }
 
+/* line 177, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-fixed-top .navbar-inner,
 .navbar-fixed-bottom .navbar-inner {
   padding-left: 0;
@@ -3622,16 +4228,19 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0;
 }
 
+/* line 187, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
   width: 940px;
 }
 
+/* line 192, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-fixed-top {
   top: 0;
 }
 
+/* line 197, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-fixed-top .navbar-inner,
 .navbar-static-top .navbar-inner {
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
@@ -3639,15 +4248,18 @@ input[type="submit"].btn.btn-mini {
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* line 203, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-fixed-bottom {
   bottom: 0;
 }
+/* line 205, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-fixed-bottom .navbar-inner {
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* line 215, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .nav {
   position: relative;
   left: 0;
@@ -3656,14 +4268,17 @@ input[type="submit"].btn.btn-mini {
   margin: 0 10px 0 0;
 }
 
+/* line 222, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .nav.pull-right {
   float: right;
 }
 
+/* line 225, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .nav > li {
   float: left;
 }
 
+/* line 230, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .nav > li > a {
   float: none;
   padding: 10px 15px 10px;
@@ -3672,10 +4287,12 @@ input[type="submit"].btn.btn-mini {
   text-shadow: 0 1px 0 white;
 }
 
+/* line 238, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;
 }
 
+/* line 244, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   background-color: transparent;
@@ -3683,6 +4300,7 @@ input[type="submit"].btn.btn-mini {
   text-decoration: none;
 }
 
+/* line 253, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
@@ -3694,6 +4312,7 @@ input[type="submit"].btn.btn-mini {
   box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
 }
 
+/* line 264, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .btn-navbar {
   display: none;
   float: right;
@@ -3719,15 +4338,18 @@ input[type="submit"].btn.btn-mini {
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
 }
+/* line 489, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .navbar .btn-navbar:hover, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
   color: white;
   background-color: #e5e5e5;
   *background-color: #d8d8d8;
 }
+/* line 497, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .navbar .btn-navbar:active, .navbar .btn-navbar.active {
   background-color: #cbcbcb \9;
 }
 
+/* line 273, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .btn-navbar .icon-bar {
   display: block;
   width: 18px;
@@ -3741,10 +4363,12 @@ input[type="submit"].btn.btn-mini {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
 }
 
+/* line 281, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .btn-navbar .icon-bar + .icon-bar {
   margin-top: 3px;
 }
 
+/* line 292, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .nav > li > .dropdown-menu:before {
   content: '';
   display: inline-block;
@@ -3756,6 +4380,7 @@ input[type="submit"].btn.btn-mini {
   top: -7px;
   left: 9px;
 }
+/* line 303, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .nav > li > .dropdown-menu:after {
   content: '';
   display: inline-block;
@@ -3767,6 +4392,7 @@ input[type="submit"].btn.btn-mini {
   left: 10px;
 }
 
+/* line 316, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-fixed-bottom .dropdown-menu:before {
   border-top: 7px solid #ccc;
   border-top-color: rgba(0, 0, 0, 0.2);
@@ -3774,6 +4400,7 @@ input[type="submit"].btn.btn-mini {
   bottom: -7px;
   top: auto;
 }
+/* line 323, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-fixed-bottom .dropdown-menu:after {
   border-top: 6px solid white;
   border-bottom: 0;
@@ -3781,6 +4408,7 @@ input[type="submit"].btn.btn-mini {
   top: auto;
 }
 
+/* line 334, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
@@ -3788,11 +4416,13 @@ input[type="submit"].btn.btn-mini {
   color: #555555;
 }
 
+/* line 338, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
   border-top-color: #555555;
   border-bottom-color: #555555;
 }
 
+/* line 344, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
@@ -3800,21 +4430,25 @@ input[type="submit"].btn.btn-mini {
   border-bottom-color: #555555;
 }
 
+/* line 351, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .pull-right > li > .dropdown-menu,
 .navbar .nav > li > .dropdown-menu.pull-right {
   left: auto;
   right: 0;
 }
+/* line 354, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .pull-right > li > .dropdown-menu:before,
 .navbar .nav > li > .dropdown-menu.pull-right:before {
   left: auto;
   right: 12px;
 }
+/* line 358, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .pull-right > li > .dropdown-menu:after,
 .navbar .nav > li > .dropdown-menu.pull-right:after {
   left: auto;
   right: 13px;
 }
+/* line 362, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar .pull-right > li > .dropdown-menu .dropdown-menu,
 .navbar .nav > li > .dropdown-menu.pull-right .dropdown-menu {
   left: auto;
@@ -3826,9 +4460,11 @@ input[type="submit"].btn.btn-mini {
   border-radius: 6px 0 6px 6px;
 }
 
+/* line 375, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse {
   color: #999999;
 }
+/* line 378, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-inner {
   background-color: #1b1b1b;
   background-image: -moz-linear-gradient(top, #222222, #111111);
@@ -3840,52 +4476,63 @@ input[type="submit"].btn.btn-mini {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1f1f1f', endColorstr='#0e0e0e', GradientType=0);
   border-color: #252525;
 }
+/* line 384, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
   color: #999999;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
+/* line 387, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .brand:hover,
 .navbar-inverse .nav > li > a:hover {
   color: white;
 }
+/* line 393, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
   background-color: transparent;
   color: white;
 }
+/* line 400, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
   color: white;
   background-color: #111111;
 }
+/* line 406, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link {
   color: #999999;
 }
+/* line 408, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link:hover {
   color: white;
 }
+/* line 414, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .divider-vertical {
   border-left-color: #111111;
   border-right-color: #222222;
 }
+/* line 422, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
   background-color: #111111;
   color: white;
 }
+/* line 426, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
   border-top-color: #999999;
   border-bottom-color: #999999;
 }
+/* line 432, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret {
   border-top-color: white;
   border-bottom-color: white;
 }
+/* line 439, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-search .search-query {
   color: white;
   background-color: #515151;
@@ -3898,15 +4545,19 @@ input[type="submit"].btn.btn-mini {
   -o-transition: none;
   transition: none;
 }
+/* line 83, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .navbar-inverse .navbar-search .search-query:-moz-placeholder {
   color: #cccccc;
 }
+/* line 86, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .navbar-inverse .navbar-search .search-query:-ms-input-placeholder {
   color: #cccccc;
 }
+/* line 89, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .navbar-inverse .navbar-search .search-query::-webkit-input-placeholder {
   color: #cccccc;
 }
+/* line 449, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-search .search-query:focus, .navbar-inverse .navbar-search .search-query.focused {
   padding: 5px 15px;
   color: #333333;
@@ -3918,6 +4569,7 @@ input[type="submit"].btn.btn-mini {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   outline: 0;
 }
+/* line 462, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-navbar {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -3935,15 +4587,18 @@ input[type="submit"].btn.btn-mini {
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
+/* line 489, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .navbar-inverse .btn-navbar:hover, .navbar-inverse .btn-navbar:active, .navbar-inverse .btn-navbar.active, .navbar-inverse .btn-navbar.disabled, .navbar-inverse .btn-navbar[disabled] {
   color: white;
   background-color: #040404;
   *background-color: black;
 }
+/* line 497, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .navbar-inverse .btn-navbar:active, .navbar-inverse .btn-navbar.active {
   background-color: black \9;
 }
 
+/* line 5, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_breadcrumbs.scss */
 .breadcrumb {
   padding: 8px 15px;
   margin: 0 0 20px;
@@ -3956,25 +4611,30 @@ input[type="submit"].btn.btn-mini {
   -moz-box-shadow: inset 0 1px 0 white;
   box-shadow: inset 0 1px 0 white;
 }
+/* line 12, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_breadcrumbs.scss */
 .breadcrumb li {
   display: inline-block;
   *display: inline;
   *zoom: 1;
   text-shadow: 0 1px 0 white;
 }
+/* line 17, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_breadcrumbs.scss */
 .breadcrumb .divider {
   padding: 0 5px;
   color: #ccc;
 }
+/* line 21, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_breadcrumbs.scss */
 .breadcrumb .active a {
   color: #999999;
 }
 
+/* line 6, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pagination.scss */
 .pagination {
   height: 40px;
   margin: 20px 0;
 }
 
+/* line 10, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pagination.scss */
 .pagination ul {
   display: inline-block;
   *display: inline;
@@ -3989,10 +4649,12 @@ input[type="submit"].btn.btn-mini {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
+/* line 18, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pagination.scss */
 .pagination li {
   display: inline;
 }
 
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pagination.scss */
 .pagination a,
 .pagination span {
   float: left;
@@ -4004,18 +4666,21 @@ input[type="submit"].btn.btn-mini {
   border-left-width: 0;
 }
 
+/* line 33, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pagination.scss */
 .pagination a:hover,
 .pagination .active a,
 .pagination .active span {
   background-color: #f5f5f5;
 }
 
+/* line 37, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pagination.scss */
 .pagination .active a,
 .pagination .active span {
   color: #999999;
   cursor: default;
 }
 
+/* line 43, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pagination.scss */
 .pagination .disabled span,
 .pagination .disabled a,
 .pagination .disabled a:hover {
@@ -4024,6 +4689,7 @@ input[type="submit"].btn.btn-mini {
   cursor: default;
 }
 
+/* line 49, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pagination.scss */
 .pagination li:first-child a,
 .pagination li:first-child span {
   border-left-width: 1px;
@@ -4032,6 +4698,7 @@ input[type="submit"].btn.btn-mini {
   border-radius: 3px 0 0 3px;
 }
 
+/* line 54, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pagination.scss */
 .pagination li:last-child a,
 .pagination li:last-child span {
   -webkit-border-radius: 0 3px 3px 0;
@@ -4039,33 +4706,40 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0 3px 3px 0;
 }
 
+/* line 59, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pagination.scss */
 .pagination-centered {
   text-align: center;
 }
 
+/* line 62, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pagination.scss */
 .pagination-right {
   text-align: right;
 }
 
+/* line 6, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pager.scss */
 .pager {
   margin: 20px 0;
   list-style: none;
   text-align: center;
   *zoom: 1;
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .pager:before, .pager:after {
   display: table;
   content: "";
   line-height: 0;
 }
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .pager:after {
   clear: both;
 }
 
+/* line 12, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pager.scss */
 .pager li {
   display: inline;
 }
 
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pager.scss */
 .pager a {
   display: inline-block;
   padding: 5px 14px;
@@ -4076,19 +4750,23 @@ input[type="submit"].btn.btn-mini {
   border-radius: 15px;
 }
 
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pager.scss */
 .pager a:hover {
   text-decoration: none;
   background-color: #f5f5f5;
 }
 
+/* line 26, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pager.scss */
 .pager .next a {
   float: right;
 }
 
+/* line 29, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pager.scss */
 .pager .previous a {
   float: left;
 }
 
+/* line 33, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_pager.scss */
 .pager .disabled a,
 .pager .disabled a:hover {
   color: #999999;
@@ -4096,19 +4774,24 @@ input[type="submit"].btn.btn-mini {
   cursor: default;
 }
 
+/* line 8, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-open .dropdown-menu {
   z-index: 2050;
 }
+/* line 9, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-open .dropdown.open {
   *z-index: 2050;
 }
+/* line 10, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-open .popover {
   z-index: 2060;
 }
+/* line 11, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-open .tooltip {
   z-index: 2080;
 }
 
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -4118,16 +4801,19 @@ input[type="submit"].btn.btn-mini {
   z-index: 1040;
   background-color: black;
 }
+/* line 24, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-backdrop.fade {
   opacity: 0;
 }
 
+/* line 28, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-backdrop,
 .modal-backdrop.fade.in {
   opacity: 0.8;
   filter: alpha(opacity=80);
 }
 
+/* line 33, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal {
   position: fixed;
   top: 50%;
@@ -4151,6 +4837,7 @@ input[type="submit"].btn.btn-mini {
   -moz-background-clip: padding-box;
   background-clip: padding-box;
 }
+/* line 48, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal.fade {
   -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
   -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
@@ -4158,32 +4845,39 @@ input[type="submit"].btn.btn-mini {
   transition: opacity 0.3s linear, top 0.3s ease-out;
   top: -25%;
 }
+/* line 52, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal.fade.in {
   top: 50%;
 }
 
+/* line 54, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-header {
   padding: 9px 15px;
   border-bottom: 1px solid #eee;
 }
+/* line 58, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-header .close {
   margin-top: 2px;
 }
+/* line 60, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-header h3 {
   margin: 0;
   line-height: 30px;
 }
 
+/* line 67, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-body {
   overflow-y: auto;
   max-height: 400px;
   padding: 15px;
 }
 
+/* line 73, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-form {
   margin-bottom: 0;
 }
 
+/* line 78, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-footer {
   padding: 14px 15px 15px;
   margin-bottom: 0;
@@ -4198,22 +4892,27 @@ input[type="submit"].btn.btn-mini {
   box-shadow: inset 0 1px 0 white;
   *zoom: 1;
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .modal-footer:before, .modal-footer:after {
   display: table;
   content: "";
   line-height: 0;
 }
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .modal-footer:after {
   clear: both;
 }
+/* line 89, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-footer .btn + .btn {
   margin-left: 5px;
   margin-bottom: 0;
 }
+/* line 94, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_modals.scss */
 .modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
 
+/* line 7, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tooltip.scss */
 .tooltip {
   position: absolute;
   z-index: 1030;
@@ -4224,23 +4923,29 @@ input[type="submit"].btn.btn-mini {
   opacity: 0;
   filter: alpha(opacity=0);
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tooltip.scss */
 .tooltip.in {
   opacity: 0.8;
   filter: alpha(opacity=80);
 }
+/* line 16, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tooltip.scss */
 .tooltip.top {
   margin-top: -3px;
 }
+/* line 17, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tooltip.scss */
 .tooltip.right {
   margin-left: 3px;
 }
+/* line 18, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tooltip.scss */
 .tooltip.bottom {
   margin-top: 3px;
 }
+/* line 19, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tooltip.scss */
 .tooltip.left {
   margin-left: -3px;
 }
 
+/* line 23, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tooltip.scss */
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
@@ -4253,6 +4958,7 @@ input[type="submit"].btn.btn-mini {
   border-radius: 4px;
 }
 
+/* line 34, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tooltip.scss */
 .tooltip-arrow {
   position: absolute;
   width: 0;
@@ -4261,6 +4967,7 @@ input[type="submit"].btn.btn-mini {
   border-style: solid;
 }
 
+/* line 42, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tooltip.scss */
 .tooltip.top .tooltip-arrow {
   bottom: 0;
   left: 50%;
@@ -4268,6 +4975,7 @@ input[type="submit"].btn.btn-mini {
   border-width: 5px 5px 0;
   border-top-color: black;
 }
+/* line 49, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tooltip.scss */
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
@@ -4275,6 +4983,7 @@ input[type="submit"].btn.btn-mini {
   border-width: 5px 5px 5px 0;
   border-right-color: black;
 }
+/* line 56, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tooltip.scss */
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
@@ -4282,6 +4991,7 @@ input[type="submit"].btn.btn-mini {
   border-width: 5px 0 5px 5px;
   border-left-color: black;
 }
+/* line 63, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_tooltip.scss */
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
@@ -4290,6 +5000,7 @@ input[type="submit"].btn.btn-mini {
   border-bottom-color: black;
 }
 
+/* line 6, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover {
   position: absolute;
   top: 0;
@@ -4311,19 +5022,24 @@ input[type="submit"].btn.btn-mini {
   -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
+/* line 24, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover.top {
   margin-bottom: 10px;
 }
+/* line 25, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover.right {
   margin-left: 10px;
 }
+/* line 26, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover.bottom {
   margin-top: 10px;
 }
+/* line 27, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover.left {
   margin-right: 10px;
 }
 
+/* line 31, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover-title {
   margin: 0;
   padding: 8px 14px;
@@ -4337,13 +5053,16 @@ input[type="submit"].btn.btn-mini {
   border-radius: 5px 5px 0 0;
 }
 
+/* line 42, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover-content {
   padding: 9px 14px;
 }
+/* line 44, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover-content p, .popover-content ul, .popover-content ol {
   margin-bottom: 0;
 }
 
+/* line 51, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover .arrow,
 .popover .arrow:after {
   position: absolute;
@@ -4354,11 +5073,13 @@ input[type="submit"].btn.btn-mini {
   border-style: solid;
 }
 
+/* line 59, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover .arrow:after {
   content: "";
   z-index: -1;
 }
 
+/* line 65, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover.top .arrow {
   bottom: -10px;
   left: 50%;
@@ -4366,12 +5087,14 @@ input[type="submit"].btn.btn-mini {
   border-width: 10px 10px 0;
   border-top-color: white;
 }
+/* line 71, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover.top .arrow:after {
   border-width: 11px 11px 0;
   border-top-color: rgba(0, 0, 0, 0.25);
   bottom: -1px;
   left: -11px;
 }
+/* line 78, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover.right .arrow {
   top: 50%;
   left: -10px;
@@ -4379,12 +5102,14 @@ input[type="submit"].btn.btn-mini {
   border-width: 10px 10px 10px 0;
   border-right-color: white;
 }
+/* line 84, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover.right .arrow:after {
   border-width: 11px 11px 11px 0;
   border-right-color: rgba(0, 0, 0, 0.25);
   bottom: -11px;
   left: -1px;
 }
+/* line 91, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover.bottom .arrow {
   top: -10px;
   left: 50%;
@@ -4392,12 +5117,14 @@ input[type="submit"].btn.btn-mini {
   border-width: 0 10px 10px;
   border-bottom-color: white;
 }
+/* line 97, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover.bottom .arrow:after {
   border-width: 0 11px 11px;
   border-bottom-color: rgba(0, 0, 0, 0.25);
   top: -1px;
   left: -11px;
 }
+/* line 104, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover.left .arrow {
   top: 50%;
   right: -10px;
@@ -4405,6 +5132,7 @@ input[type="submit"].btn.btn-mini {
   border-width: 10px 0 10px 10px;
   border-left-color: white;
 }
+/* line 110, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_popovers.scss */
 .popover.left .arrow:after {
   border-width: 11px 0 11px 11px;
   border-left-color: rgba(0, 0, 0, 0.25);
@@ -4412,30 +5140,36 @@ input[type="submit"].btn.btn-mini {
   right: -1px;
 }
 
+/* line 9, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_thumbnails.scss */
 .thumbnails {
   margin-left: -20px;
   list-style: none;
   *zoom: 1;
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .thumbnails:before, .thumbnails:after {
   display: table;
   content: "";
   line-height: 0;
 }
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .thumbnails:after {
   clear: both;
 }
 
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_thumbnails.scss */
 .row-fluid .thumbnails {
   margin-left: 0;
 }
 
+/* line 20, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_thumbnails.scss */
 .thumbnails > li {
   float: left;
   margin-bottom: 20px;
   margin-left: 20px;
 }
 
+/* line 27, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_thumbnails.scss */
 .thumbnail {
   display: block;
   padding: 4px;
@@ -4453,6 +5187,7 @@ input[type="submit"].btn.btn-mini {
   transition: all 0.2s ease-in-out;
 }
 
+/* line 37, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_thumbnails.scss */
 a.thumbnail:hover {
   border-color: #0088cc;
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
@@ -4460,6 +5195,7 @@ a.thumbnail:hover {
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 }
 
+/* line 43, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_thumbnails.scss */
 .thumbnail > img {
   display: block;
   max-width: 100%;
@@ -4467,11 +5203,13 @@ a.thumbnail:hover {
   margin-right: auto;
 }
 
+/* line 49, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_thumbnails.scss */
 .thumbnail .caption {
   padding: 9px;
   color: #555555;
 }
 
+/* line 8, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .label,
 .badge {
   font-size: 11.844px;
@@ -4484,6 +5222,7 @@ a.thumbnail:hover {
   background-color: #999999;
 }
 
+/* line 19, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .label {
   padding: 1px 4px 2px;
   -webkit-border-radius: 3px;
@@ -4491,6 +5230,7 @@ a.thumbnail:hover {
   border-radius: 3px;
 }
 
+/* line 23, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .badge {
   padding: 1px 9px 2px;
   -webkit-border-radius: 9px;
@@ -4498,113 +5238,137 @@ a.thumbnail:hover {
   border-radius: 9px;
 }
 
+/* line 31, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 a.label:hover, a.badge:hover {
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
+/* line 41, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .label-important, .badge-important {
   background-color: #b94a48;
 }
 
+/* line 42, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .label-important[href], .badge-important[href] {
   background-color: #953b39;
 }
 
+/* line 44, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .label-warning, .badge-warning {
   background-color: #f89406;
 }
 
+/* line 45, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .label-warning[href], .badge-warning[href] {
   background-color: #c67605;
 }
 
+/* line 47, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .label-success, .badge-success {
   background-color: #468847;
 }
 
+/* line 48, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .label-success[href], .badge-success[href] {
   background-color: #356635;
 }
 
+/* line 50, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .label-info, .badge-info {
   background-color: #3a87ad;
 }
 
+/* line 51, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .label-info[href], .badge-info[href] {
   background-color: #2d6987;
 }
 
+/* line 53, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .label-inverse, .badge-inverse {
   background-color: #333333;
 }
 
+/* line 54, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .label-inverse[href], .badge-inverse[href] {
   background-color: #1a1a1a;
 }
 
+/* line 59, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .btn .label,
 .btn .badge {
   position: relative;
   top: -1px;
 }
 
+/* line 66, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_labels-badges.scss */
 .btn-mini .label,
 .btn-mini .badge {
   top: 0;
 }
 
 @-webkit-keyframes progress-bar-stripes {
+  /* line 11, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
   from {
     background-position: 40px 0;
   }
 
+  /* line 12, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
   to {
     background-position: 0 0;
   }
 }
 
 @-moz-keyframes progress-bar-stripes {
+  /* line 17, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
   from {
     background-position: 40px 0;
   }
 
+  /* line 18, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
   to {
     background-position: 0 0;
   }
 }
 
 @-ms-keyframes progress-bar-stripes {
+  /* line 23, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
   from {
     background-position: 40px 0;
   }
 
+  /* line 24, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
   to {
     background-position: 0 0;
   }
 }
 
 @-o-keyframes progress-bar-stripes {
+  /* line 29, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
   from {
     background-position: 0 0;
   }
 
+  /* line 30, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
   to {
     background-position: 40px 0;
   }
 }
 
 @keyframes progress-bar-stripes {
+  /* line 35, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
   from {
     background-position: 40px 0;
   }
 
+  /* line 36, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
   to {
     background-position: 0 0;
   }
 }
 
+/* line 45, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress {
   overflow: hidden;
   height: 20px;
@@ -4625,6 +5389,7 @@ a.label:hover, a.badge:hover {
   border-radius: 4px;
 }
 
+/* line 55, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress .bar {
   width: 0%;
   height: 100%;
@@ -4653,12 +5418,14 @@ a.label:hover, a.badge:hover {
   transition: width 0.6s ease;
 }
 
+/* line 68, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress .bar + .bar {
   -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
 }
 
+/* line 73, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress-striped .bar {
   background-color: #149bdf;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4672,6 +5439,7 @@ a.label:hover, a.badge:hover {
   background-size: 40px 40px;
 }
 
+/* line 79, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress.active .bar {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
   -moz-animation: progress-bar-stripes 2s linear infinite;
@@ -4680,6 +5448,7 @@ a.label:hover, a.badge:hover {
   animation: progress-bar-stripes 2s linear infinite;
 }
 
+/* line 93, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress-danger .bar, .progress .bar-danger {
   background-color: #de514c;
   background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
@@ -4691,6 +5460,7 @@ a.label:hover, a.badge:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee5a56', endColorstr='#c03b34', GradientType=0);
 }
 
+/* line 96, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress-danger.progress-striped .bar, .progress-striped .bar-danger {
   background-color: #ee5f5b;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4700,6 +5470,7 @@ a.label:hover, a.badge:hover {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
+/* line 101, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress-success .bar, .progress .bar-success {
   background-color: #5db95d;
   background-image: -moz-linear-gradient(top, #62c462, #57a957);
@@ -4711,6 +5482,7 @@ a.label:hover, a.badge:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5ec35e', endColorstr='#55a655', GradientType=0);
 }
 
+/* line 104, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress-success.progress-striped .bar, .progress-striped .bar-success {
   background-color: #62c462;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4720,6 +5492,7 @@ a.label:hover, a.badge:hover {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
+/* line 109, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress-info .bar, .progress .bar-info {
   background-color: #4cb2d0;
   background-image: -moz-linear-gradient(top, #5bc0de, #339bb9);
@@ -4731,6 +5504,7 @@ a.label:hover, a.badge:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#57bedd', endColorstr='#3298b5', GradientType=0);
 }
 
+/* line 112, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress-info.progress-striped .bar, .progress-striped .bar-info {
   background-color: #5bc0de;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4740,6 +5514,7 @@ a.label:hover, a.badge:hover {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
+/* line 117, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress-warning .bar, .progress .bar-warning {
   background-color: #f9a834;
   background-image: -moz-linear-gradient(top, #fbb450, #f89406);
@@ -4751,6 +5526,7 @@ a.label:hover, a.badge:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbb24b', endColorstr='#f39106', GradientType=0);
 }
 
+/* line 120, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_progress-bars.scss */
 .progress-warning.progress-striped .bar, .progress-striped .bar-warning {
   background-color: #fbb450;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4760,10 +5536,12 @@ a.label:hover, a.badge:hover {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
+/* line 7, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_accordion.scss */
 .accordion {
   margin-bottom: 20px;
 }
 
+/* line 12, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_accordion.scss */
 .accordion-group {
   margin-bottom: 2px;
   border: 1px solid #e5e5e5;
@@ -4772,36 +5550,43 @@ a.label:hover, a.badge:hover {
   border-radius: 4px;
 }
 
+/* line 17, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_accordion.scss */
 .accordion-heading {
   border-bottom: 0;
 }
 
+/* line 20, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_accordion.scss */
 .accordion-heading .accordion-toggle {
   display: block;
   padding: 8px 15px;
 }
 
+/* line 26, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_accordion.scss */
 .accordion-toggle {
   cursor: pointer;
 }
 
+/* line 31, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_accordion.scss */
 .accordion-inner {
   padding: 9px 15px;
   border-top: 1px solid #e5e5e5;
 }
 
+/* line 6, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel {
   position: relative;
   margin-bottom: 20px;
   line-height: 1;
 }
 
+/* line 12, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel-inner {
   overflow: hidden;
   width: 100%;
   position: relative;
 }
 
+/* line 20, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel .item {
   display: none;
   position: relative;
@@ -4810,41 +5595,51 @@ a.label:hover, a.badge:hover {
   -o-transition: 0.6s ease-in-out left;
   transition: 0.6s ease-in-out left;
 }
+/* line 27, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel .item > img {
   display: block;
   line-height: 1;
 }
+/* line 34, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel .active,
 .carousel .next,
 .carousel .prev {
   display: block;
 }
+/* line 36, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel .active {
   left: 0;
 }
+/* line 41, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel .next,
 .carousel .prev {
   position: absolute;
   top: 0;
   width: 100%;
 }
+/* line 47, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel .next {
   left: 100%;
 }
+/* line 50, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel .prev {
   left: -100%;
 }
+/* line 54, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel .next.left,
 .carousel .prev.right {
   left: 0;
 }
+/* line 58, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel .active.left {
   left: -100%;
 }
+/* line 61, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel .active.right {
   left: 100%;
 }
 
+/* line 70, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel-control {
   position: absolute;
   top: 40%;
@@ -4865,10 +5660,12 @@ a.label:hover, a.badge:hover {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
+/* line 95, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel-control.right {
   left: auto;
   right: 15px;
 }
+/* line 101, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel-control:hover {
   color: white;
   text-decoration: none;
@@ -4876,6 +5673,7 @@ a.label:hover, a.badge:hover {
   filter: alpha(opacity=90);
 }
 
+/* line 112, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel-caption {
   position: absolute;
   left: 0;
@@ -4886,20 +5684,24 @@ a.label:hover, a.badge:hover {
   background: rgba(0, 0, 0, 0.75);
 }
 
+/* line 122, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel-caption h4,
 .carousel-caption p {
   color: white;
   line-height: 20px;
 }
 
+/* line 126, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel-caption h4 {
   margin: 0 0 5px;
 }
 
+/* line 129, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_carousel.scss */
 .carousel-caption p {
   margin-bottom: 0;
 }
 
+/* line 6, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_hero-unit.scss */
 .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
@@ -4908,6 +5710,7 @@ a.label:hover, a.badge:hover {
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
+/* line 11, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_hero-unit.scss */
 .hero-unit h1 {
   margin-bottom: 0;
   font-size: 60px;
@@ -4915,6 +5718,7 @@ a.label:hover, a.badge:hover {
   color: inherit;
   letter-spacing: -1px;
 }
+/* line 18, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_hero-unit.scss */
 .hero-unit p {
   font-size: 18px;
   font-weight: 200;
@@ -4922,42 +5726,52 @@ a.label:hover, a.badge:hover {
   color: inherit;
 }
 
+/* line 7, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_utilities.scss */
 .pull-right {
   float: right;
 }
 
+/* line 10, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_utilities.scss */
 .pull-left {
   float: left;
 }
 
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_utilities.scss */
 .hide {
   display: none;
 }
 
+/* line 18, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_utilities.scss */
 .show {
   display: block;
 }
 
+/* line 23, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_utilities.scss */
 .invisible {
   visibility: hidden;
 }
 
+/* line 28, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_utilities.scss */
 .affix {
   position: fixed;
 }
 
+/* line 33, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_utilities.scss */
 .clearfix, .section {
   *zoom: 1;
 }
+/* line 15, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .clearfix:before, .section:before, .clearfix:after, .section:after {
   display: table;
   content: "";
   line-height: 0;
 }
+/* line 22, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_mixins.scss */
 .clearfix:after, .section:after {
   clear: both;
 }
 
+/* line 38, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_utilities.scss */
 .hide-text {
   font: 0/0 a;
   color: transparent;
@@ -4966,6 +5780,7 @@ a.label:hover, a.badge:hover {
   border: 0;
 }
 
+/* line 43, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/bootstrap/_utilities.scss */
 .input-block-level {
   display: block;
   width: 100%;
@@ -4977,24 +5792,33 @@ a.label:hover, a.badge:hover {
 
 /* Semantic
 ------------------------------*/
+/* line 23, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/semantic/_grid.scss */
 html body {
   min-height: 100%;
 }
 
+/* line 50, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/semantic/_grid.scss */
 body {
   width: 100%;
   *zoom: 1;
 }
+/* line 36, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/semantic/_grid.scss */
 body:before, body:after {
   content: "";
   display: table;
 }
+/* line 40, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/semantic/_grid.scss */
 body:after {
   clear: both;
 }
 
 /* Core
 ------------------------------*/
+/* Clearfix
+-------------------------------------------*/
+/*Global classes/style that's use sitewide Example:
+-------------------------------------------*/
+/* line 20, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_globals.scss */
 .wrapper {
   margin: 0 auto;
   max-width: 960px;
@@ -5002,6 +5826,7 @@ body:after {
   min-height: 0;
 }
 
+/* line 26, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_globals.scss */
 .clear {
   clear: both;
   height: 0;
@@ -5011,15 +5836,18 @@ body:after {
   width: 100% !important;
 }
 
+/* line 35, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_globals.scss */
 .section {
   width: 100%;
   background-color: grey;
 }
 
+/* line 10, C:/Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%;
 }
 
+/* line 12, C:/Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #root {
   clear: both;
   min-height: 100%;
@@ -5027,115 +5855,132 @@ html, body {
   height: 100%;
   margin-bottom: -54px;
 }
+/* line 18, C:/Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #root #root_footer {
   height: 54px;
 }
 
+/* line 20, C:/Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
   height: 54px;
 }
 
+/* line 58, my-icons/*.png */
 .my-icons-sprite, .my-icons-spr-contact {
   background: url('/images/my-icons-s551ead5557.png') no-repeat;
 }
 
+/* line 60, C:/Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .my-icons-spr-contact {
   background-position: 0 -30px;
 }
+/* line 43, C:/Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .my-icons-spr-contact:hover, .my-icons-spr-contact.spr-contact_hover, .my-icons-spr-contact.spr-contact-hover {
   background-position: 0 -15px;
 }
+/* line 43, C:/Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .my-icons-spr-contact:active, .my-icons-spr-contact.spr-contact_active, .my-icons-spr-contact.spr-contact-active {
   background-position: 0 0;
 }
 
+/* line 3, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_example-grid.scss */
 .g12 {
   display: inline;
   float: left;
-  width: 97.9166666666667%;
-  margin: 0 1.04166666666667%;
+  width: 97.91667%;
+  margin: 0 1.04167%;
   background-color: cyan;
 }
 
+/* line 10, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_example-grid.scss */
 .g11 {
   display: inline;
   float: left;
-  width: 89.5833333333333%;
-  margin: 0 1.04166666666667%;
+  width: 89.58333%;
+  margin: 0 1.04167%;
   background-color: blue;
 }
 
+/* line 17, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_example-grid.scss */
 .g10 {
   display: inline;
   float: left;
   width: 81.25%;
-  margin: 0 1.04166666666667%;
+  margin: 0 1.04167%;
   background-color: orange;
 }
 
+/* line 24, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_example-grid.scss */
 .g9 {
   display: inline;
   float: left;
-  width: 72.9166666666667%;
-  margin: 0 1.04166666666667%;
+  width: 72.91667%;
+  margin: 0 1.04167%;
   background-color: purple;
 }
 
+/* line 31, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_example-grid.scss */
 .g8 {
   display: inline;
   float: left;
-  width: 64.5833333333333%;
-  margin: 0 1.04166666666667%;
+  width: 64.58333%;
+  margin: 0 1.04167%;
   background-color: green;
 }
 
+/* line 38, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_example-grid.scss */
 .g7 {
   display: inline;
   float: left;
   width: 56.25%;
-  margin: 0 1.04166666666667%;
+  margin: 0 1.04167%;
   background-color: black;
 }
 
+/* line 45, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_example-grid.scss */
 .g6 {
   display: inline;
   float: left;
-  width: 47.9166666666667%;
-  margin: 0 1.04166666666667%;
+  width: 47.91667%;
+  margin: 0 1.04167%;
   background-color: gold;
 }
 
+/* line 52, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_example-grid.scss */
 .g5 {
   display: inline;
   float: left;
-  width: 39.5833333333333%;
-  margin: 0 1.04166666666667%;
+  width: 39.58333%;
+  margin: 0 1.04167%;
   background-color: pink;
 }
 
+/* line 59, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_example-grid.scss */
 .g4 {
   display: inline;
   float: left;
   width: 31.25%;
-  margin: 0 1.04166666666667%;
+  margin: 0 1.04167%;
   background-color: brown;
 }
 
+/* line 65, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_example-grid.scss */
 .g3 {
   display: inline;
   float: left;
-  width: 22.9166666666667%;
-  margin: 0 1.04166666666667%;
+  width: 22.91667%;
+  margin: 0 1.04167%;
   background-color: silver;
 }
 
+/* line 72, C:/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_example-grid.scss */
 .g2 {
   display: inline;
   float: left;
-  width: 14.5833333333333%;
-  margin: 0 1.04166666666667%;
+  width: 14.58333%;
+  margin: 0 1.04167%;
   background-color: red;
 }
 
