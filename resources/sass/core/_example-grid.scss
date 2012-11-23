@@ -1,21 +1,4 @@
-// IS USED IN THE CLEARGRID EXAMPLE
-
-.clear {
-	clear: both;
-	height: 0;
-	font-size: 0;
-	line-height: 0;
-	overflow: hidden;
-	width: 100% !important;
-}
-
-.section{
-	width: 100%;
-	@extend .clearfix;
-	@if $grid-color{
-		background-color: grey;
-	}
-}
+// EXAMPLE
 
 .g12{
 	@include column(12);

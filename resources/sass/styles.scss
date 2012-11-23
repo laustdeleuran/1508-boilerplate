@@ -1,7 +1,7 @@
 /* Compass variables
 ------------------------------*/
 $legacy-support-for-ie6: 		false; //IE6 + 7
-$legacy-support-for-ie7: 		false;
+$legacy-support-for-ie7: 		true;
 $legacy-support-for-ie8: 		true; //IE 8
 $legacy-support-for-mozilla: 	false; //Mozilla 3.6 and below
 $experimental-support-for-svg: 	true; //IE9 is using this for gradients
