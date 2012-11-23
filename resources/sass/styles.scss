@@ -24,6 +24,7 @@ $experimental-support-for-pie: 	false; //PIE framework
 ------------------------------*/
 $bootstrap-grid: false; //Set to true to enable bootstraps grid. Remember to remove other grid frameworks.
 @import "bootstrap";
+/* @import "compass/reset"; */ 	//Import if bootstrap is not used
 
 
 /* Semantic
