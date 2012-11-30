@@ -1,0 +1,52 @@
+// Your font is under resources/fonts
+@font-face {
+	font-family: 'bane-icon';
+	src:url('../fonts/bane-icon.eot');
+	src:url('../fonts/bane-icon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bane-icon.svg#bane-icon') format('svg'),
+		url('../fonts/bane-icon.woff') format('woff'),
+		url('../fonts/bane-icon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+//General for all icon fonts
+%icon{
+	font-family: 'bane-icon';
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+//THE REST IS EXAMPLE CODE
+// Example of arrow font which is white
+
+
+%arrow-[*]{
+	@extend %icon;
+	content: "\41";
+}
+
+%arrow-white{	
+	color: #fff;	
+}
+// Example of arrow font which is orange
+%arrow-orange{
+	color: orange;	
+}
+
+
+// Example of call to arrow font white
+.topNav:before {
+	@extend %arrow-white;
+	font-size: 200px;
+}
+
+// Example of call to arrow font orange
+.topNav:before {
+	@extend %arrow-orange;
+	font-size: 200px;
+}
