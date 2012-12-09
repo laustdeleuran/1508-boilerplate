@@ -3,7 +3,7 @@
 	//Document ready
 	$(function(){ 
 		$('.section').addClearfix({
-
+			//Send options if needed.
 		});
 	});
 
