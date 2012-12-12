@@ -1,31 +1,20 @@
-// Courtesy of HKJ
 (function($){
 
 	$.fn.addClearfix = function(options) {
-		var defaults, settings, $injectElm, clearCss, navigatorVersion, ie7;
+		var defaults, settings, $injectElm, ie7;
 
-		navigatorVersion = navigator.appVersion.indexOf("MSIE 7.");
+		//ie7 support false or true
+		ie7 = (-1 < navigator.appVersion.indexOf("MSIE 7."));
 
 		defaults = {
 			maxWidth: 100,
 			attr: 'data-spot-width',
 			injectElm: '<div class="clear">&nbsp;</div>',
-			clearCss: 'left'
+			clearWhat: 'left'
 		};
 
 		settings = $.extend(defaults, options);
-
 		$injectElm = $(settings.injectElm);
-
-		clearCss = settings.clearCss;
-
-		//ie7 support false or true
-
-		if(navigatorVersion != -1){
-			ie7 = true;
-		}else{
-			ie7 = false;
-		}
 
 		//container each
 		this.each(function(){
@@ -39,10 +28,10 @@
 
 				if ((i+w) > settings.maxWidth) {
 
-					if(ie7 === true){
+					if (ie7 === true){
 						$injectElm.clone().insertBefore($this);
-					}else{
-						$this.css('clear', clearCss);
+					} else {
+						$this.css('clear', settings.clearWhat);
 					}
 
 					i=w;
