@@ -7,7 +7,7 @@
 		ie7 = (-1 < navigator.appVersion.indexOf("MSIE 7."));
 
 		defaults = {
-			attr: 'data-spot-width',
+			elmSelector: '[data-spot-width]',
 			injectElm: '<div class="clear">&nbsp;</div>',
 			clearWhat: 'left'
 		};
@@ -19,7 +19,7 @@
 		this.each(function(){
 			var $section, $spots, sectionWidth = 0, i = 0;
 			$section = $(this);
-			$spots = $section.find('['+settings.attr+']');
+			$spots = $section.children(settings.elmSelector);
 			sectionWidth = $section.width();
 
 			$spots.each(function() {
