@@ -7,7 +7,6 @@
 		ie7 = (-1 < navigator.appVersion.indexOf("MSIE 7."));
 
 		defaults = {
-			maxWidth: 100,
 			attr: 'data-spot-width',
 			injectElm: '<div class="clear">&nbsp;</div>',
 			clearWhat: 'left'
@@ -18,15 +17,17 @@
 
 		//container each
 		this.each(function(){
-			var $spots, i = 0;
-			$spots = $(this).find('['+settings.attr+']');
+			var $section, $spots, sectionWidth = 0, i = 0;
+			$section = $(this);
+			$spots = $section.find('['+settings.attr+']');
+			sectionWidth = $section.width();
 
 			$spots.each(function() {
 				var $this, w;
 				$this = $(this);
-				w = parseInt(($this.attr(settings.attr) || 0), 10);
+				w = $this.width();
 
-				if ((i+w) > settings.maxWidth) {
+				if ((i+w) > sectionWidth) {
 
 					if (ie7 === true){
 						$injectElm.clone().insertBefore($this);
