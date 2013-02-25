@@ -23,12 +23,13 @@ $experimental-support-for-pie: 	false; //PIE framework
 /* Bootstrap
 ------------------------------*/
 $bootstrap-grid: false; //Set to true to enable bootstraps grid. Remember to remove other grid frameworks.
-@import "bootstrap";
-/* @import "compass/reset"; */ 	//Import if bootstrap is not used
+// @import "bootstrap";
+@import "compass/reset"; 	//Import if bootstrap is used
 
 
 /* Semantic
 ------------------------------*/
+$wrapper-max-width: 1020px;
 $column-width: 	60px;
 $gutter-width: 	20px;
 $columns: 		12;

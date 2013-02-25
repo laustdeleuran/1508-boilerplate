@@ -1,0 +1,9 @@
+//Add empty module here
+section{
+	@extend .wrapper;
+	& > div {
+		@include column(12);
+	}	
+}
+
+

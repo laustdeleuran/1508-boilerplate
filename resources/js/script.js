@@ -40,5 +40,22 @@
 	    });
 	}
 	
+
+
+	//Used for development. Inlcudes HTML files into the index.html
+	$.fn.includehtml = 	function() {
+		this.each(function(){
+			$(this).find(".js-include").each(function(){
+		    	var inc=$(this);
+		    	$.get(inc.attr("title"), function(data){
+		        	$data = $(data);
+		        	$data.includehtml();
+		        	inc.replaceWith($data);
+		    	});
+			});
+		});
+	}
+
+	$('body').includehtml();
 	
 })( jQuery );

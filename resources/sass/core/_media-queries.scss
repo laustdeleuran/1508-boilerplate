@@ -16,10 +16,19 @@
   @if $point == tabletV {
     @media screen and (max-width: 768px)  { @content; }
   }
-  @else if $point == mobile {
-    @media screen and (max-width: 550px)  { @content; }
+  @else if $point == mobileH {
+    @media screen and (max-width: 568px)  { @content; }
   }
-  @else if $point == noneMobile {
-    @media screen and (min-width: 551px)  { @content; }
+  @else if $point == mobileV {
+    @media screen and (max-width: 320px)  { @content; }
   }
 }
+
+
+// body .content{
+//   @include media(desktop) { background: orange !important; }
+//   @include media(tabletH) { background: #000 !important; }
+//   @include media(tabletV) { background: red !important;    }
+//   @include media(mobileH) { background: yellow !important;    }
+//   @include media(mobileV) { background: purple !important; }
+// }

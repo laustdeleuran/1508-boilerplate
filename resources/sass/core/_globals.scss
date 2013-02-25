@@ -17,11 +17,29 @@
 
 /*Global classes/style that's use sitewide Example:
 -------------------------------------------*/
+*{
+	@include box-sizing(border-box);
+	@include backface-visibility(hidden);	
+}
+html {
+	overflow-x: hidden;
+}
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: $basefont;
+	color: $font;
+}
+
 .wrapper{
+	@extend %clearfix;
 	margin: 0 auto;
-	max-width: 960px;
-	width: 100%;
+	max-width: $wrapper-max-width;
 	min-height: 0;
+	width: 100%;
 }
 .clear {
 	clear: both;
@@ -32,10 +50,12 @@
 	width: 100% !important;
 }
 
-.section{
-	width: 100%;
-	@extend .clearfix;
-	@if $grid-color{
-		background-color: grey;
-	}
+// mobile class, for hidding stuff on desktop, but show on mobile
+.mobile{
+	display: none;
+}
+@include media(mobileH){
+	.mobile{
+		display: block;
+	}	
 }
