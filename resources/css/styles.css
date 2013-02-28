@@ -108,29 +108,25 @@ body:after, .wrapper:after, section:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 
-/* line 24, ../sass/core/_globals.scss */
+/* line 23, ../sass/core/_globals.scss */
 html {
   overflow-x: hidden;
 }
 
-/* line 27, ../sass/core/_globals.scss */
+/* line 26, ../sass/core/_globals.scss */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* line 32, ../sass/core/_globals.scss */
+/* line 31, ../sass/core/_globals.scss */
 body {
-  font-family: "Verdana", sans-serif;
-  color: #5e5d5b;
+  background: #272822;
+  font-family: "sans-serif", sans-serif;
+  color: #fd971f;
 }
 
 /* line 37, ../sass/core/_globals.scss */

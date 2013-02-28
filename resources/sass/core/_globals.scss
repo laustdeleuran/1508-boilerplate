@@ -19,7 +19,6 @@
 -------------------------------------------*/
 *{
 	@include box-sizing(border-box);
-	@include backface-visibility(hidden);	
 }
 html {
 	overflow-x: hidden;
@@ -30,6 +29,8 @@ html, body {
 	margin: 0;
 }
 body {
+	-webkit-text-size-adjust: none; //don't resize on orientation mobile
+	background: #272822;
 	font-family: $basefont;
 	color: $font;
 }
