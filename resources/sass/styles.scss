@@ -27,6 +27,12 @@ $bootstrap-grid: false; //Set to true to enable bootstraps grid. Remember to rem
 @import "compass/reset"; 	//Import if bootstrap is used
 
 
+/* Animation
+------------------------------*/
+@import "animation/core";
+@import "animation/animate";
+
+
 /* Semantic
 ------------------------------*/
 $wrapper-max-width: 1020px;
