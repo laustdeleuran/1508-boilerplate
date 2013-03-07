@@ -31,8 +31,10 @@ html, body {
 body {
 	-webkit-text-size-adjust: none; //don't resize on orientation mobile
 	background: #272822;
-	font-family: $basefont;
 	color: $font;
+	font-size: $font-size * 1px; // We use *1px, to add px value
+	font-family: $basefont;
+	line-height: (20em/ $font-size);
 }
 
 .wrapper{
