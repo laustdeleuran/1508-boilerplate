@@ -311,6 +311,40 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "resources/sass/styles.scss",
+			"settings":
+			{
+				"buffer_size": 1262,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 32 files for \"word\"\n\nC:\\Users\\johan\\Documents\\GitHub\\1508-boilerplate\\resources\\sass\\core\\_globals.scss:\n   32  	font-family: $basefont;\n   33  	line-height: (20em/ $font-size);\n   34: 	word-wrap:break-word;\n   35  }\n   36  \n\n2 matches in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "resources/sass/core/_globals.scss",
+			"settings":
+			{
+				"buffer_size": 1116,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2050,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/SASS Build/SASS.sublime-build",
 	"command_palette":
@@ -448,8 +482,10 @@
 	},
 	"file_history":
 	[
-		"/C/Users/johan/Documents/GitHub/1508-boilerplate/resources/sass/_bootstrap.scss",
+		"/C/Users/johan/Documents/GitHub/1508-boilerplate/resources/sass/core/_globals.scss",
+		"/C/Users/johan/Documents/GitHub/1508-boilerplate/resources/sass/modules/_sections.scss",
 		"/C/Users/johan/Documents/GitHub/1508-boilerplate/index.html",
+		"/C/Users/johan/Documents/GitHub/1508-boilerplate/resources/sass/_bootstrap.scss",
 		"/C/Users/johan/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/D/Solutions/JUM 1086/justitsministeriet_sub_belts-AND-_sub_simple/justitsministeriet_sub_simple/resources/sass/core/_mixins.scss",
 		"/D/Solutions/JUM 1086/justitsministeriet_sub_belts-AND-_sub_simple/justitsministeriet_sub_simple/resources/sass/modules/_topMenu.scss",
@@ -573,9 +609,7 @@
 		"/D/Solutions/BAN540/Website/resources/sass/core/_sprites.scss",
 		"/D/Solutions/BAN540/Website/resources/sass/modules/_service.scss",
 		"/C/Users/jro/Downloads/carouFredSel-6.1.0/carouFredSel-6.1.0/index.html",
-		"/D/Solutions/BAN540/Website/resources/sass/core/_ie7.scss",
-		"/C/Users/jro/Dropbox/jquery plugins/highestCol.js",
-		"/D/Solutions/BAN540/Website/resources/css/styles.css"
+		"/D/Solutions/BAN540/Website/resources/sass/core/_ie7.scss"
 	],
 	"find":
 	{
@@ -583,9 +617,12 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 120.0,
 		"where_history":
 		[
+			"*.scss",
+			"-*.css, *.scss, *.js, *.html",
+			"",
 			"*.scss",
 			"-*.css, *.scss, *.js, *.html",
 			"*.scss, *.js, *.html",
@@ -637,6 +674,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"word",
+			"body",
+			"boot",
 			"open",
 			"14",
 			"16",
@@ -761,10 +801,7 @@
 			"equ",
 			".webform",
 			".contactFormElement",
-			"reset",
-			"h1",
-			"infoEqualheightTrigger",
-			"webfo"
+			"reset"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -797,8 +834,136 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "resources/sass/styles.scss",
+					"settings":
+					{
+						"buffer_size": 1262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										196,
+										200
+									],
+									[
+										212,
+										216
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/sass/core/_globals.scss",
+					"settings":
+					{
+						"buffer_size": 1116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								736,
+								736
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 464.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1544,
+								1528
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 938.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

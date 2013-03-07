@@ -6834,16 +6834,16 @@ body {
 /* Clearfix
 -------------------------------------------*/
 /* line 6, ../sass/core/_globals.scss */
-body, .wrapper, section {
+body, .wrapper, section > div {
   *zoom: 1;
 }
 /* line 8, ../sass/core/_globals.scss */
-body:before, .wrapper:before, section:before, body:after, .wrapper:after, section:after {
+body:before, .wrapper:before, section > div:before, body:after, .wrapper:after, section > div:after {
   content: "";
   display: table;
 }
 /* line 12, ../sass/core/_globals.scss */
-body:after, .wrapper:after, section:after {
+body:after, .wrapper:after, section > div:after {
   clear: both;
 }
 
@@ -6858,17 +6858,11 @@ body:after, .wrapper:after, section:after {
 
 /* line 23, ../sass/core/_globals.scss */
 html {
+  height: 100%;
   overflow-x: hidden;
 }
 
-/* line 26, ../sass/core/_globals.scss */
-html, body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-/* line 31, ../sass/core/_globals.scss */
+/* line 27, ../sass/core/_globals.scss */
 body {
   -webkit-text-size-adjust: none;
   background: #272822;
@@ -6876,17 +6870,18 @@ body {
   font-size: 16px;
   font-family: "sans-serif", sans-serif;
   line-height: 1.25em;
+  word-wrap: break-word;
 }
 
-/* line 40, ../sass/core/_globals.scss */
-.wrapper, section {
+/* line 37, ../sass/core/_globals.scss */
+.wrapper, section > div {
   margin: 0 auto;
   max-width: 1020px;
   min-height: 0;
   width: 100%;
 }
 
-/* line 47, ../sass/core/_globals.scss */
+/* line 44, ../sass/core/_globals.scss */
 .clear {
   clear: both;
   height: 0;
@@ -6896,13 +6891,13 @@ body {
   width: 100% !important;
 }
 
-/* line 57, ../sass/core/_globals.scss */
+/* line 54, ../sass/core/_globals.scss */
 .mobile {
   display: none;
 }
 
 @media screen and (max-width: 568px) {
-  /* line 61, ../sass/core/_globals.scss */
+  /* line 58, ../sass/core/_globals.scss */
   .mobile {
     display: block;
   }
@@ -7051,10 +7046,7 @@ html, body {
 
 /* Modules
 ------------------------------*/
-/* line 4, ../sass/modules/_sections.scss */
-section > div {
-  display: inline;
-  float: left;
-  width: 97.91666666666666%;
-  margin: 0 1.0416666666666665%;
+/* line 1, ../sass/modules/_sections.scss */
+section {
+  width: 100%;
 }

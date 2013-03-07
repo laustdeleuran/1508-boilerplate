@@ -1,9 +1,6 @@
-//Add empty module here
-section{
-	@extend .wrapper;
-	& > div {
-		@include column(12);
+﻿section{
+	width: 100%;	
+	& > div {			
+		@extend .wrapper;
 	}	
 }
-
-
