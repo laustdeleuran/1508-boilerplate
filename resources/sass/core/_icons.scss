@@ -1,11 +1,11 @@
 ﻿// Your font is under resources/fonts
 @font-face {
 	font-family: 'icomoon';
-	src:url('../icons/icomoon.eot');
-	src:url('../icons/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('../icons/icomoon.svg#icomoon') format('svg'),
-		url('../icons/icomoon.woff') format('woff'),
-		url('../icons/icomoon.ttf') format('truetype');
+	src:url('../../icons/icomoon.eot');
+	src:url('../../icons/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../../icons/icomoon.svg#icomoon') format('svg'),
+		url('../../icons/icomoon.woff') format('woff'),
+		url('../../icons/icomoon.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -13,7 +13,7 @@
 //General for all icon fonts
 %icon{
 	font-style: normal;
-	font-family: 'iconminia';
+	font-family: 'icomoon';
 	font-weight: normal;
 	line-height: 1;
 	position: relative;
@@ -34,3 +34,12 @@
 	font-size: 16px;	
 	content: "a";
 }
+
+//How to use
+//--------------------------------
+// .example{
+// 		position: relative;
+// 		&:before{
+// 			@extend %icon;
+// 		}
+// }
