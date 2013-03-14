@@ -1,21 +1,25 @@
-// Your font is under resources/fonts
+﻿// Your font is under resources/fonts
 @font-face {
-	font-family: 'bane-icon';
-	src:url('../fonts/bane-icon.eot');
-	src:url('../fonts/bane-icon.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/bane-icon.svg#bane-icon') format('svg'),
-		url('../fonts/bane-icon.woff') format('woff'),
-		url('../fonts/bane-icon.ttf') format('truetype');
+	font-family: 'icomoon';
+	src:url('../icons/icomoon.eot');
+	src:url('../icons/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../icons/icomoon.svg#icomoon') format('svg'),
+		url('../icons/icomoon.woff') format('woff'),
+		url('../icons/icomoon.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 //General for all icon fonts
 %icon{
-	font-family: 'bane-icon';
 	font-style: normal;
+	font-family: 'iconminia';
 	font-weight: normal;
+	line-height: 1;
+	position: relative;
 	speak: none;
+	text-decoration: none;
+	text-transform: none;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -25,28 +29,8 @@
 // Example of arrow font which is white
 
 
-%arrow-[*]{
-	@extend %icon;
-	content: "\41";
-}
-
-%arrow-white{	
-	color: #fff;	
-}
-// Example of arrow font which is orange
-%arrow-orange{
-	color: orange;	
-}
-
-
-// Example of call to arrow font white
-.topNav:before {
-	@extend %arrow-white;
-	font-size: 200px;
-}
-
-// Example of call to arrow font orange
-.topNav:before {
-	@extend %arrow-orange;
-	font-size: 200px;
+%example{
+	@extend %icon;	
+	font-size: 16px;	
+	content: "a";
 }
