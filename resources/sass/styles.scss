@@ -1,4 +1,4 @@
-/* Compass variables
+﻿/* Compass variables
 ------------------------------*/
 $legacy-support-for-ie6: 		false; //IE6 + 7
 $legacy-support-for-ie7: 		false; // Set to true, if you want IE7 support
@@ -10,8 +10,7 @@ $experimental-support-for-pie: 	false; //PIE framework
 
 /* Compass
 ------------------------------*/
-@import "compass";
-@import "compass/reset"; 	
+@import "compass";	
 @import "compass/css3";
 @import "compass/layout/sticky-footer";
 
