@@ -1,6 +1,11 @@
 ﻿section{
-	width: 100%;	
-	& > div {			
-		@extend .wrapper;
-	}	
+	@extend %clearfix;
+	article{
+		@include column(8);
+		background: rgba(255,255,255,.5);
+	}
+	aside{
+		@include column(4);
+		background: rgba(255,255,255,.5);
+	}
 }

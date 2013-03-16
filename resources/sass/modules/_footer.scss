@@ -1,0 +1,7 @@
+﻿//Sticky footer
+
+@include sticky-footer(54px);
+
+.footer{
+	@extend .wrapper;
+}

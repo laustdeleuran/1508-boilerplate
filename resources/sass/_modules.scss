@@ -1,6 +1,11 @@
+﻿@import "modules/top";
+@import "modules/logo";
+@import "modules/service";
+@import "modules/topNav";
+
+@import "modules/main";
 @import "modules/sections";
+@import "modules/footer";
 
-
-
-@import "modules/empty.scss"; //Just an example
-
+// Spots
+@import "modules/modulesName"

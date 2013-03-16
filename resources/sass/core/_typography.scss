@@ -1,0 +1,10 @@
+﻿
+h1{
+
+}
+a{
+	color: $link;
+	&:hover{
+		color: $linkHover;
+	}
+}

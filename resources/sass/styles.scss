@@ -32,11 +32,13 @@ $wrapper-max-width: 1020px;
 $column-width: 	60px;
 $gutter-width: 	20px;
 $columns: 		12;
-$font-size: 	16; // Body font-size
 $liquid-grid: 	true; //True == % || False == px
-$grid-color: 	true; //Used to display colors in the boilerplate markup.
 @import "semantic/grid"; //Semantic
 
+
+//Fonts
+$font-size: 16; // Body font-size
+$basefont: 'sans-serif', sans-serif;
 
 /* Core
 ------------------------------*/

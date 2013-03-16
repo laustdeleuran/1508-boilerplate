@@ -6817,38 +6817,47 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* line 5, ../sass/core/_typography.scss */
+a {
+  color: #008734;
+}
+/* line 7, ../sass/core/_typography.scss */
+a:hover {
+  color: blue;
+}
+
 /* Clearfix
 -------------------------------------------*/
-/* line 6, ../sass/core/_globals.scss */
-body, .wrapper, section > div {
+/* line 3, ../sass/core/_globals.scss */
+body, .wrapper, .top, .main, .footer, section {
   *zoom: 1;
 }
-/* line 8, ../sass/core/_globals.scss */
-body:before, .wrapper:before, section > div:before, body:after, .wrapper:after, section > div:after {
+/* line 5, ../sass/core/_globals.scss */
+body:before, .wrapper:before, .top:before, .main:before, .footer:before, section:before, body:after, .wrapper:after, .top:after, .main:after, .footer:after, section:after {
   content: "";
   display: table;
 }
-/* line 12, ../sass/core/_globals.scss */
-body:after, .wrapper:after, section > div:after {
+/* line 9, ../sass/core/_globals.scss */
+body:after, .wrapper:after, .top:after, .main:after, .footer:after, section:after {
   clear: both;
 }
 
 /*Global classes/style that's use sitewide Example:
 -------------------------------------------*/
-/* line 20, ../sass/core/_globals.scss */
+/* line 17, ../sass/core/_globals.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 23, ../sass/core/_globals.scss */
+/* line 20, ../sass/core/_globals.scss */
 html {
   height: 100%;
   overflow-x: hidden;
 }
 
-/* line 27, ../sass/core/_globals.scss */
+/* line 24, ../sass/core/_globals.scss */
 body {
   -webkit-text-size-adjust: none;
   background: #272822;
@@ -6859,15 +6868,15 @@ body {
   word-wrap: break-word;
 }
 
-/* line 37, ../sass/core/_globals.scss */
-.wrapper, section > div {
+/* line 34, ../sass/core/_globals.scss */
+.wrapper, .top, .main, .footer {
   margin: 0 auto;
   max-width: 1020px;
   min-height: 0;
   width: 100%;
 }
 
-/* line 44, ../sass/core/_globals.scss */
+/* line 41, ../sass/core/_globals.scss */
 .clear {
   clear: both;
   height: 0;
@@ -6877,13 +6886,13 @@ body {
   width: 100% !important;
 }
 
-/* line 54, ../sass/core/_globals.scss */
+/* line 51, ../sass/core/_globals.scss */
 .mobile {
   display: none;
 }
 
 @media screen and (max-width: 568px) {
-  /* line 58, ../sass/core/_globals.scss */
+  /* line 55, ../sass/core/_globals.scss */
   .mobile {
     display: block;
   }
@@ -6894,6 +6903,70 @@ body {
   src: url("../../icons/icomoon.eot?#iefix") format("embedded-opentype"), url("../../icons/icomoon.svg#icomoon") format("svg"), url("../../icons/icomoon.woff") format("woff"), url("../../icons/icomoon.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+/* line 58, my-icons/*.png */
+.my-icons-sprite, .my-icons-example {
+  background: url('../images/my-icons-s15f6660df8.png') no-repeat;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.my-icons-example {
+  background-position: 0 -30px;
+}
+/* line 43, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.my-icons-example:hover, .my-icons-example.example_hover, .my-icons-example.example-hover {
+  background-position: 0 -15px;
+}
+/* line 43, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.my-icons-example:active, .my-icons-example.example_active, .my-icons-example.example-active {
+  background-position: 0 0;
+}
+
+/* Modules
+------------------------------*/
+/* line 1, ../sass/modules/_logo.scss */
+.logo {
+  display: inline;
+  float: left;
+  width: 22.916666666666664%;
+  margin: 0 1.0416666666666665%;
+}
+
+/* line 1, ../sass/modules/_service.scss */
+.service {
+  display: inline;
+  float: left;
+  width: 47.91666666666667%;
+  margin: 0 1.0416666666666665%;
+  float: right;
+  text-align: right;
+}
+
+/* line 1, ../sass/modules/_topNav.scss */
+.topNav {
+  display: inline;
+  float: left;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* line 3, ../sass/modules/_sections.scss */
+section article {
+  display: inline;
+  float: left;
+  width: 64.58333333333334%;
+  margin: 0 1.0416666666666665%;
+  background: rgba(255, 255, 255, 0.5);
+}
+/* line 7, ../sass/modules/_sections.scss */
+section aside {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.0416666666666665%;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 /* line 10, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
@@ -6919,128 +6992,4 @@ html, body {
   clear: both;
   position: relative;
   height: 54px;
-}
-
-/* line 58, my-icons/*.png */
-.my-icons-sprite, .my-icons-contact {
-  background: url('../images/my-icons-s41351c2263.png') no-repeat;
-}
-
-/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.my-icons-contact {
-  background-position: 0 -30px;
-}
-/* line 43, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.my-icons-contact:hover, .my-icons-contact.contact_hover, .my-icons-contact.contact-hover {
-  background-position: 0 -15px;
-}
-/* line 43, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.my-icons-contact:active, .my-icons-contact.contact_active, .my-icons-contact.contact-active {
-  background-position: 0 0;
-}
-
-/* line 3, ../sass/core/_example-grid.scss */
-.g12 {
-  display: inline;
-  float: left;
-  width: 97.91666666666666%;
-  margin: 0 1.0416666666666665%;
-  background-color: cyan;
-}
-
-/* line 10, ../sass/core/_example-grid.scss */
-.g11 {
-  display: inline;
-  float: left;
-  width: 89.58333333333334%;
-  margin: 0 1.0416666666666665%;
-  background-color: blue;
-}
-
-/* line 17, ../sass/core/_example-grid.scss */
-.g10 {
-  display: inline;
-  float: left;
-  width: 81.25%;
-  margin: 0 1.0416666666666665%;
-  background-color: orange;
-}
-
-/* line 24, ../sass/core/_example-grid.scss */
-.g9 {
-  display: inline;
-  float: left;
-  width: 72.91666666666666%;
-  margin: 0 1.0416666666666665%;
-  background-color: purple;
-}
-
-/* line 31, ../sass/core/_example-grid.scss */
-.g8 {
-  display: inline;
-  float: left;
-  width: 64.58333333333334%;
-  margin: 0 1.0416666666666665%;
-  background-color: green;
-}
-
-/* line 38, ../sass/core/_example-grid.scss */
-.g7 {
-  display: inline;
-  float: left;
-  width: 56.25%;
-  margin: 0 1.0416666666666665%;
-  background-color: black;
-}
-
-/* line 45, ../sass/core/_example-grid.scss */
-.g6 {
-  display: inline;
-  float: left;
-  width: 47.91666666666667%;
-  margin: 0 1.0416666666666665%;
-  background-color: gold;
-}
-
-/* line 52, ../sass/core/_example-grid.scss */
-.g5 {
-  display: inline;
-  float: left;
-  width: 39.58333333333333%;
-  margin: 0 1.0416666666666665%;
-  background-color: pink;
-}
-
-/* line 59, ../sass/core/_example-grid.scss */
-.g4 {
-  display: inline;
-  float: left;
-  width: 31.25%;
-  margin: 0 1.0416666666666665%;
-  background-color: brown;
-}
-
-/* line 65, ../sass/core/_example-grid.scss */
-.g3 {
-  display: inline;
-  float: left;
-  width: 22.916666666666664%;
-  margin: 0 1.0416666666666665%;
-  background-color: silver;
-}
-
-/* line 72, ../sass/core/_example-grid.scss */
-.g2 {
-  display: inline;
-  float: left;
-  width: 14.583333333333334%;
-  margin: 0 1.0416666666666665%;
-  background-color: red;
-}
-
-/* Modules
-------------------------------*/
-/* line 1, ../sass/modules/_sections.scss */
-section {
-  width: 100%;
 }

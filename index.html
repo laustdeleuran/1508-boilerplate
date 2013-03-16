@@ -16,48 +16,42 @@
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="resources/css/styles.css" />
 </head>
-	<!--[if IE 7]>    <body class="ie7"> <![endif]-->
 	<!--[if IE 8]>    <body class="ie8"> <![endif]-->
-	<!--[if gt IE 8]><!-->
+	<!--[if IE 9]>    <body class="ie8"> <![endif]-->
+	<!--[if gt IE 9]><!-->
 	<body> 
 	<!--<![endif]-->
 
 
 
 	<div id="root">		
-
-		<section class="header">
-			<div>
-				top
-			</div>
-		</section>
+		<div class="top">
+			<a href="/" class="logo">Logo</a>
+			<nav class="service">
+				Service
+			</nav>
+			<nav class="topNav">
+				topNav
+			</nav>
+		</div>
 		<div class="main">
-			<section class="overview">
-				<div class="js-include" title="resources/html/test.html"></div>
-
-				<div class="section">
-					<div class="grid g2" data-spot-width="16,6">
-						<div class="context">2</div>	
+			<section>
+				<article class="overview">
+					Article
+				</article>
+				<aside>
+					Aside
+					<div class="moduleName">
+						Module
 					</div>
-					<div class="grid g3" data-spot-width="25">
-						<div class="context">3</div>
-					</div>
-					<div class="grid g4" data-spot-width="33">
-						<div class="context">4</div>
-					</div>
-				</div>
+				</aside>
 			</section>
 		</div>
-
-		<div id="root_footer"><!-- Push for compass sticky footer --></div>
-	
+		<div id="root_footer"></div><!-- Push for compass sticky footer -->	
 	</div>
-
-	<section id="footer">	
-		<div>
-			Footer		
-		</div>	
-	</section>
+	<footer class="footer">			
+		Footer				
+	</footer>
 
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
