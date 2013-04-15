@@ -10,7 +10,7 @@ $experimental-support-for-pie: 	false; //PIE framework
 
 /* Compass
 ------------------------------*/
-@import "compass";	
+@import "compass";
 @import "compass/css3";
 @import "compass/layout/sticky-footer";
 
@@ -22,8 +22,8 @@ $experimental-support-for-pie: 	false; //PIE framework
 
 /* Animation
 ------------------------------*/
-@import "animation/core";
-@import "animation/animate";
+//@import "animation/core";
+//@import "animation/animate";
 
 
 /* Semantic

@@ -1,5 +1,4 @@
-(function($){
-
+define(['jquery'], function($){
 	$.fn.addClearfix = function(options) {
 		var defaults, settings, $injectElm, ie7;
 
@@ -44,5 +43,4 @@
 
 		return this;
 	};
-
-}(jQuery));
+});
