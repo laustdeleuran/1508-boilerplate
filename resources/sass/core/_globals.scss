@@ -49,10 +49,15 @@ body {
 
 // mobile class, for hidding stuff on desktop, but show on mobile
 .mobile{
-	display: none;
+	display: none !important;
+	@include media(mobileH){
+		display: block !important;
+	}
 }
-@include media(mobileH){
-	.mobile{
-		display: block;
-	}	
+// Desktop class, for showing stuff on desktop, but hide on mobile
+.desktop{
+	display: block !important;
+	@include media(mobileH){
+		display: none !important;
+	}
 }

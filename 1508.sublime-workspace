@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"ba",
-				"background"
+				"text",
+				"text-align"
 			],
 			[
-				"text",
-				"text-transform"
+				"ba",
+				"background"
 			],
 			[
 				"border",
@@ -312,44 +312,10 @@
 	"buffers":
 	[
 		{
-			"file": "resources/sass/styles.scss",
-			"settings":
-			{
-				"buffer_size": 1262,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 32 files for \"word\"\n\nC:\\Users\\johan\\Documents\\GitHub\\1508-boilerplate\\resources\\sass\\core\\_globals.scss:\n   32  	font-family: $basefont;\n   33  	line-height: (20em/ $font-size);\n   34: 	word-wrap:break-word;\n   35  }\n   36  \n\n2 matches in 1 file\n",
-			"settings":
-			{
-				"buffer_size": 256,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
 			"file": "resources/sass/core/_globals.scss",
 			"settings":
 			{
-				"buffer_size": 1116,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/js/plugins/jquery.1508.addClearfix.js",
-			"settings":
-			{
-				"buffer_size": 952,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 2050,
+				"buffer_size": 1212,
 				"line_ending": "Windows"
 			}
 		}
@@ -490,6 +456,35 @@
 	},
 	"file_history":
 	[
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_sprites.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/js/script.js",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/styles.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/index.html",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/js/libs/modernizr-latest.js",
+		"/C/Users/jro/Downloads/hammer.js-master/hammer.js-master/examples/drag.html",
+		"/C/Users/jro/Downloads/hammer.js-master/hammer.js-master/examples/carousel.html",
+		"/C/Windows/System32/Drivers/etc/hosts",
+		"/C/Users/jro/Downloads/hammer.js-master/hammer.js-master/examples/pull-to-refresh.html",
+		"/C/Users/jro/Downloads/hammer.min.js",
+		"/C/Users/jro/Downloads/jquery.hammer.min.js",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/modules/_modulesName.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/_modules.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/modules/_service.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/modules/_logo.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/modules/_sections.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/modules/_topNav.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/modules/_aside.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_typography.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_variables.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/modules/_footer.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/_core.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/modules/_serviceNav.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/modules/_main.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/modules/_top.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_icons.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_media-queries.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_globals.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/js/plugins/jquery.1508.addClearfix.js",
 		"/C/Users/johan/Documents/GitHub/1508-boilerplate/resources/sass/core/_globals.scss",
 		"/C/Users/johan/Documents/GitHub/1508-boilerplate/resources/sass/modules/_sections.scss",
 		"/C/Users/johan/Documents/GitHub/1508-boilerplate/index.html",
@@ -520,10 +515,7 @@
 		"/C/Users/jro/Desktop/Børnefonden.txt",
 		"/D/Solutions/JUM 1086/justitsministeriet_sub_belts-AND-_sub_simple/justitsministeriet_sub_simple/resources/html/logo.html",
 		"/D/Solutions/JUM 1086/justitsministeriet_sub_belts-AND-_sub_simple/justitsministeriet_sub_simple/resources/sass/modules/_topSubMenu.scss",
-		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/styles.scss",
 		"/D/Solutions/JUM 1086/justitsministeriet_sub_belts-AND-_sub_simple/justitsministeriet_sub_simple/resources/js/script.js",
-		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_variables.scss",
-		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_globals.scss",
 		"/D/Solutions/JUM 1086/justitsministeriet_sub_belts-AND-_sub_simple/justitsministeriet_sub_simple/resources/js/modules/section.js",
 		"/D/Solutions/JUM 1086/justitsministeriet_sub_belts-AND-_sub_simple/justitsministeriet_sub_simple/resources/js/modules/topSubMenu.js",
 		"/D/Solutions/JUM 1086/justitsministeriet_sub_belts-AND-_sub_simple/justitsministeriet_sub_simple/resources/html/topmenu.html",
@@ -545,7 +537,6 @@
 		"/D/Solutions/JUM 1086/justitsministeriet_sub_belts-AND-_sub_simple/justitsministeriet_sub_belts/resources/sass/_core.scss",
 		"/D/Solutions/JUM 1086/justitsministeriet_sub_belts-AND-_sub_simple/justitsministeriet_sub_belts/resources/sass/core/_variables.scss",
 		"/D/Solutions/JUM 1086/justitsministeriet_sub_belts-AND-_sub_simple/justitsministeriet_sub_simple/resources/html/test.html",
-		"/C/Windows/System32/Drivers/etc/hosts",
 		"/D/Solutions/DLG 1134/website/resources/sass/modules/_product.scss",
 		"/D/Solutions/BAN540/Website/map.html",
 		"/D/Solutions/BAN540/Website/resources/sass/styles.scss",
@@ -592,32 +583,7 @@
 		"/C/Users/jro/Downloads/jquery-validation-1.10.0/demo/radio-checkbox-select-demo.html",
 		"/C/Users/jro/Downloads/jquery-validation-1.10.0/lib/jquery.metadata.js",
 		"/C/Users/jro/Downloads/jquery-validation-1.10.0/demo/index.html",
-		"/D/Solutions/BAN540/Website/resources/js/jquery.infieldlabel.min.js",
-		"//dev3/Solutions/GDA 1235/gyldendal-akademisk.dk/Website/css/base.less",
-		"//dev3/Solutions/GDA 1235/gyldendal-akademisk.dk/Website/css/screen.css",
-		"//dev3/Solutions/GDA 1235/gyldendal-akademisk.dk/Website/css/styleHans.less.css",
-		"//dev3/Solutions/GDA 1235/gyldendal-akademisk.dk/Website/Scripts/script.js",
-		"/D/Solutions/BAN540/Website/resources/sass/modules/_bannerspot.scss",
-		"/C/Users/jro/Downloads/carouFredSel-6.1.0/index.html",
-		"/D/Solutions/BAN540/Website/resources/js/jquery.carouFredSel-6.1.0-packed.js",
-		"/D/Solutions/BAN540/Website/resources/js/selectbox-with-local-changes.js",
-		"/D/Solutions/BAN540/Website/resources/js/selectbox.js",
-		"/D/Solutions/BAN540/Website/resources/sass/modules/_secmenu.scss",
-		"/D/Solutions/BAN540/Website/resources/sass/modules/_webform.scss",
-		"/D/Solutions/BAN540/Website/resources/sass/modules/_output.scss",
-		"/D/Solutions/BAN540/Website/resources/sass/core/_dropdown.scss",
-		"/D/Solutions/BAN540/Website/resources/sass/modules/_topNav.scss",
-		"/D/Solutions/BAN540/Website/resources/sass/modules/_logo.scss",
-		"/D/Solutions/BAN540/Website/resources/sass/modules/_breadcrumb.scss",
-		"/D/Solutions/BAN540/Website/resources/sass/core/_icons.scss",
-		"/D/Solutions/BAN540/Website/old-index.html",
-		"/D/Solutions/BAN540/Website/resources/sass/core/_checkbox.scss",
-		"/D/Solutions/BAN540/Website/resources/sass/modules/_pagination.scss",
-		"/D/Solutions/BAN540/Website/resources/sass/modules/_tags.scss",
-		"/D/Solutions/BAN540/Website/resources/sass/core/_sprites.scss",
-		"/D/Solutions/BAN540/Website/resources/sass/modules/_service.scss",
-		"/C/Users/jro/Downloads/carouFredSel-6.1.0/carouFredSel-6.1.0/index.html",
-		"/D/Solutions/BAN540/Website/resources/sass/core/_ie7.scss"
+		"/D/Solutions/BAN540/Website/resources/js/jquery.infieldlabel.min.js"
 	],
 	"find":
 	{
@@ -625,7 +591,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 132.0,
 		"where_history":
 		[
 			"*.scss",
@@ -682,6 +648,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sprite",
+			"conso",
+			"$liquid-grid",
+			"grid-color",
 			"word",
 			"body",
 			"boot",
@@ -805,11 +775,7 @@
 			"new",
 			"side",
 			"map",
-			"iso",
-			"equ",
-			".webform",
-			".contactFormElement",
-			"reset"
+			"iso"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -842,96 +808,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "resources/sass/styles.scss",
-					"settings":
-					{
-						"buffer_size": 1262,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								491,
-								491
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"settings":
-					{
-						"buffer_size": 256,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										196,
-										200
-									],
-									[
-										212,
-										216
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								211,
-								211
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "resources/sass/core/_globals.scss",
 					"settings":
 					{
-						"buffer_size": 1116,
+						"buffer_size": 1212,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								736,
-								736
+								1105,
+								1105
 							]
 						],
 						"settings":
@@ -940,61 +833,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 464.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/js/plugins/jquery.1508.addClearfix.js",
-					"settings":
-					{
-						"buffer_size": 952,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								312,
-								312
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 2050,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1544,
-								1528
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 938.0,
+						"translation.y": 1344.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1080,6 +919,10 @@
 		"selected_items":
 		[
 			[
+				"",
+				"/D/Solutions/RSD 1160/rsd.sublime-project"
+			],
+			[
 				"simple",
 				"/C/Users/jro/Documents/GitHub/simple-test-site/website.sublime-project"
 			],
@@ -1110,10 +953,6 @@
 			[
 				"bane",
 				"/D/Solutions/BAN540/BaneDk-Project.sublime-project"
-			],
-			[
-				"",
-				"/C/Users/jro/Documents/My Web Sites/rougtrading/project.sublime-project"
 			],
 			[
 				"re",
