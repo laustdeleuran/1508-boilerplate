@@ -315,7 +315,7 @@
 			"file": "resources/sass/core/_globals.scss",
 			"settings":
 			{
-				"buffer_size": 1197,
+				"buffer_size": 1191,
 				"line_ending": "Windows"
 			}
 		},
@@ -466,6 +466,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_reset.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_sprites.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/js/script.js",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/styles.scss",
@@ -592,8 +593,7 @@
 		"/D/Solutions/BAN540/Website/resources/js/jquery.validate.min - original.js",
 		"/C/Users/jro/Downloads/jquery-validation-1.10.0/demo/radio-checkbox-select-demo.html",
 		"/C/Users/jro/Downloads/jquery-validation-1.10.0/lib/jquery.metadata.js",
-		"/C/Users/jro/Downloads/jquery-validation-1.10.0/demo/index.html",
-		"/D/Solutions/BAN540/Website/resources/js/jquery.infieldlabel.min.js"
+		"/C/Users/jro/Downloads/jquery-validation-1.10.0/demo/index.html"
 	],
 	"find":
 	{
@@ -601,7 +601,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 123.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"*.scss",
@@ -818,7 +818,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -826,15 +826,15 @@
 					"file": "resources/sass/core/_globals.scss",
 					"settings":
 					{
-						"buffer_size": 1197,
+						"buffer_size": 1191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								172,
-								172
+								335,
+								335
 							]
 						],
 						"settings":
@@ -947,8 +947,8 @@
 						"selection":
 						[
 							[
-								3004,
-								3004
+								2359,
+								2359
 							]
 						],
 						"settings":
@@ -962,7 +962,7 @@
 							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2436.0,
+						"translation.y": 1624.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

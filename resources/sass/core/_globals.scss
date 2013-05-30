@@ -18,7 +18,7 @@
 	@include box-sizing(border-box);
 }
 html {
-	overflow-x: hidden;
+	height: 100%;
 }
 body {
 	-webkit-text-size-adjust: none; //don't resize on orientation mobile
