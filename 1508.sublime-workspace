@@ -315,8 +315,18 @@
 			"file": "resources/sass/core/_globals.scss",
 			"settings":
 			{
-				"buffer_size": 1212,
+				"buffer_size": 1197,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 38 files for \"html\"\n\nC:\\Users\\jro\\Documents\\GitHub\\1508-boilerplate\\resources\\sass\\animation\\_core.scss:\n    5  // Apply an animation property and value with the correct browser support\n    6  @mixin animation-support($property, $value) {\n    7:   @include experimental($property, $value, -moz, -webkit, -o, -ms, not -khtml, official); }\n    8  \n    9  // Name of any animation as a string.\n   ..\n   41    $o: $experimental-support-for-opera,\n   42    $ms: $experimental-support-for-microsoft,\n   43:   $khtml: $experimental-support-for-khtml,\n   44    $official: true\n   45  ) {\n   ..\n   64      }\n   65    }\n   66:   @if $khtml {\n   67:     @include with-only-support-for($khtml: true) {\n   68:       @-khtml-keyframes #{$name} { @content; }\n   69      }\n   70    }\n\nC:\\Users\\jro\\Documents\\GitHub\\1508-boilerplate\\resources\\sass\\animation\\_shared.scss:\n    1: @mixin set-experimental-support($moz: false, $webkit: false, $ms: false, $o: false, $khtml: false) {\n    2    $experimental-support-for-mozilla: $moz;\n    3    $experimental-support-for-webkit: $webkit;\n    4    $experimental-support-for-microsoft: $ms;\n    5    $experimental-support-for-opera: $o;\n    6:   $experimental-support-for-khtml: $khtml;\n    7  }\n    8  \n    9: @mixin with-only-support-for($moz: false, $webkit: false, $ms: false, $o: false, $khtml: false) {\n   10    // Capture the current state\n   11    $original-moz: $experimental-support-for-mozilla;\n   ..\n   13    $original-o: $experimental-support-for-opera;\n   14    $original-ms: $experimental-support-for-microsoft;\n   15:   $original-khtml: $experimental-support-for-khtml;\n   16  \n   17:   @include set-experimental-support($moz, $webkit, $ms, $o, $khtml);\n   18  \n   19    @content;\n   20  \n   21:   @include set-experimental-support($original-moz, $original-webkit, $original-ms, $original-o, $original-khtml);\n   22  }\n\nC:\\Users\\jro\\Documents\\GitHub\\1508-boilerplate\\resources\\sass\\core\\_globals.scss:\n   18  	@include box-sizing(border-box);\n   19  }\n   20: html {\n   21  	height: 100%;\n   22  	overflow-x: hidden;\n\nC:\\Users\\jro\\Documents\\GitHub\\1508-boilerplate\\resources\\sass\\core\\_reset.scss:\n    1: html, body, div, span, applet, object, iframe,\n    2  h1, h2, h3, h4, h5, h6, p, blockquote, pre,\n    3  a, abbr, acronym, address, big, cite, code,\n    .\n   14  	@include reset-font; \n   15  }	\n   16: html {\n   17  	@include reset-body; \n   18  }\n   ..\n   26  	@include reset-image-anchor-border; \n   27  }\n   28: @include reset-html5;\n\nC:\\Users\\jro\\Documents\\GitHub\\1508-boilerplate\\resources\\sass\\semantic\\_grid.scss:\n   21  }\n   22  \n   23: html body {\n   24  	min-height: $total-width;\n   25  }\n   26  \n   27: // Uncomment these two lines and the star-hack width/margin lines below to enable sub-pixel fix for IE6 & 7. See http://tylertate.com/blog/2012/01/05/subpixel-rounding.html\n   28  // $min-width: 999999;\n   29  // $correction: 0.5 / $min-width * 100;\n\n20 matches across 5 files\n\n\nSearching 38 files for \"btn\"\n\n0 matches across 0 files\n",
+			"settings":
+			{
+				"buffer_size": 3004,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
 			}
 		}
 	],
@@ -591,7 +601,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 132.0,
+		"height": 123.0,
 		"where_history":
 		[
 			"*.scss",
@@ -648,6 +658,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"btn",
+			"html",
 			"sprite",
 			"conso",
 			"$liquid-grid",
@@ -773,9 +785,7 @@
 			"modules-info",
 			"link",
 			"new",
-			"side",
-			"map",
-			"iso"
+			"side"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -808,7 +818,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -816,15 +826,15 @@
 					"file": "resources/sass/core/_globals.scss",
 					"settings":
 					{
-						"buffer_size": 1212,
+						"buffer_size": 1197,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1105,
-								1105
+								172,
+								172
 							]
 						],
 						"settings":
@@ -833,7 +843,126 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1344.0,
+						"translation.y": 31.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 3004,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										329,
+										333
+									],
+									[
+										515,
+										519
+									],
+									[
+										548,
+										552
+									],
+									[
+										635,
+										639
+									],
+									[
+										686,
+										690
+									],
+									[
+										716,
+										720
+									],
+									[
+										958,
+										962
+									],
+									[
+										1208,
+										1212
+									],
+									[
+										1216,
+										1220
+									],
+									[
+										1329,
+										1333
+									],
+									[
+										1582,
+										1586
+									],
+									[
+										1615,
+										1619
+									],
+									[
+										1698,
+										1702
+									],
+									[
+										1854,
+										1858
+									],
+									[
+										2010,
+										2014
+									],
+									[
+										2155,
+										2159
+									],
+									[
+										2357,
+										2361
+									],
+									[
+										2485,
+										2489
+									],
+									[
+										2600,
+										2604
+									],
+									[
+										2838,
+										2842
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								3004,
+								3004
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2436.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
