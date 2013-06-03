@@ -16,8 +16,8 @@
   @if $point == tabletV {
     @media screen and (max-width: 768px)  { @content; }
   }
-  @else if $point == mobileH {
-    @media screen and (max-width: 568px)  { @content; }
+  @else if $point == mobileH { //Used for both mobile and print
+    @media only print, only screen and (max-width: 568px)  { @content; }
   }
   @else if $point == mobileV {
     @media screen and (max-width: 320px)  { @content; }
