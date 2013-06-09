@@ -34,7 +34,7 @@ $('.wrapper-element').addClearfix({
 	clearWhat: 'left'
 })
 ```
-> > Options:
+Options:
 > elmSelector: The elements that the plugin clears<br>
 > injectElm: The element that is injected after the cleared element (This is a IE7 specific fix)<br>
 > clearWhat: default is left, but can recieve both 'left' & 'right'<br>
