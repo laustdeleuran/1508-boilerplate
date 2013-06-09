@@ -22,6 +22,9 @@ Alternativly you can use our CompassWatch.cmd (Windows) or CompassWatchMac.comma
 - almond.0.2.5.js
 - jquery.hammer
 
+1508 Boilerplate contains the following javascript standalone:
+- modernizr.min.js *CSS3, Html5, touch, mq and prefixed*
+
 ###1508 CUSTOM PLUGINS:###
 
 Check the github wiki-pages for detailed information about the plugins, and how to use them.
