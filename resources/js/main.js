@@ -1,5 +1,6 @@
 requirejs([
-		'jquery'
+		'jquery',
+		'jquery.1508.appendItem'
 		],
 	function($) {
 
