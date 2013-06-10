@@ -33,7 +33,7 @@ Alternativly you can use our CompassWatch.cmd (Windows) or CompassWatchMac.comma
 ###1508 CUSTOM PLUGINS:###
 
 Check the github wiki-pages for detailed information about the plugins, and how to use them.
-<a href="https://github.com/RuneKobberoe/Required-modules/wiki/_pages">WIKI</a>
+<a href="https://github.com/1508/1508-boilerplate/wiki/jquery.1508.appendItem">jquery.1508.appendItem.js</a>
 
 *If you create your own custom plugins remember to wrap your plugin in the define required by require.js, and include it in the main.js file*
 
