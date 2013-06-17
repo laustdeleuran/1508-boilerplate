@@ -1,6 +1,5 @@
 requirejs([
-		'jquery',
-		'jquery.1508.appendItem'
+		'jquery'
 		],
 	function($) {
 
@@ -9,6 +8,10 @@ requirejs([
 		/* Hookups
 		----------------------------*/
 		onReady = function() {
+
+
+
+
 		};
 
 		onLoad = function() {
