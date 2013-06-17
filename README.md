@@ -82,10 +82,14 @@ define(['jquery', 'whateverdependenciestheremightbe'],
 3. run the cmdlet ```grunt``` which builds your resources folder. The compiled files should now be located in the dist folder.
 4. finally correct your script includes in your html to point to the script.js file and the new css file.
 
-##Setup (Sublime):##
-"HTML5 Boilerplate + Compass + Semantic Grid" is created for the purpose of fetching it as a package, through sublime text.
+##Setup (Sublime Text):##
 
 1. Open Fetch.sublime-settings through sublime: Ctrl+Shift+P - Navigate to Fetch: Manage.
 2. Under "Packages" add the following line: "html5_boilerplate": "https://github.com/1508/1508-boilerplate/zipball/master"
 3. Save
 4. Rock & Roll - Ctrl+Shift+P - Fetch: Package - Boom
+
+##Setup (Visual Studio):##
+
+1. Create your web project in VS.
+2. Find the "1508 Interface Boilerplate" through NuGet and install the package from there.
