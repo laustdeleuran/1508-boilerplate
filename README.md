@@ -2,7 +2,7 @@
 -------------------------------------------------------
 
 ##General Description##
-1508 Interface Boilerplate is a boilerplate we use on almost all our projects as the foundation stone. It's updated regularly as the technology evolves.
+1508 Interface Boilerplate is a boilerplate we use on almost all our projects as the foundation stone. It's updated regularly as the technology evolves.<br>
 <b>In order to get 100% out of this boilerplate, knowledge about SASS, Require.js and Grunt is highly recommended</b>
 
 

@@ -6,7 +6,6 @@ requirejs.config({
         //Libs
         'jquery'            : '../libs/jquery-1.9.0.min',
         'selectivizr'       : '../libs/selectivizr-min'
-
     },
     shim: {
         
