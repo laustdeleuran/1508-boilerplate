@@ -60,3 +60,16 @@ body {
 		display: none !important;
 	}
 }
+
+
+
+input{	
+	&[type="text"], &[type="password"], &[type="email"], &[type="number"] {
+		&:focus {
+			outline: none;
+		}
+	}
+	&[type="submit"], &[type="button"]{ 
+		-webkit-appearance: none; // remove IOS default style
+	}
+}
