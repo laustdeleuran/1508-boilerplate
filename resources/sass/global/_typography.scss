@@ -16,7 +16,7 @@ $basefont: 'Roboto', sans-serif;
 // @include font(20,18,20); font-size, line-height, parant font-size: 
 
 h1{
-	@include font(36,39);
+	@include font(36,39);	
 }
 h2{
 	@include font(30,33);
