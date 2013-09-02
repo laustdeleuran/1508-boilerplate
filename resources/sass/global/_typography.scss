@@ -1,0 +1,49 @@
+﻿//Webfont
+@import url(http://fonts.googleapis.com/css?family=Mouse+Memoirs);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+$basicFontSize: 16; // Body font-size
+$headingfont: 'Mouse Memoirs', sans-serif;
+$basefont: 'Roboto', sans-serif;
+
+/*Font-størrelse
+--------------------------------*/
+// Den typiske
+// @include font(20,18); font-size, line-height
+
+//For de tilfælde hvor parent har en anden fontstørrelse
+// @include font(20,18,20); font-size, line-height, parant font-size: 
+
+h1{
+	@include font(36,39);
+}
+h2{
+	@include font(30,33);
+}
+h3{
+	@include font(24,26);
+}
+h4{
+	@include font(18,19);
+}
+p{
+	margin: 0 0 10px;
+}
+blockquote{
+	position: relative;
+	&:before{
+		content: '"';
+		font-size: 22px;
+		left: -20px;
+		position: absolute;
+		top: 0;
+	}
+}
+
+a{
+	color: $link;
+	&:hover{
+		color: $linkHover;
+	}
+}

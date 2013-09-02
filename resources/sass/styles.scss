@@ -17,32 +17,22 @@ $experimental-support-for-pie: 	false; //PIE framework
 
 /* Core Variables
 ------------------------------*/
-@import "core/variables"; //Must come before bootstrap in order to overwrite its default variables.
+@import "core/variables";
 
-
-/* Animation
-------------------------------*/
-//@import "animation/core";
-//@import "animation/animate";
-
-
-/* Semantic
-------------------------------*/
-$wrapper-max-width: 1020px;
-$column-width: 	60px;
-$gutter-width: 	20px;
-$columns: 		12;
-$liquid-grid: 	true; //True == % || False == px
-@import "semantic/grid"; //Semantic
-
-
-//Fonts
-$font-size: 16; // Body font-size
-$basefont: 'sans-serif', sans-serif;
 
 /* Core
 ------------------------------*/
 @import "core";
+
+
+/* Grid
+------------------------------*/
+@import "grid"; //Semantic
+
+
+/* Global
+------------------------------*/
+@import "global";
 
 
 /* Modules

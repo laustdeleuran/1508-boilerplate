@@ -1,0 +1,24 @@
+@mixin normalize-base {
+  html {
+    // Set default font family to sans-serif.
+    font-family: sans-serif;
+
+    // Prevents iOS text size adjust after orientation change, without disabling user zoom
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+
+  // Addresses font-family inconsistency between `textarea` and other form elements.
+  html,
+  button,
+  input,
+  select,
+  textarea {
+    font-family: sans-serif;
+  }
+
+  // Remove default margin.
+  body {
+    margin: 0;
+  }
+}

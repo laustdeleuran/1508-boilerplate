@@ -1,0 +1,52 @@
+@import "global/typography";
+@import "global/footer";
+@import "global/header";
+
+
+/*Global classes/style that's use sitewide Example:
+-------------------------------------------*/
+*{
+	@include box-sizing(border-box);
+}
+html {
+	height: 100%;
+}
+body {
+	background: $bodyBgColor;
+	color: $fontColor;
+	font-family: $basefont;
+	@include font($basicFontSize,20); //font-size, line-height
+	word-wrap: break-word; //Forces long words to break to new line
+}
+
+.mobile{ // mobile class, for hidding stuff on desktop, but show on mobile
+	display: none !important;
+	@include media(mobileH){
+		display: block !important;
+	}
+}
+
+.desktop{ // Desktop class, for showing stuff on desktop, but hide on mobile
+	display: block !important;
+	@include media(mobileH){
+		display: none !important;
+	}
+}
+.wrapper{
+	@extend %clearfix;
+	margin: 0 auto;
+	max-width: $wrapper-max-width;
+	min-height: 0;
+	width: 100%;
+}
+.clear {
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	width: 100% !important;
+}
+.module{
+	margin-bottom: 20px;
+}
