@@ -11,7 +11,7 @@
 	}
 }
 
-@mixin font($fontSize, $lineHeight, $basicFontSize: 16) {
+@mixin font($fontSize, $lineHeight, $basicFontSize: $basicFontSize) {
   font-size: ($fontSize/$basicFontSize)+em;
   line-height: ($lineHeight/$fontSize)+em;
 }

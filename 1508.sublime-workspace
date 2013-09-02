@@ -312,19 +312,58 @@
 	"buffers":
 	[
 		{
-			"contents": "1: fontsize: extra parameter til ændring af default fonsize\nDONE : 2: semantic = grid, grid = semantic. Drop parametre\nDONE : 3: drop section stylesheet\n4: variabel styleshhet til designer\nDONE : 5: de savner global. Så ryk mange ting fra styles.scss til global\nDONE : 6: webfonts skal ligge i typografi\nDONE : 7: behold footer / header. Drop logo, topnav, og andet\nDONE : 8: core / global / modules mapper\nDONE : 9: drop animation\n",
+			"file": "resources/sass/core/_normalize.scss",
 			"settings":
 			{
-				"buffer_size": 432,
-				"line_ending": "Windows",
-				"name": "1: fontsize: extra parameter til ændring af defaul"
+				"buffer_size": 616,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/js/config.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 374,
+				"buffer_size": 5258,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/sass/global/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 825,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/sass/global/_typographyVerticalRhythm.scss",
+			"settings":
+			{
+				"buffer_size": 849,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/sass/core/normalize/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 1335,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/sass/_global.scss",
+			"settings":
+			{
+				"buffer_size": 1071,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/sass/core/_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 334,
 				"line_ending": "Windows"
 			}
 		}
@@ -465,14 +504,16 @@
 	},
 	"file_history":
 	[
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_mixins.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/global/_typography.scss",
+		"/C/Users/jro/Documents/GitHub/simple-test-site/resources/sass/styles.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_variables.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/js/config.js",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/_grid.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/grid/_semantic.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/_core.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/styles.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/index.html",
-		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_mixins.scss",
-		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/global/_typography.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/bdn2nta2.sn3.txt",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/oqm4ccmo.v3a.txt",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/ndyss1fy.joi.txt",
@@ -496,7 +537,6 @@
 		"/C/Users/jro/Documents/GitHub/Animation/index.html",
 		"/C/Users/jro/Documents/GitHub/Animation/resources/js/script.js",
 		"/C/Users/jro/Documents/GitHub/Animation/resources/sass/_animations.scss",
-		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/js/config.js",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/js/libs/jquery-1.9.0.min.js",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_media-queries.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_sprites.scss",
@@ -591,8 +631,7 @@
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Widgets.stTheme",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Widgets.stTheme.cache",
 		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/new/Default.sublime-theme"
+		"/C/Users/jro/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
 	],
 	"find":
 	{
@@ -657,6 +696,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fontSize",
+			"$basic-font-size",
+			"h1",
 			"core",
 			"animation",
 			"section",
@@ -781,10 +823,7 @@
 			"resultwrapper",
 			"resiz",
 			"test",
-			"carou",
-			"time",
-			".modules-textpag",
-			"layout-narrow context"
+			"carou"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -817,28 +856,28 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "resources/sass/core/_normalize.scss",
 					"settings":
 					{
-						"buffer_size": 432,
+						"buffer_size": 616,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								432,
-								432
+								503,
+								503
 							]
 						],
 						"settings":
 						{
-							"auto_name": "1: fontsize: extra parameter til ændring af defaul",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -848,25 +887,160 @@
 				},
 				{
 					"buffer": 1,
-					"file": "resources/js/config.js",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 374,
+						"buffer_size": 5258,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								374,
-								374
+								2924,
+								2924
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1446.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/sass/global/_typography.scss",
+					"settings":
+					{
+						"buffer_size": 825,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/sass/global/_typographyVerticalRhythm.scss",
+					"settings":
+					{
+						"buffer_size": 849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 96.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/sass/core/normalize/_typography.scss",
+					"settings":
+					{
+						"buffer_size": 1335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1277.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/sass/_global.scss",
+					"settings":
+					{
+						"buffer_size": 1071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/sass/core/_mixins.scss",
+					"settings":
+					{
+						"buffer_size": 334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
