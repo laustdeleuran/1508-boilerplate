@@ -1,0 +1,15 @@
+input{
+	&[type="text"], &[type="password"], &[type="email"], &[type="number"] {
+		
+	}
+}
+input[type="checkbox"], input[type="radio"] {
+   
+  }
+textarea {
+
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+
+}

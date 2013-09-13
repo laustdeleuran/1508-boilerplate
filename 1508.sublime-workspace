@@ -312,22 +312,6 @@
 	"buffers":
 	[
 		{
-			"file": "resources/sass/core/_normalize.scss",
-			"settings":
-			{
-				"buffer_size": 616,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 5258,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "resources/sass/global/_typography.scss",
 			"settings":
 			{
@@ -339,15 +323,7 @@
 			"file": "resources/sass/global/_typographyVerticalRhythm.scss",
 			"settings":
 			{
-				"buffer_size": 849,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/sass/core/normalize/_typography.scss",
-			"settings":
-			{
-				"buffer_size": 1335,
+				"buffer_size": 1198,
 				"line_ending": "Windows"
 			}
 		},
@@ -355,15 +331,7 @@
 			"file": "resources/sass/_global.scss",
 			"settings":
 			{
-				"buffer_size": 1071,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/sass/core/_mixins.scss",
-			"settings":
-			{
-				"buffer_size": 334,
+				"buffer_size": 1072,
 				"line_ending": "Windows"
 			}
 		}
@@ -505,6 +473,9 @@
 	"file_history":
 	[
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_mixins.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/index.html",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/normalize/_typography.scss",
+		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_normalize.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/global/_typography.scss",
 		"/C/Users/jro/Documents/GitHub/simple-test-site/resources/sass/styles.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_variables.scss",
@@ -513,7 +484,6 @@
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/grid/_semantic.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/_core.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/styles.scss",
-		"/C/Users/jro/Documents/GitHub/1508-boilerplate/index.html",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/bdn2nta2.sn3.txt",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/oqm4ccmo.v3a.txt",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/ndyss1fy.joi.txt",
@@ -526,11 +496,9 @@
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/_modules.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_topNav.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/normalize/_base.scss",
-		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/normalize/_typography.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_sections.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_globals.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_color.scss",
-		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_normalize.scss",
 		"/C/Users/jro/Documents/GitHub/1508-boilerplate/resources/sass/core/_reset.scss",
 		"/C/Users/jro/Downloads/bootstrap-3.0.0/bootstrap-3.0.0/less/type.less",
 		"/C/Users/jro/Documents/GitHub/Animation/resources/sass/styles.scss",
@@ -696,6 +664,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h1",
+			"$base-line-height",
 			"fontSize",
 			"$basic-font-size",
 			"h1",
@@ -821,9 +791,7 @@
 			"result",
 			"resultw",
 			"resultwrapper",
-			"resiz",
-			"test",
-			"carou"
+			"resiz"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -856,64 +824,11 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "resources/sass/core/_normalize.scss",
-					"settings":
-					{
-						"buffer_size": 616,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								503,
-								503
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 5258,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2924,
-								2924
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1446.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "resources/sass/global/_typography.scss",
 					"settings":
 					{
@@ -940,19 +855,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "resources/sass/global/_typographyVerticalRhythm.scss",
 					"settings":
 					{
-						"buffer_size": 849,
+						"buffer_size": 1198,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								138,
-								138
+								471,
+								471
 							]
 						],
 						"settings":
@@ -961,80 +876,29 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 96.0,
+						"translation.y": 123.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "resources/sass/core/normalize/_typography.scss",
-					"settings":
-					{
-						"buffer_size": 1335,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								203,
-								162
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1277.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
+					"buffer": 2,
 					"file": "resources/sass/_global.scss",
 					"settings":
 					{
-						"buffer_size": 1071,
+						"buffer_size": 1072,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "resources/sass/core/_mixins.scss",
-					"settings":
-					{
-						"buffer_size": 334,
-						"regions":
-						{
-						},
-						"selection":
-						[
+								3,
+								3
+							],
 							[
-								242,
-								242
+								74,
+								32
 							]
 						],
 						"settings":
