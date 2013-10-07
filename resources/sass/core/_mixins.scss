@@ -13,5 +13,10 @@
 
 @mixin font($fontSize, $lineHeight, $basicFontSize: $basicFontSize) {
   font-size: ($fontSize/$basicFontSize)+em;
-  line-height: ($lineHeight/$fontSize)+em;
+  @if($lineHeight == normal){
+  	line-height: $lineHeight;
+  }
+  @else{
+  	line-height: ($lineHeight/$fontSize)+em;	
+  }
 }
