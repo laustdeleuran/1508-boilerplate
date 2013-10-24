@@ -32,7 +32,8 @@ Alternativly you can use our CompassWatch.cmd (Windows) or CompassWatchMac.comma
 
 ###1508 CUSTOM PLUGINS:###
 
-Check the github wiki-pages for detailed information about the plugins, and how to use them.<br>
+Check the github wiki-pages for detailed information 
+about the plugins, and how to use them.<br>
 <a href="https://github.com/1508/1508-boilerplate/wiki/jquery.1508.appendItem">jquery.1508.appendItem.js</a>
 
 *If you create your own custom plugins remember to wrap your plugin in the define required by require.js, and include it in the main.js file*
@@ -77,6 +78,7 @@ define(['jquery', 'whateverdependenciestheremightbe'],
 ###GRUNT:###
 *Grunt should only be run when your project is ready for production. You must also have Node.js installed*
 1. Install Node.js: <a href="http://nodejs.org/">NodeJS</a>
+
 2. run the following cmdlet in the same directory ```npm install``` which installs the depencies defined in your package.json.
 3. run the cmdlet ```grunt``` which builds your resources folder. The compiled files should now be located in the dist folder.
 4. finally correct your script includes in your html to point to the script.js file and the new css file.
