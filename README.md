@@ -3,7 +3,7 @@
 
 ##General Description##
 1508 Interface Boilerplate is a boilerplate we use on almost all our projects as the foundation stone. It's updated regularly as the technology evolves.<br>
-<b>In order to get 100% out of this boilerplate, knowledge about SASS, Require.js and Grunt is highly recommended</b>
+<b>In order to get 100% out of this boilerplate, knowledge about SASS, Require.js and Grunt is highly recommended.</b>
 
 
 ##Specifics##
@@ -20,11 +20,11 @@ Alternativly you can use our CompassWatch.cmd (Windows) or CompassWatchMac.comma
 
 ###JAVASCRIPT:###
 1508 Boilerplate contains the following javascript libraries:
-- almond.0.2.5.js *(amd shimmer for require.js)*
-- jquery.hammer *(Extended touch support)*
-- jquery-1.9.0.min.js *(Currently using < 1.9 since >2.0 removed support for legacy browsers)*
-- selectivizr-min.js
-- require.js
+- jquery.hammer *(Extended touch support) - not enabled per default*
+- almond.0.2.5.js *(amd shimmer for require.js) - enabled per default*
+- jquery-1.9.0.min.js *(Currently using < 1.9 since >2.0 removed support for legacy browsers) - enabled per default*
+- selectivizr-min.js *- enabled per default*
+- require.js *- enabled per default*
 
 
 1508 Boilerplate contains the following standalone javascript:
@@ -76,8 +76,7 @@ define(['jquery', 'whateverdependenciestheremightbe'],
 
 ###GRUNT:###
 *Grunt should only be run when your project is ready for production. You must also have Node.js installed*
-
-1. run the following cmdlet in the directory your GruntFile.js and package.json is located ```npm install grunt```
+1. Install Node.js: <a href="http://nodejs.org/">NodeJS</a>
 2. run the following cmdlet in the same directory ```npm install``` which installs the depencies defined in your package.json.
 3. run the cmdlet ```grunt``` which builds your resources folder. The compiled files should now be located in the dist folder.
 4. finally correct your script includes in your html to point to the script.js file and the new css file.
