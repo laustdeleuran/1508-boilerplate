@@ -1,0 +1,12 @@
+.breadcrumb{
+	li{
+		&:before{
+			content: ">> ";
+		}
+		&:first-child{
+			&:before{
+				content: "";
+			}
+		}
+	}
+}

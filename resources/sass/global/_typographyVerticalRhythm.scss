@@ -18,6 +18,7 @@ h1{
 	@include adjust-font-size-to(24px);
 	@include adjust-leading-to(1,24px);
 	@include leader(2,24px);
+	color: orange;
 	@include trailer(1,24px);
 }
 

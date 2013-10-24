@@ -1,2 +1,14 @@
-﻿// Spots
-@import "modules/modulesName"
+﻿/*------------------------------------*\
+    OBJECTS
+\*------------------------------------*/
+@import "modules/objects";
+
+
+
+/*------------------------------------*\
+    SPOTS/MODULES
+\*------------------------------------*/
+/**
+ * Try to @extend and re-use objects in modules
+ */
+@import "modules/modulesName";
