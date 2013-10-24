@@ -13,10 +13,13 @@ HTML5 Boilerplate with no-js + sass sticky footer setup + cleargrid js & markup.
 The boilerplate includes a CSS3 sass animations library + built in require and grunt, ready for building.
 
 ###COMPASS:###
-Navigate to the folder where config.rb is located with your favorite terminal program.<br>
-Do a ```compass watch``` and compass should start watching for changes in your scss files.
 
-Alternativly you can use our CompassWatch.cmd (Windows) or CompassWatchMac.command (MAC), which executes the ```compass watch``` in the folder it is sitting in.<br> The CompassWatch.cmd and CompassWatchMac.command is included in the boilerplate, and located according to the boilerplates config.rb.
+1. Install Ruby: <a href="https://www.ruby-lang.org/en/downloads/">Ruby</a>
+2. Install Compass (ruby gem): <a href="http://compass-style.org/install/">Compass</a>
+3. Navigate to the folder where config.rb is located with your favorite terminal program.<br>
+4. Do a ```compass watch``` and compass should start watching for changes in your scss files.
+
+*Alternativly you can use our CompassWatch.cmd (Windows) or CompassWatchMac.command (MAC), which executes the ```compass watch``` in the folder it is sitting in.<br> The CompassWatch.cmd and CompassWatchMac.command is included in the boilerplate, and located in the same directory as the config.rb.*
 
 ###JAVASCRIPT:###
 1508 Boilerplate contains the following javascript libraries:
@@ -77,20 +80,17 @@ define(['jquery', 'whateverdependenciestheremightbe'],
 
 ###GRUNT:###
 *Grunt should only be run when your project is ready for production. You must also have Node.js installed*
-1. Install Node.js: <a href="http://nodejs.org/">NodeJS</a>
 
+1. Install Node.js: <a href="http://nodejs.org/">NodeJS</a>
 2. run the following cmdlet in the same directory ```npm install``` which installs the depencies defined in your package.json.
 3. run the cmdlet ```grunt``` which builds your resources folder. The compiled files should now be located in the dist folder.
 4. finally correct your script includes in your html to point to the script.js file and the new css file.
 
-##Setup (Sublime Text):##
+## Example Setup (Sublime Text):##
 
+1. Complete all above install steps. *(Install: Ruby/Compass/Node).*
 1. Open Fetch.sublime-settings through sublime: Ctrl+Shift+P - Navigate to Fetch: Manage.
 2. Under "Packages" add the following line: "html5_boilerplate": "https://github.com/1508/1508-boilerplate/zipball/master"
 3. Save
 4. Rock & Roll - Ctrl+Shift+P - Fetch: Package - Boom
 
-##Setup (Visual Studio):##
-
-1. Create your web project in VS.
-2. Find the "1508 Interface Boilerplate" through NuGet and install the package from there.
