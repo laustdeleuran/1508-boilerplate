@@ -1,0 +1,30 @@
+/*
+horizontal align list
+*/
+.object-navList, %object-navList{
+	list-style: none;
+	margin-left: 0;
+	li{
+		display: inline;
+	}
+	a{
+		display: inline-block;
+	}
+}
+
+/*
+horizontal align list breadcrumb
+*/
+.object-navList--breadcrumb, %object-navList--breadcrumb{
+	@extend %object-navList;	
+	li{		
+		&:before{
+			content: ">> ";
+		}
+		&:first-child{
+			&:before{
+				content: "";
+			}
+		}
+	}	
+}

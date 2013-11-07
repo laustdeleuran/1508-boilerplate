@@ -2,7 +2,7 @@
 -------------------------------------------------------
 
 ##General Description##
-1508 Interface Boilerplate is a boilerplate we use on almost all our projects as the foundation stone. It's updated regularly as the technology evolves.<br>
+1508 Interface Boilerplate is a boilerplate we use on almost all our projects as the HTML / JS / CSS foundation. It's updated regularly as the technology evolves.<br>
 <b>In order to get 100% out of this boilerplate, knowledge about SASS, Require.js and Grunt is highly recommended.</b>
 
 
@@ -93,4 +93,3 @@ define(['jquery', 'whateverdependenciestheremightbe'],
 2. Under "Packages" add the following line: "html5_boilerplate": "https://github.com/1508/1508-boilerplate/zipball/master"
 3. Save
 4. Rock & Roll - Ctrl+Shift+P - Fetch: Package - Boom
-

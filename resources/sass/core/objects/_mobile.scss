@@ -1,0 +1,9 @@
+/*
+mobile class, for hidding stuff on desktop, but show on mobile
+*/
+.object-mobile, %object-mobile{
+	display: none !important;
+	@include media(mobileH){
+		display: block !important;
+	}
+}

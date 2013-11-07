@@ -1,5 +1,6 @@
-﻿/* Compass variables
-------------------------------*/
+﻿/*------------------------------------*\
+    COMPASS VARIABLES
+\*------------------------------------*/
 $legacy-support-for-ie6: 		false; //IE6 + 7
 $legacy-support-for-ie7: 		false; // Set to true, if you want IE7 support
 $legacy-support-for-ie8: 		true; //IE 8
@@ -8,33 +9,53 @@ $experimental-support-for-svg: 	true; //IE9 is using this for gradients
 $experimental-support-for-pie: 	false; //PIE framework
 
 
-/* Compass
-------------------------------*/
+
+/*------------------------------------*\
+    COMPASS
+\*------------------------------------*/
 @import "compass";
 @import "compass/css3";
+@import "compass/css3/box-shadow";
 @import "compass/layout/sticky-footer";
 
 
-/* Core Variables
-------------------------------*/
+
+/*------------------------------------*\
+    VARIABLES
+\*------------------------------------*/
 @import "core/variables";
 
 
-/* Core
-------------------------------*/
+
+/*------------------------------------*\
+    CORE
+\*------------------------------------*/
 @import "core";
 
 
-/* Grid
-------------------------------*/
+
+/*------------------------------------*\
+    GRID
+\*------------------------------------*/
 @import "grid"; //Semantic
 
 
-/* Global
-------------------------------*/
+
+/*------------------------------------*\
+    GLOBAL
+\*------------------------------------*/
 @import "global";
 
 
-/* Modules
-------------------------------*/
+
+/*------------------------------------*\
+    MODULES
+\*------------------------------------*/
 @import "modules";
+
+
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+@import "print";
