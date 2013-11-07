@@ -71,11 +71,21 @@ module.exports = function(grunt) {
             }
         },
         sassdown: {
+            options: {
+                template_html: 'resources/grunt_assets/styleguide.hbs',
+                includes: 'resources/grunt_assets/site_includes.hbs'
+            },
             files: {
                 expand: true,
                 cwd: 'resources/sass',
-                src: ['*.scss'],
-                dest: 'public/styleguide/'
+                src: ['**/*.scss'],
+                dest: 'styleguide/'
+            }
+        },
+        watch: {
+            sass: {
+                files: ['resources/sass/**/*.scss'],
+                tasks: ['compass', 'sassdown']
             }
         },
     });
@@ -87,6 +97,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-smushit');
     grunt.loadNpmTasks('sassdown');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
     grunt.registerTask('default', ['clean','requirejs', 'compass', 'copy', 'smushit']);

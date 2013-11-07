@@ -1,15 +1,25 @@
-/*------------------------------------*\
-    HELP
-\*------------------------------------*/
+// -------------STYLEGUIDE DESCRIPTION------------/
+
+/*
+# Boilerplate help
+
+Boilerplate help
+*/
+/* 
+## Class naming convention - BEM syntax
 
 
-/* Class naming convention - BEM syntax
 
-.block{}
-.block__element{}
-.block--modifier{}
+_.block{}_
+
+_.block__element{}_
+
+_.block--modifier{}_
+
+
 
 .block__element represents a descendent of .block that helps form .block as a whole.
+
 .block--modifier represents a different state or version of .block.
 
 */

@@ -1,61 +1,52 @@
-﻿/*------------------------------------*\
-    COMPASS VARIABLES
-\*------------------------------------*/
-$legacy-support-for-ie6: 		false; //IE6 + 7
-$legacy-support-for-ie7: 		false; // Set to true, if you want IE7 support
-$legacy-support-for-ie8: 		true; //IE 8
-$legacy-support-for-mozilla: 	false; //Mozilla 3.6 and below
-$experimental-support-for-svg: 	true; //IE9 is using this for gradients
-$experimental-support-for-pie: 	false; //PIE framework
+﻿//COMPASS VARIABLES
+$legacy-support-for-ie6: 		false; 	//IE6 + 7
+$legacy-support-for-ie7: 		false; 	// Set to true, if you want IE7 support
+$legacy-support-for-ie8: 		true; 	//IE 8
+$legacy-support-for-mozilla: 	false; 	//Mozilla 3.6 and below
+$experimental-support-for-svg: 	true; 	//IE9 is using this for gradients
+$experimental-support-for-pie: 	false; 	//PIE framework
 
 
-
-/*------------------------------------*\
-    COMPASS
-\*------------------------------------*/
+//COMPASS
 @import "compass";
 @import "compass/css3";
 @import "compass/css3/box-shadow";
 @import "compass/layout/sticky-footer";
 
 
-
-/*------------------------------------*\
-    VARIABLES
-\*------------------------------------*/
+//VARIABLES
 @import "core/variables";
 
 
-
-/*------------------------------------*\
-    CORE
-\*------------------------------------*/
+//CORE
 @import "core";
 
 
-
-/*------------------------------------*\
-    GRID
-\*------------------------------------*/
+//GRID
 @import "grid"; //Semantic
 
 
-
-/*------------------------------------*\
-    GLOBAL
-\*------------------------------------*/
+//GLOBAL
 @import "global";
 
 
-
-/*------------------------------------*\
-    MODULES
-\*------------------------------------*/
+//MODULES
 @import "modules";
 
 
-
-/*------------------------------------*\
-    PRINT
-\*------------------------------------*/
+//PRINT
 @import "print";
+
+
+// -------------STYLEGUIDE DESCRIPTION------------
+
+/*
+# Styles
+Styles.scss is the file that contains the import for the "import" files like modules.scss, global.scss etc.
+
+It is the file that config.rb compiles to styles.css
+
+
+styles.scss also contains compass specific variables.
+
+*/
