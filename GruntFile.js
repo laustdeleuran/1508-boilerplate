@@ -2,6 +2,17 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        connect: {
+            server: {
+                options: {
+                    port: 1508,
+                    base: './',
+                    open: true,
+                    debug: true,
+                    keepalive: true
+                }
+            }
+        },
         clean: {
             release: ['dist/**']
         },
@@ -59,6 +70,14 @@ module.exports = function(grunt) {
                 src: 'dist/resources/images'
             }
         },
+        sassdown: {
+            files: {
+                expand: true,
+                cwd: 'resources/sass',
+                src: ['*.scss'],
+                dest: 'public/styleguide/'
+            }
+        },
     });
 
     grunt.loadNpmTasks('grunt-contrib-clean');
@@ -66,7 +85,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-requirejs');
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-smushit');
-
+    grunt.loadNpmTasks('sassdown');
+    grunt.loadNpmTasks('grunt-contrib-connect');
 
     // Default task(s).
     grunt.registerTask('default', ['clean','requirejs', 'compass', 'copy', 'smushit']);
