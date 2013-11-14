@@ -215,5 +215,4 @@ module.exports = function(grunt) {
    // Run prototype server
    grunt.registerTask('prototype', ['clean:prototype','compass:dev', 'copy:prototype', 'preprocess:modules', 'express:prototype', 'open', 'watch']);
 
-
 };
