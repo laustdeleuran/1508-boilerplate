@@ -1,105 +1,219 @@
 module.exports = function(grunt) {
-    // Project configuration.
-    grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json'),
-        connect: {
-            server: {
-                options: {
-                    port: 1508,
-                    base: './',
-                    open: true,
-                    debug: true,
-                    keepalive: true
-                }
-            }
-        },
-        clean: {
-            release: ['dist/**']
-        },
-        requirejs: {
-            compile: {
-                options: {
-                    name:'almond',
-                    wrap: true,
-                    preserveLicenseComments:false,
-                    insertRequire: ['main'],
-                    baseUrl: "resources/js/plugins",
-                    mainConfigFile: "resources/js/config.js",
-                    out: "dist/resources/js/script.js"
-                }
-            },
-            dev: {
-                options: {
-                    name:'almond',
-                    wrap: true,
-                    insertRequire: ['main'],
-                    optimize: 'none',
-                    preserveLicenseComments:false,
-                    generateSourceMaps: true,
-                    baseUrl: "resources/js/plugins",
-                    mainConfigFile: "resources/js/config.js",
-                    out: "dist/resources/js/script-debug.js"
-                }
-            }
-        },
-        compass: {
-            dist: {
-                options: {
-                    config: 'resources/config.rb',
-                    basePath: 'resources',
-                    cssDir: '../dist/resources/css',
-                    noLineComments: true,
-                    outputStyle:'compressed',
-                    environment:'production'
-                }
-            }
-        },
-        copy: {
-            release: {
-                files: [
-                  {src: ['resources/images/**',
-                         'resources/fonts/**',
-                         'resources/sounds/**',
-                         'resources/js/standalone/**'],
-                   dest: 'dist/'},
-                ]
-            }
-        },
-        smushit: {
-            release: {
-                src: 'dist/resources/images'
-            }
-        },
-        sassdown: {
-            options: {
-                template_html: 'resources/grunt_assets/styleguide.hbs',
-                includes: 'resources/grunt_assets/site_includes.hbs'
-            },
-            files: {
-                expand: true,
-                cwd: 'resources/sass',
-                src: ['**/*.scss'],
-                dest: 'styleguide/'
-            }
-        },
-        watch: {
-            sass: {
-                files: ['resources/sass/**/*.scss'],
-                tasks: ['compass', 'sassdown']
-            }
-        },
-    });
+   // Project configuration.
+   grunt.initConfig({
+       pkg: grunt.file.readJSON('package.json'),
+       connect: {
+           server: {
+               options: {
+                   port: 1508,
+                   base: './',
+                   open: true,
+                   //keepalive: true
+               }
+           },
+           prototype: {
+               options: {
+                   port: 1508,
+                   base: './prototype',
+                   open: true,
+                   //keepalive: true
+               }
+           },
+       },
+       express: {
+           prototype: {
+               options: {
+                   port: 1508,
+                   hostname: "0.0.0.0",
+                   bases: ['./prototype'],
+                   livereload: true
+               }
+           }
+       },
+       open: {
+           all: {
+               // Gets the port from the connect configuration
+               path: 'http://localhost:1508'
+           }
+       },
+       clean: {
+           release: ['dist/**'],
+           prototype: ['prototype/**']
+       },
+       requirejs: {
+           compile: {
+               options: {
+                   name:'almond',
+                   wrap: true,
+                   preserveLicenseComments:false,
+                   insertRequire: ['main'],
+                   baseUrl: "resources/js/plugins",
+                   mainConfigFile: "resources/js/config.js",
+                   out: "dist/resources/js/script.js"
+               }
+           },
+           dev: {
+               options: {
+                   name:'almond',
+                   wrap: true,
+                   insertRequire: ['main'],
+                   optimize: 'none',
+                   preserveLicenseComments:false,
+                   generateSourceMaps: true,
+                   baseUrl: "resources/js/plugins",
+                   mainConfigFile: "resources/js/config.js",
+                   out: "dist/resources/js/script-debug.js"
+               }
+           }
+       },
+       compass: {
+           dev: {
+               options: {
+                   config: 'resources/config.rb',
+                   basePath: 'resources',
+                   cssDir: 'css',
+                   noLineComments: true,
+                   outputStyle:'compressed',
+                   environment:'production'
+               }
+           },
+           dist: {
+               options: {
+                   config: 'resources/config.rb',
+                   basePath: 'resources',
+                   cssDir: '../dist/resources/css',
+                   noLineComments: true,
+                   outputStyle:'compressed',
+                   environment:'production'
+               }
+           }
+       },
+       copy: {
+           release: {
+               files: [
+                 {src: ['resources/images/**',
+                        'resources/fonts/**',
+                        'resources/sounds/**',
+                        'resources/js/standalone/**'],
+                  dest: 'dist/'},
+               ]
+           },
+           prototype: {
+               files: [
+                 {src: ['resources/css/**',
+                        'resources/images/**',
+                        'resources/fonts/**',
+                        'resources/html/static/**',
+                        'resources/js/**'],
+                  dest: 'prototype/'},
+               ]
+           }
 
-    grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-requirejs');
-    grunt.loadNpmTasks('grunt-contrib-compass');
-    grunt.loadNpmTasks('grunt-smushit');
-    grunt.loadNpmTasks('sassdown');
-    grunt.loadNpmTasks('grunt-contrib-connect');
-    grunt.loadNpmTasks('grunt-contrib-watch');
+       },
+       smushit: {
+           release: {
+               src: 'dist/resources/images'
+           }
+       },
+       sassdown: {
+           options: {
+               template_html: 'resources/grunt_assets/styleguide.hbs',
+               includes: 'resources/grunt_assets/site_includes.hbs'
+           },
+           files: {
+               expand: true,
+               cwd: 'resources/sass',
+               src: ['**/*.scss'],
+               dest: 'styleguide/'
+           }
+       },
+       watch: {
+           sass: {
+               files: ['resources/sass/**/*.scss'],
+               tasks: ['compass:dev'],
+           },
+           livereload: {
+               files: [
+                   'resources/css/{,*/}*.css',
+                   'resources/js/{,*/}*.js',
+                   'resources/images/{,*/}*.{png,jpg,jpeg,gif,webp}'
+               ],
+               tasks: ['copy:prototype'],
+               options: {
+                 livereload: true,
+               }
+           },
+           process: {
+               files: [
+                   './*.html',
+                   'resources/html/{,*/}*.html'
+               ],
+               tasks: ['preprocess:pages'],
+           },
+           prototype: {
+               files: [
+                   'prototype/*.html'
+               ],
+               options: {
+                 livereload: true,
+               }
+           },
 
-    // Default task(s).
-    grunt.registerTask('default', ['clean','requirejs', 'compass', 'copy', 'smushit']);
+       },
+       preprocess : {
+           pages : {
+               files: [
+                   {
+                       expand: true,
+                       cwd: '.',
+                       src: ['*.html'],
+                       dest: 'prototype/',
+                       ext: '.html',
+                   },
+
+               ],
+
+           },
+           modules : {
+               files: [
+                   {
+                       expand: true,
+                       cwd: '.',
+                       src: ['*.html'],
+                       dest: 'prototype/',
+                       ext: '.html',
+
+                   },
+
+               ],
+
+           },
+       },
+   });
+
+   grunt.loadNpmTasks('grunt-contrib-clean');
+   grunt.loadNpmTasks('grunt-contrib-copy');
+   grunt.loadNpmTasks('grunt-contrib-requirejs');
+   grunt.loadNpmTasks('grunt-contrib-compass');
+   grunt.loadNpmTasks('grunt-smushit');
+   grunt.loadNpmTasks('sassdown');
+   grunt.loadNpmTasks('grunt-contrib-connect');
+   grunt.loadNpmTasks('grunt-contrib-watch');
+   grunt.loadNpmTasks('grunt-preprocess');
+   grunt.loadNpmTasks('grunt-express');
+   grunt.loadNpmTasks('grunt-open');
+
+   // Default task(s).
+
+   // Build for distribution
+   grunt.registerTask('build', ['clean:release','requirejs', 'compass:dist', 'copy:release', 'smushit']);
+
+
+   // Run server
+   grunt.registerTask('server', ['compass:dev', 'connect:server', 'watch']);
+
+   // Run prototype server
+   grunt.registerTask('prototype', ['clean:prototype','compass:dev', 'copy:prototype', 'preprocess:modules', 'express:prototype', 'open', 'watch']);
+
 
 };
