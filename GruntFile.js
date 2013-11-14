@@ -117,8 +117,8 @@ module.exports = function(grunt) {
        },
        sassdown: {
            options: {
-               template_html: 'resources/grunt_assets/styleguide.hbs',
-               includes: 'resources/grunt_assets/site_includes.hbs'
+               template_html: 'resources/sassdown/grunt_assets/styleguide.hbs',
+               includes: 'resources/sassdown/grunt_assets/site_includes.hbs'
            },
            files: {
                expand: true,
@@ -146,7 +146,7 @@ module.exports = function(grunt) {
            process: {
                files: [
                    './*.html',
-                   'resources/html/{,*/}*.html'
+                   'resources/grunt_assets/prototype/html/{,*/}*.html'
                ],
                tasks: ['preprocess:pages'],
            },
