@@ -1,0 +1,29 @@
+//Global styles
+
+*{
+	@include box-sizing(border-box);
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: $bodyBgColor;
+	color: $fontColor;
+	font-family: $basefont;
+	font-size: $base-font-size; //font-size, line-height
+	word-wrap: break-word; //Forces long words to break to new line
+}
+
+.wrapper{
+	@extend %clearfix;
+	margin: 0 auto;
+	max-width: $wrapper-max-width;
+	min-height: 0;
+	width: 100%;
+}
+
+.module{
+	margin-bottom: 20px;
+}
