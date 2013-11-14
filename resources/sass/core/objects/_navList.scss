@@ -1,4 +1,4 @@
-.object-navList, %object-navList{
+.core-navList, %core-navList{
 	list-style: none;
 	margin-left: 0;
 	li{
@@ -9,8 +9,8 @@
 	}
 }
 
-.object-navList--breadcrumb, %object-navList--breadcrumb{
-	@extend %object-navList;	
+.core-navList--breadcrumb, %core-navList--breadcrumb{
+	@extend %core-navList;	
 	li{		
 		&:before{
 			content: ">> ";
@@ -23,8 +23,8 @@
 	}	
 }
 
-.object-navList__list, %object-navList__list{
-	.object-navList &, %object-navList &{
+.core-navList__list, %core-navList__list{
+	.core-navList &, %core-navList &{
 		color: orange;
 	}
 }
@@ -32,15 +32,15 @@
 // -------------STYLEGUIDE DESCRIPTION------------
 
 /*
-# object-navList
+# core-navList
 List objects used primarily for navigational styling
 */
 
 /*
-### .object-navList
+### .core-navList
 This is a description
 
-    <ul class="object-navList">
+    <ul class="core-navList">
     	<li>link1</li>
     	<li>link2</li>
     	<li>link3</li>
@@ -55,10 +55,10 @@ This is a description
 ### __list
 This is a description	
 
-    <ul class="object-navList">
-    	<li class="object-navList__list">link1</li>
-    	<li class="object-navList__list">link2</li>
-    	<li class="object-navList__list">link3</li>
+    <ul class="core-navList">
+    	<li class="core-navList__list">link1</li>
+    	<li class="core-navList__list">link2</li>
+    	<li class="core-navList__list">link3</li>
     </ul>
 
 */
@@ -72,7 +72,7 @@ This is a description
 Adds >> through :before content, and removes >> on the first li element
 
 
-    <ul class="object-navList--breadcrumb">
+    <ul class="core-navList--breadcrumb">
     	<li>link1</li>
     	<li>link2</li>
     	<li>link3</li>

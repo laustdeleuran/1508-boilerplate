@@ -15,7 +15,7 @@ $experimental-support-for-pie: 	false; 	//PIE framework
 
 
 //VARIABLES
-@import "core/variables";
+@import "global/variables";
 
 
 //CORE
@@ -23,7 +23,7 @@ $experimental-support-for-pie: 	false; 	//PIE framework
 
 
 //GRID
-@import "grid"; //Semantic
+@import "grid"; //Semantic grid
 
 
 //GLOBAL
