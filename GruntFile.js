@@ -5,7 +5,7 @@ module.exports = function(grunt) {
        connect: {
            server: {
                options: {
-                   port: 1508,
+                   port: 1509,
                    base: './',
                    open: true,
                    //keepalive: true
@@ -146,7 +146,7 @@ module.exports = function(grunt) {
            process: {
                files: [
                    './*.html',
-                   'resources/grunt_assets/prototype/html/{,*/}*.html'
+                   'html_includes/{,*/}*.html'
                ],
                tasks: ['preprocess:pages'],
            },
@@ -208,8 +208,7 @@ module.exports = function(grunt) {
    // Build for distribution
    grunt.registerTask('build', ['clean:release','requirejs', 'compass:dist', 'copy:release', 'smushit']);
 
-
-   // Run server
+   // Run simple server
    grunt.registerTask('server', ['compass:dev', 'connect:server', 'watch']);
 
    // Run prototype server
