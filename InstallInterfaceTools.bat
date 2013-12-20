@@ -1,7 +1,7 @@
 @ECHO off
 color 0E
 
-ECHO Interface startup tools
+ECHO 1508 Interface dependency installer (windows)
 
 ECHO Welcome, %USERNAME%
 
@@ -17,5 +17,8 @@ IF exist "Program Files\nodejs" ( echo SUCCESS: Node installed ) ELSE ( echo ERR
 chdir /d %OLDDIR%
 
 IF exist node_modules ( echo SUCCESS: node_modules already installed ) ELSE ( CALL npm install )
-pause
-grunt watch
+start GruntWatch.bat
+grunt build
+
+
+
