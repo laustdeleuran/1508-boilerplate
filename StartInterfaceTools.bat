@@ -5,14 +5,17 @@ ECHO Interface startup tools
 
 ECHO Welcome, %USERNAME%
 
-ECHO Checking node version
-SET nodeversion=node -v
+ECHO Checking dependencies
 
-ECHO nodeversion
-IF "%nodeversion%"=="" (ECHO Node not installed) ELSE ( ECHO Node is installed... continuing)
+set OLDDIR=%CD%
 
-pause
+C:
 
-ECHO Installing Grunt dependencies at %CD%
-IF exist node_modules ( echo node_modules already exists ) ELSE ( echo node_modules already exists CALL npm install )
+IF exist Ruby200-x64 ( echo SUCCESS: Ruby installed ) ELSE ( echo ERROR: Could not find Ruby directory at C:\Ruby200-x64, please make sure it is installed... continuing. )
+IF exist "Program Files\nodejs" ( echo SUCCESS: Node installed ) ELSE ( echo ERROR: Could not find nodejs directory at C:\Program Files\nodejs, please make sure it is installed... continuing. )
+
+chdir /d %OLDDIR%
+
+IF exist node_modules ( echo SUCCESS: node_modules already installed ) ELSE ( CALL npm install )
+
 grunt watch
