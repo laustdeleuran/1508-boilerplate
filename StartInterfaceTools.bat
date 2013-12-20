@@ -6,7 +6,7 @@ title Interface startup tools
 ECHO Welcome, %USERNAME%
 
 ECHO Checking node version
-ECHO node -v
+node -v
 REM if not "%node -v%"=="0" Echo Node not installed 
 
 
