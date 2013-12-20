@@ -36,5 +36,6 @@
 // 		position: relative;
 // 		&:before{
 // 			@extend %icon;
+//			font-family: "icomoon"; <-- IE8 fix
 // 		}
 // }

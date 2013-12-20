@@ -1,4 +1,5 @@
 module.exports = function(grunt) {
+    var target = 'html';
    // Project configuration.
    grunt.initConfig({
        pkg: grunt.file.readJSON('package.json'),
@@ -24,7 +25,7 @@ module.exports = function(grunt) {
            prototype: {
                options: {
                    port: 1508,
-                   hostname: "0.0.0.0",
+                   hostname: '0.0.0.0',
                    bases: ['./prototype'],
                    livereload: true
                }
@@ -47,9 +48,9 @@ module.exports = function(grunt) {
                    wrap: true,
                    preserveLicenseComments:false,
                    insertRequire: ['main'],
-                   baseUrl: "resources/js/plugins",
-                   mainConfigFile: "resources/js/config.js",
-                   out: "dist/resources/js/script.js"
+                   baseUrl: 'resources/js/plugins',
+                   mainConfigFile: 'resources/js/config.js',
+                   out: target+'/dist/js/script.js'
                }
            },
            dev: {
@@ -60,9 +61,9 @@ module.exports = function(grunt) {
                    optimize: 'none',
                    preserveLicenseComments:false,
                    generateSourceMaps: true,
-                   baseUrl: "resources/js/plugins",
-                   mainConfigFile: "resources/js/config.js",
-                   out: "dist/resources/js/script-debug.js"
+                   baseUrl: 'resources/js/plugins',
+                   mainConfigFile: 'resources/js/config.js',
+                   out: target+'/dist/js/script-debug.js'
                }
            }
        },
@@ -71,7 +72,7 @@ module.exports = function(grunt) {
                options: {
                    config: 'resources/config.rb',
                    basePath: 'resources',
-                   cssDir: 'css',
+                   cssDir: '../'+target+'/dist/css',
                    noLineComments: true,
                    outputStyle:'compressed',
                    environment:'production'
@@ -81,7 +82,7 @@ module.exports = function(grunt) {
                options: {
                    config: 'resources/config.rb',
                    basePath: 'resources',
-                   cssDir: '../dist/resources/css',
+                   cssDir: '../'+target+'/dist/css',
                    noLineComments: true,
                    outputStyle:'compressed',
                    environment:'production'
@@ -91,11 +92,13 @@ module.exports = function(grunt) {
        copy: {
            release: {
                files: [
-                 {src: ['resources/images/**',
-                        'resources/fonts/**',
-                        'resources/sounds/**',
-                        'resources/js/standalone/**'],
-                  dest: 'dist/'},
+                 {expand: true,
+                  cwd: 'resources/',
+                  src: ['images/**',
+                        'fonts/**',
+                        'js/standalone/**'],
+                  dest: target +'/dist/', 
+                  filter: 'isFile'},
                ]
            },
            prototype: {
@@ -117,8 +120,8 @@ module.exports = function(grunt) {
        },
        sassdown: {
            options: {
-               template_html: 'resources/sassdown/grunt_assets/styleguide.hbs',
-               includes: 'resources/sassdown/grunt_assets/site_includes.hbs'
+               template_html: 'resources/grunt_assets/sassdown/styleguide.hbs',
+               includes: 'resources/grunt_assets/sassdown/site_includes.hbs'
            },
            files: {
                expand: true,
