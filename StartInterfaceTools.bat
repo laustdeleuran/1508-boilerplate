@@ -7,6 +7,8 @@ ECHO Welcome, %USERNAME%
 
 ECHO Checking node version
 SET nodeversion=node -v
+
+ECHO nodeversion
 IF "%nodeversion%"=="" (ECHO Node not installed) ELSE ( ECHO Node is installed... continuing)
 
 pause
