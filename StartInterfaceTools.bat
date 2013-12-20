@@ -1,14 +1,13 @@
 @ECHO off
 color 0E
 
-title Interface startup tools
+ECHO Interface startup tools
 
 ECHO Welcome, %USERNAME%
 
 ECHO Checking node version
-node -v
-REM if not "%node -v%"=="0" Echo Node not installed 
-
+SET nodeversion=node -v
+IF "%nodeversion%"=="" (ECHO Node not installed) ELSE ( ECHO Node is installed... continuing)
 
 pause
 
