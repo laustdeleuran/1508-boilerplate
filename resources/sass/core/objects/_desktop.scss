@@ -1,7 +1,7 @@
 /*
 desktop class, for hidding stuff on mobile, but show on desktop
 */
-.core-desktop, %core-desktop{
+%core-desktop{
 	display: none !important;
 	@include media(desktop){
 		display: block !important;

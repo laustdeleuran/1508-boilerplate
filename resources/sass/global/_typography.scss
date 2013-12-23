@@ -1,9 +1,6 @@
 ﻿/*------------------------------------*\
     WEBFONTS IMPORTS
 \*------------------------------------*/
-/* Bug note:
-@import can break ie8 - move import font to head
-*/
 @import url(http://fonts.googleapis.com/css?family=Mouse+Memoirs);
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600,700,400);
@@ -37,54 +34,4 @@ $basefont: 'Open Sans', sans-serif;
 %boldFont{
 	font-family: $basefont;
 	font-weight: 700;
-}
-
-
-
-/*------------------------------------*\
-    FONT STYLES
-\*------------------------------------*/
-/* Font-sizes:
-	Normal:
-	@include font(20,18); = (font-size, line-height)
-	
-	If parent has different font size:
-	@include font(20,18,20); = (font-size, line-height, parent font-size): 
-*/
-h1, .header-alpha{
-	font-size: (52em/18);	
-}
-
-h2, .header-bravo{
-	font-size: (45em/18);
-}
-
-h3, .header-charlie{
-	font-size: (36em/18);
-}
-
-h4, .header-delta{
-	font-size: (25em/18);
-}
-
-p, .paragraph-alpha{
-	a{
-		&:hover{
-			
-		}
-	}
-}
-
-strong{
-	
-}
-
-blockquote{
-
-}
-
-a{
-	color: $link;	
-	&:hover{
-	}		
 }

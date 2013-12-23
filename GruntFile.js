@@ -118,18 +118,6 @@ module.exports = function(grunt) {
                src: 'dist/resources/images'
            }
        },
-       sassdown: {
-           options: {
-               template_html: 'resources/grunt_assets/sassdown/styleguide.hbs',
-               includes: 'resources/grunt_assets/sassdown/site_includes.hbs'
-           },
-           files: {
-               expand: true,
-               cwd: 'resources/sass',
-               src: ['**/*.scss'],
-               dest: 'styleguide/'
-           }
-       },
        watch: {
            sass: {
                files: ['resources/sass/**/*.scss'],
@@ -199,7 +187,6 @@ module.exports = function(grunt) {
    grunt.loadNpmTasks('grunt-contrib-requirejs');
    grunt.loadNpmTasks('grunt-contrib-compass');
    grunt.loadNpmTasks('grunt-smushit');
-   grunt.loadNpmTasks('sassdown');
    grunt.loadNpmTasks('grunt-contrib-connect');
    grunt.loadNpmTasks('grunt-contrib-watch');
    grunt.loadNpmTasks('grunt-preprocess');

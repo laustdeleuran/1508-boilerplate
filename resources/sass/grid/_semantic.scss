@@ -34,7 +34,7 @@ html body {
 
 body {
 	width: 100%;
-	@extend %clearfix;
+	@extend %core-clear;
 }
 
 @mixin row($columns:$columns) {
@@ -43,7 +43,7 @@ body {
 	margin: 0 $total-width*((($gutter-width*.5)/gridsystem-width($columns))*-1);
 	// *width: $total-width*(($gutter-width + gridsystem-width($columns))/gridsystem-width($columns))-$correction;
 	// *margin: 0 $total-width*((($gutter-width*.5)/gridsystem-width($columns))*-1)-$correction;
-	@extend %clearfix;
+	@extend %core-clear;
 }
 @mixin column($x,$columns:$columns) {
 	display: inline;

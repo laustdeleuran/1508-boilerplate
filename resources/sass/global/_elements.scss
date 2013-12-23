@@ -1,0 +1,57 @@
+/*------------------------------------*\
+    FONT STYLES
+\*------------------------------------*/
+
+h1, .header-alpha{
+	font-size: (52em/18);	
+}
+
+h2, .header-bravo{
+	font-size: (45em/18);
+}
+
+h3, .header-charlie{
+	font-size: (36em/18);
+}
+
+h4, .header-delta{
+	font-size: (25em/18);
+}
+
+p, .paragraph-alpha{
+	a{
+		&:hover{
+			
+		}
+	}
+}
+
+strong{
+	
+}
+
+em{
+
+}
+
+blockquote{
+
+}
+
+a{
+	color: $link;	
+	&:hover{
+	}		
+}
+
+ul{
+
+}
+
+ol{
+
+}
+
+table{
+
+}

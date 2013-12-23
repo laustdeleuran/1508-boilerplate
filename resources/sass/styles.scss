@@ -38,15 +38,5 @@ $experimental-support-for-pie: 	false; 	//PIE framework
 @import "print";
 
 
-// -------------STYLEGUIDE DESCRIPTION------------
-
-/*
-# Styles
-Styles.scss is the file that contains the import for the "import" files like modules.scss, global.scss etc.
-
-It is the file that config.rb compiles to styles.css
-
-
-styles.scss also contains compass specific variables.
-
-*/
+//Help - Delete-able
+@import "help";

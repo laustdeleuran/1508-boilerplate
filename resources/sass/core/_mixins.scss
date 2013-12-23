@@ -1,15 +1,4 @@
-/* Clearfix
--------------------------------------------*/
-%clearfix {
-	*zoom: 1;
-	&:before, &:after {
-	    content:"";
-	    display:table;
-	}
-	&:after {
-	    clear:both;
-	}
-}
+
 
 @mixin font($fontSize, $lineHeight, $basicFontSize: $basicFontSize) {
   font-size: ($fontSize/$basicFontSize)+em;

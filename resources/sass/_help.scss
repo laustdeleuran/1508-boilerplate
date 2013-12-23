@@ -1,25 +1,52 @@
-// -------------STYLEGUIDE DESCRIPTION------------/
+// -------------HELP STYLES------------/
 
 /*
-# Boilerplate help
-
-Boilerplate help
+Help styles are used to display boilerplate core objects and other elements
 */
-/* 
-## Class naming convention - BEM syntax
 
+.core-horizontal-list{
+    @extend %core-horizontal-list;
+}
 
+.core-horizontal-list--breadcrumb{
+    @extend %core-horizontal-list--breadcrumb;
+}
 
-_.block{}_
-
-_.block__element{}_
-
-_.block--modifier{}_
-
-
-
-.block__element represents a descendent of .block that helps form .block as a whole.
-
-.block--modifier represents a different state or version of .block.
-
-*/
+.mqdemo{
+    // Min width set for tabletH & desktop, so turn around order for correct implementation.
+    @include media(tabletH){
+        background-color: blue;
+        &:before{
+            content: '1024px -> desktop variable | tabletH';
+            display: block;
+            color: white;
+        }
+    }
+    @include media(desktop){
+        background-color: gray;
+        &:before{
+            content: '> 1200px (desktop variable) | desktop';
+        }
+    }
+    // Max width, so normal order.
+    @include media(tabletV){
+        background-color: orange;        
+        &:before{
+            content: '768px -> 1023px | tabletV';
+            display: block;
+        }
+    }
+    @include media(mobileH){
+        background-color: pink;        
+        &:before{
+            content: '321px -> 767px | mobileH';
+        }
+    }
+    @include media(mobileV){
+        background-color: purple;     
+        &:before{
+            content: '0px -> 320px | mobileV';
+            color: white;
+        }
+    }
+}
