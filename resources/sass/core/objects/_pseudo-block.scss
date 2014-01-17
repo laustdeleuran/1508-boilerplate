@@ -1,0 +1,6 @@
+%core-pseudo-block {
+	@extend %hide-text;	
+	
+	display: block;
+	content: '.';
+}
