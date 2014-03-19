@@ -44,7 +44,7 @@ body {
 	margin-right: $total-width*((($gutter-width*.5)/gridsystem-width($columns))*-1);
 	// *width: $total-width*(($gutter-width + gridsystem-width($columns))/gridsystem-width($columns))-$correction;
 	// *margin: 0 $total-width*((($gutter-width*.5)/gridsystem-width($columns))*-1)-$correction;
-	@extend %core-clear;
+	@include core-clear;
 }
 @mixin column($x,$columns:$columns) {
 	display: inline;
